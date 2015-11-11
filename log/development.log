@@ -1,0 +1,501 @@
+[Sun Nov  8 22:31:48 2015] [debug] Your secret passphrase needs to be changed
+[Sun Nov  8 22:31:48 2015] [debug] GET "/"
+[Sun Nov  8 22:31:48 2015] [debug] Routing to controller "BFeed::Controller::Example" and action "welcome"
+[Sun Nov  8 22:31:48 2015] [debug] Rendering template "example/welcome.html.ep"
+[Sun Nov  8 22:31:48 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Nov  8 22:31:48 2015] [debug] 200 OK (0.005078s, 196.928/s)
+[Sun Nov  8 22:32:04 2015] [debug] GET "/"
+[Sun Nov  8 22:32:04 2015] [debug] Routing to controller "BFeed::Controller::Example" and action "welcome"
+[Sun Nov  8 22:32:04 2015] [debug] Rendering cached template "example/welcome.html.ep"
+[Sun Nov  8 22:32:04 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun Nov  8 22:32:04 2015] [debug] 200 OK (0.001265s, 790.514/s)
+[Sun Nov  8 22:42:15 2015] [debug] Your secret passphrase needs to be changed
+[Sun Nov  8 22:42:15 2015] [debug] GET "/"
+[Sun Nov  8 22:42:15 2015] [debug] Routing to controller "BFeed::Controller::Example" and action "welcome"
+[Sun Nov  8 22:42:15 2015] [debug] Rendering template "example/welcome.html.ep"
+[Sun Nov  8 22:42:15 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Nov  8 22:42:15 2015] [debug] 200 OK (0.005063s, 197.511/s)
+[Sun Nov  8 22:42:23 2015] [debug] GET "/"
+[Sun Nov  8 22:42:23 2015] [debug] Routing to controller "BFeed::Controller::Example" and action "welcome"
+[Sun Nov  8 22:42:23 2015] [debug] Rendering cached template "example/welcome.html.ep"
+[Sun Nov  8 22:42:23 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun Nov  8 22:42:23 2015] [debug] 200 OK (0.003779s, 264.620/s)
+[Sun Nov  8 23:45:43 2015] [debug] GET "/"
+[Sun Nov  8 23:45:43 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Sun Nov  8 23:45:43 2015] [error] Can't locate object method "new" via package "BFeed::Model::Users" (perhaps you forgot to load "BFeed::Model::Users"?) at lib/BFeed.pm line 10.
+
+[Sun Nov  8 23:45:43 2015] [debug] Template "exception.development.html.ep" not found
+[Sun Nov  8 23:45:43 2015] [debug] Template "exception.html.ep" not found
+[Sun Nov  8 23:45:43 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Nov  8 23:45:43 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Nov  8 23:45:43 2015] [debug] 500 Internal Server Error (0.025348s, 39.451/s)
+[Sun Nov  8 23:46:05 2015] [debug] GET "/"
+[Sun Nov  8 23:46:05 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Sun Nov  8 23:46:05 2015] [error] Can't locate object method "new" via package "BFeed::Model::User" (perhaps you forgot to load "BFeed::Model::User"?) at lib/BFeed.pm line 10.
+
+[Sun Nov  8 23:46:05 2015] [debug] Template "exception.development.html.ep" not found
+[Sun Nov  8 23:46:05 2015] [debug] Template "exception.html.ep" not found
+[Sun Nov  8 23:46:05 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Nov  8 23:46:05 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Nov  8 23:46:05 2015] [debug] 500 Internal Server Error (0.027684s, 36.122/s)
+[Sun Nov  8 23:46:06 2015] [debug] GET "/"
+[Sun Nov  8 23:46:06 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Sun Nov  8 23:46:06 2015] [error] Can't call method "check" on an undefined value at lib/BFeed/Controller/Login.pm line 9.
+
+[Sun Nov  8 23:46:06 2015] [debug] Template "exception.development.html.ep" not found
+[Sun Nov  8 23:46:06 2015] [debug] Template "exception.html.ep" not found
+[Sun Nov  8 23:46:06 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Nov  8 23:46:06 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Nov  8 23:46:06 2015] [debug] 500 Internal Server Error (0.006968s, 143.513/s)
+[Sun Nov  8 23:46:12 2015] [debug] GET "/"
+[Sun Nov  8 23:46:12 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Sun Nov  8 23:46:12 2015] [error] Can't call method "check" on an undefined value at lib/BFeed/Controller/Login.pm line 9.
+
+[Sun Nov  8 23:46:12 2015] [debug] Template "exception.development.html.ep" not found
+[Sun Nov  8 23:46:12 2015] [debug] Template "exception.html.ep" not found
+[Sun Nov  8 23:46:12 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Nov  8 23:46:12 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Nov  8 23:46:12 2015] [debug] 500 Internal Server Error (0.007210s, 138.696/s)
+[Sun Nov  8 23:47:56 2015] [debug] GET "/"
+[Sun Nov  8 23:47:56 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Sun Nov  8 23:47:56 2015] [error] Can't locate object method "new" via package "BFeed::Model::User" (perhaps you forgot to load "BFeed::Model::User"?) at lib/BFeed.pm line 10.
+
+[Sun Nov  8 23:47:56 2015] [debug] Template "exception.development.html.ep" not found
+[Sun Nov  8 23:47:56 2015] [debug] Template "exception.html.ep" not found
+[Sun Nov  8 23:47:56 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Nov  8 23:47:56 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Nov  8 23:47:56 2015] [debug] 500 Internal Server Error (0.025051s, 39.919/s)
+[Sun Nov  8 23:49:16 2015] [debug] GET "/"
+[Sun Nov  8 23:49:16 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Sun Nov  8 23:49:16 2015] [error] Can't locate object method "new" via package "BFeed::Model::User" (perhaps you forgot to load "BFeed::Model::User"?) at lib/BFeed.pm line 10.
+
+[Sun Nov  8 23:49:16 2015] [debug] Template "exception.development.html.ep" not found
+[Sun Nov  8 23:49:16 2015] [debug] Template "exception.html.ep" not found
+[Sun Nov  8 23:49:16 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Nov  8 23:49:16 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Nov  8 23:49:16 2015] [debug] 500 Internal Server Error (0.026994s, 37.045/s)
+[Sun Nov  8 23:49:18 2015] [debug] GET "/"
+[Sun Nov  8 23:49:18 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Sun Nov  8 23:49:18 2015] [error] Can't call method "check" on an undefined value at lib/BFeed/Controller/Login.pm line 9.
+
+[Sun Nov  8 23:49:18 2015] [debug] Template "exception.development.html.ep" not found
+[Sun Nov  8 23:49:18 2015] [debug] Template "exception.html.ep" not found
+[Sun Nov  8 23:49:18 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Nov  8 23:49:18 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Nov  8 23:49:18 2015] [debug] 500 Internal Server Error (0.012060s, 82.919/s)
+[Sun Nov  8 23:49:30 2015] [debug] GET "/"
+[Sun Nov  8 23:49:30 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Sun Nov  8 23:49:30 2015] [error] Can't call method "check" on an undefined value at lib/BFeed/Controller/Login.pm line 9.
+
+[Sun Nov  8 23:49:30 2015] [debug] Template "exception.development.html.ep" not found
+[Sun Nov  8 23:49:30 2015] [debug] Template "exception.html.ep" not found
+[Sun Nov  8 23:49:30 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Nov  8 23:49:30 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Nov  8 23:49:30 2015] [debug] 500 Internal Server Error (0.007909s, 126.438/s)
+[Sun Nov  8 23:49:32 2015] [debug] GET "/"
+[Sun Nov  8 23:49:32 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Sun Nov  8 23:49:32 2015] [error] Can't call method "check" on an undefined value at lib/BFeed/Controller/Login.pm line 9.
+
+[Sun Nov  8 23:49:32 2015] [debug] Template "exception.development.html.ep" not found
+[Sun Nov  8 23:49:32 2015] [debug] Template "exception.html.ep" not found
+[Sun Nov  8 23:49:32 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Nov  8 23:49:32 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Nov  8 23:49:32 2015] [debug] 500 Internal Server Error (0.007573s, 132.048/s)
+[Sun Nov  8 23:49:34 2015] [debug] GET "/"
+[Sun Nov  8 23:49:34 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Sun Nov  8 23:49:34 2015] [error] Can't call method "check" on an undefined value at lib/BFeed/Controller/Login.pm line 9.
+
+[Sun Nov  8 23:49:34 2015] [debug] Template "exception.development.html.ep" not found
+[Sun Nov  8 23:49:34 2015] [debug] Template "exception.html.ep" not found
+[Sun Nov  8 23:49:34 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Nov  8 23:49:34 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Nov  8 23:49:34 2015] [debug] 500 Internal Server Error (0.007396s, 135.208/s)
+[Sun Nov  8 23:51:16 2015] [debug] GET "/"
+[Sun Nov  8 23:51:16 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Sun Nov  8 23:51:16 2015] [error] Can't locate object method "new" via package "BFeed::Model::User" (perhaps you forgot to load "BFeed::Model::User"?) at lib/BFeed.pm line 11.
+
+[Sun Nov  8 23:51:16 2015] [debug] Template "exception.development.html.ep" not found
+[Sun Nov  8 23:51:16 2015] [debug] Template "exception.html.ep" not found
+[Sun Nov  8 23:51:16 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Nov  8 23:51:16 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Nov  8 23:51:16 2015] [debug] 500 Internal Server Error (0.027660s, 36.153/s)
+[Sun Nov  8 23:52:11 2015] [debug] GET "/"
+[Sun Nov  8 23:52:11 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Sun Nov  8 23:52:11 2015] [error] Can't locate object method "new" via package "BFeed::Model::User" (perhaps you forgot to load "BFeed::Model::User"?) at lib/BFeed.pm line 11.
+
+[Sun Nov  8 23:52:11 2015] [debug] Template "exception.development.html.ep" not found
+[Sun Nov  8 23:52:11 2015] [debug] Template "exception.html.ep" not found
+[Sun Nov  8 23:52:11 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Nov  8 23:52:11 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Nov  8 23:52:11 2015] [debug] 500 Internal Server Error (0.024557s, 40.722/s)
+[Sun Nov  8 23:52:15 2015] [debug] GET "/"
+[Sun Nov  8 23:52:15 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Sun Nov  8 23:52:15 2015] [error] Can't call method "check" on an undefined value at lib/BFeed/Controller/Login.pm line 9.
+
+[Sun Nov  8 23:52:15 2015] [debug] Template "exception.development.html.ep" not found
+[Sun Nov  8 23:52:15 2015] [debug] Template "exception.html.ep" not found
+[Sun Nov  8 23:52:15 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Nov  8 23:52:15 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Nov  8 23:52:15 2015] [debug] 500 Internal Server Error (0.007539s, 132.644/s)
+[Sun Nov  8 23:52:18 2015] [debug] GET "/"
+[Sun Nov  8 23:52:18 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Sun Nov  8 23:52:18 2015] [error] Can't call method "check" on an undefined value at lib/BFeed/Controller/Login.pm line 9.
+
+[Sun Nov  8 23:52:18 2015] [debug] Template "exception.development.html.ep" not found
+[Sun Nov  8 23:52:18 2015] [debug] Template "exception.html.ep" not found
+[Sun Nov  8 23:52:18 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Nov  8 23:52:18 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Nov  8 23:52:18 2015] [debug] 500 Internal Server Error (0.015748s, 63.500/s)
+[Sun Nov  8 23:52:19 2015] [debug] GET "/"
+[Sun Nov  8 23:52:19 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Sun Nov  8 23:52:19 2015] [error] Can't call method "check" on an undefined value at lib/BFeed/Controller/Login.pm line 9.
+
+[Sun Nov  8 23:52:19 2015] [debug] Template "exception.development.html.ep" not found
+[Sun Nov  8 23:52:19 2015] [debug] Template "exception.html.ep" not found
+[Sun Nov  8 23:52:19 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Nov  8 23:52:19 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Nov  8 23:52:19 2015] [debug] 500 Internal Server Error (0.007261s, 137.722/s)
+[Sun Nov  8 23:52:22 2015] [debug] GET "/"
+[Sun Nov  8 23:52:22 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Sun Nov  8 23:52:22 2015] [error] Can't call method "check" on an undefined value at lib/BFeed/Controller/Login.pm line 9.
+
+[Sun Nov  8 23:52:22 2015] [debug] Template "exception.development.html.ep" not found
+[Sun Nov  8 23:52:22 2015] [debug] Template "exception.html.ep" not found
+[Sun Nov  8 23:52:22 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Nov  8 23:52:22 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Nov  8 23:52:22 2015] [debug] 500 Internal Server Error (0.010704s, 93.423/s)
+[Sun Nov  8 23:53:17 2015] [debug] GET "/"
+[Sun Nov  8 23:53:17 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Sun Nov  8 23:53:17 2015] [error] Can't locate object method "new" via package "BFeed::Model::User" (perhaps you forgot to load "BFeed::Model::User"?) at lib/BFeed.pm line 11.
+
+[Sun Nov  8 23:53:17 2015] [debug] Template "exception.development.html.ep" not found
+[Sun Nov  8 23:53:17 2015] [debug] Template "exception.html.ep" not found
+[Sun Nov  8 23:53:17 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Nov  8 23:53:17 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Nov  8 23:53:17 2015] [debug] 500 Internal Server Error (0.024819s, 40.292/s)
+[Sun Nov  8 23:53:19 2015] [debug] GET "/"
+[Sun Nov  8 23:53:19 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Sun Nov  8 23:53:19 2015] [error] Can't call method "check" on an undefined value at lib/BFeed/Controller/Login.pm line 9.
+
+[Sun Nov  8 23:53:19 2015] [debug] Template "exception.development.html.ep" not found
+[Sun Nov  8 23:53:19 2015] [debug] Template "exception.html.ep" not found
+[Sun Nov  8 23:53:19 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Nov  8 23:53:19 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Nov  8 23:53:19 2015] [debug] 500 Internal Server Error (0.007000s, 142.857/s)
+[Sun Nov  8 23:53:22 2015] [debug] GET "/"
+[Sun Nov  8 23:53:22 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Sun Nov  8 23:53:22 2015] [error] Can't call method "check" on an undefined value at lib/BFeed/Controller/Login.pm line 9.
+
+[Sun Nov  8 23:53:22 2015] [debug] Template "exception.development.html.ep" not found
+[Sun Nov  8 23:53:22 2015] [debug] Template "exception.html.ep" not found
+[Sun Nov  8 23:53:22 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Nov  8 23:53:22 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Nov  8 23:53:22 2015] [debug] 500 Internal Server Error (0.011029s, 90.670/s)
+[Sun Nov  8 23:53:35 2015] [debug] GET "/"
+[Sun Nov  8 23:53:35 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Sun Nov  8 23:53:35 2015] [error] Can't call method "check" on an undefined value at lib/BFeed/Controller/Login.pm line 9.
+
+[Sun Nov  8 23:53:35 2015] [debug] Template "exception.development.html.ep" not found
+[Sun Nov  8 23:53:35 2015] [debug] Template "exception.html.ep" not found
+[Sun Nov  8 23:53:35 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Nov  8 23:53:35 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Nov  8 23:53:35 2015] [debug] 500 Internal Server Error (0.007158s, 139.704/s)
+[Sun Nov  8 23:57:20 2015] [debug] GET "/protected"
+[Sun Nov  8 23:57:20 2015] [debug] Controller "BFeed::BFeed::Login" does not exist
+[Sun Nov  8 23:57:20 2015] [debug] Template "b_feed/login/protected.html.ep" not found
+[Sun Nov  8 23:57:20 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Nov  8 23:57:20 2015] [debug] Template "not_found.html.ep" not found
+[Sun Nov  8 23:57:20 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Nov  8 23:57:20 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Nov  8 23:57:20 2015] [debug] 404 Not Found (0.024414s, 40.960/s)
+[Sun Nov  8 23:57:39 2015] [debug] GET "/protectedx"
+[Sun Nov  8 23:57:39 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Nov  8 23:57:39 2015] [debug] Template "not_found.html.ep" not found
+[Sun Nov  8 23:57:39 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Nov  8 23:57:39 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Nov  8 23:57:39 2015] [debug] 404 Not Found (0.020336s, 49.174/s)
+[Sun Nov  8 23:57:45 2015] [debug] GET "/"
+[Sun Nov  8 23:57:45 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Sun Nov  8 23:57:45 2015] [error] Can't locate object method "new" via package "BFeed::Model::User" (perhaps you forgot to load "BFeed::Model::User"?) at lib/BFeed.pm line 11.
+
+[Sun Nov  8 23:57:45 2015] [debug] Template "exception.development.html.ep" not found
+[Sun Nov  8 23:57:45 2015] [debug] Template "exception.html.ep" not found
+[Sun Nov  8 23:57:45 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Nov  8 23:57:45 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Nov  8 23:57:45 2015] [debug] 500 Internal Server Error (0.008175s, 122.324/s)
+[Sun Nov  8 23:58:10 2015] [debug] GET "/"
+[Sun Nov  8 23:58:10 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Sun Nov  8 23:58:10 2015] [error] Can't call method "check" on an undefined value at lib/BFeed/Controller/Login.pm line 9.
+
+[Sun Nov  8 23:58:10 2015] [debug] Template "exception.development.html.ep" not found
+[Sun Nov  8 23:58:10 2015] [debug] Template "exception.html.ep" not found
+[Sun Nov  8 23:58:10 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Nov  8 23:58:10 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Nov  8 23:58:10 2015] [debug] 500 Internal Server Error (0.007206s, 138.773/s)
+[Sun Nov  8 23:58:12 2015] [debug] GET "/"
+[Sun Nov  8 23:58:12 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Sun Nov  8 23:58:12 2015] [error] Can't call method "check" on an undefined value at lib/BFeed/Controller/Login.pm line 9.
+
+[Sun Nov  8 23:58:12 2015] [debug] Template "exception.development.html.ep" not found
+[Sun Nov  8 23:58:12 2015] [debug] Template "exception.html.ep" not found
+[Sun Nov  8 23:58:12 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Nov  8 23:58:12 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Nov  8 23:58:12 2015] [debug] 500 Internal Server Error (0.007436s, 134.481/s)
+[Sun Nov  8 23:58:18 2015] [debug] GET "/"
+[Sun Nov  8 23:58:18 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Sun Nov  8 23:58:18 2015] [error] Can't call method "check" on an undefined value at lib/BFeed/Controller/Login.pm line 9.
+
+[Sun Nov  8 23:58:18 2015] [debug] Template "exception.development.html.ep" not found
+[Sun Nov  8 23:58:18 2015] [debug] Template "exception.html.ep" not found
+[Sun Nov  8 23:58:18 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Nov  8 23:58:18 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Nov  8 23:58:18 2015] [debug] 500 Internal Server Error (0.007647s, 130.770/s)
+[Sun Nov  8 23:58:19 2015] [debug] GET "/"
+[Sun Nov  8 23:58:19 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Sun Nov  8 23:58:19 2015] [error] Can't call method "check" on an undefined value at lib/BFeed/Controller/Login.pm line 9.
+
+[Sun Nov  8 23:58:19 2015] [debug] Template "exception.development.html.ep" not found
+[Sun Nov  8 23:58:19 2015] [debug] Template "exception.html.ep" not found
+[Sun Nov  8 23:58:19 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Nov  8 23:58:19 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Nov  8 23:58:19 2015] [debug] 500 Internal Server Error (0.007274s, 137.476/s)
+[Sun Nov  8 23:58:21 2015] [debug] GET "/"
+[Sun Nov  8 23:58:21 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Sun Nov  8 23:58:21 2015] [error] Can't call method "check" on an undefined value at lib/BFeed/Controller/Login.pm line 9.
+
+[Sun Nov  8 23:58:21 2015] [debug] Template "exception.development.html.ep" not found
+[Sun Nov  8 23:58:21 2015] [debug] Template "exception.html.ep" not found
+[Sun Nov  8 23:58:21 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Nov  8 23:58:21 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Nov  8 23:58:21 2015] [debug] 500 Internal Server Error (0.011850s, 84.388/s)
+[Sun Nov  8 23:58:22 2015] [debug] GET "/"
+[Sun Nov  8 23:58:22 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Sun Nov  8 23:58:22 2015] [error] Can't call method "check" on an undefined value at lib/BFeed/Controller/Login.pm line 9.
+
+[Sun Nov  8 23:58:22 2015] [debug] Template "exception.development.html.ep" not found
+[Sun Nov  8 23:58:22 2015] [debug] Template "exception.html.ep" not found
+[Sun Nov  8 23:58:22 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Nov  8 23:58:22 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Nov  8 23:58:22 2015] [debug] 500 Internal Server Error (0.010965s, 91.199/s)
+[Sun Nov  8 23:58:24 2015] [debug] GET "/"
+[Sun Nov  8 23:58:24 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Sun Nov  8 23:58:24 2015] [error] Can't call method "check" on an undefined value at lib/BFeed/Controller/Login.pm line 9.
+
+[Sun Nov  8 23:58:24 2015] [debug] Template "exception.development.html.ep" not found
+[Sun Nov  8 23:58:24 2015] [debug] Template "exception.html.ep" not found
+[Sun Nov  8 23:58:24 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Nov  8 23:58:24 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Nov  8 23:58:24 2015] [debug] 500 Internal Server Error (0.008333s, 120.005/s)
+[Sun Nov  8 23:58:28 2015] [debug] GET "/"
+[Sun Nov  8 23:58:28 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Sun Nov  8 23:58:28 2015] [error] Can't call method "check" on an undefined value at lib/BFeed/Controller/Login.pm line 9.
+
+[Sun Nov  8 23:58:28 2015] [debug] Template "exception.development.html.ep" not found
+[Sun Nov  8 23:58:28 2015] [debug] Template "exception.html.ep" not found
+[Sun Nov  8 23:58:28 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Nov  8 23:58:28 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Nov  8 23:58:28 2015] [debug] 500 Internal Server Error (0.011319s, 88.347/s)
+[Sun Nov  8 23:58:35 2015] [debug] GET "/"
+[Sun Nov  8 23:58:35 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Sun Nov  8 23:58:35 2015] [error] Can't call method "check" on an undefined value at lib/BFeed/Controller/Login.pm line 9.
+
+[Sun Nov  8 23:58:35 2015] [debug] Template "exception.development.html.ep" not found
+[Sun Nov  8 23:58:35 2015] [debug] Template "exception.html.ep" not found
+[Sun Nov  8 23:58:35 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Nov  8 23:58:35 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Nov  8 23:58:35 2015] [debug] 500 Internal Server Error (0.010272s, 97.352/s)
+[Mon Nov  9 00:03:11 2015] [debug] GET "/"
+[Mon Nov  9 00:03:11 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Mon Nov  9 00:03:11 2015] [debug] Template "login/index.html.ep" not found
+[Mon Nov  9 00:03:11 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Nov  9 00:03:11 2015] [debug] Template "not_found.html.ep" not found
+[Mon Nov  9 00:03:11 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Nov  9 00:03:11 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Nov  9 00:03:11 2015] [debug] 404 Not Found (0.023780s, 42.052/s)
+[Mon Nov  9 00:05:41 2015] [debug] GET "/"
+[Mon Nov  9 00:05:41 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Mon Nov  9 00:05:41 2015] [debug] Rendering template "login/index.html.ep"
+[Mon Nov  9 00:05:41 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Nov  9 00:05:41 2015] [debug] 200 OK (0.005111s, 195.656/s)
+[Mon Nov  9 00:05:47 2015] [debug] GET "/"
+[Mon Nov  9 00:05:47 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Mon Nov  9 00:05:47 2015] [debug] 302 Found (0.008347s, 119.804/s)
+[Mon Nov  9 00:05:47 2015] [debug] GET "/protected"
+[Mon Nov  9 00:05:47 2015] [debug] Controller "BFeed::BFeed::Login" does not exist
+[Mon Nov  9 00:05:47 2015] [debug] Template "b_feed/login/protected.html.ep" not found
+[Mon Nov  9 00:05:47 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Nov  9 00:05:47 2015] [debug] Template "not_found.html.ep" not found
+[Mon Nov  9 00:05:47 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Nov  9 00:05:47 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Nov  9 00:05:47 2015] [debug] 404 Not Found (0.022579s, 44.289/s)
+[Mon Nov  9 00:06:00 2015] [debug] GET "/"
+[Mon Nov  9 00:06:00 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Mon Nov  9 00:06:00 2015] [debug] Rendering cached template "login/index.html.ep"
+[Mon Nov  9 00:06:00 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Mon Nov  9 00:06:00 2015] [debug] 200 OK (0.001734s, 576.701/s)
+[Mon Nov  9 00:06:11 2015] [debug] GET "/"
+[Mon Nov  9 00:06:11 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Mon Nov  9 00:06:11 2015] [debug] 302 Found (0.000850s, 1176.471/s)
+[Mon Nov  9 00:06:11 2015] [debug] GET "/protected"
+[Mon Nov  9 00:06:11 2015] [debug] Controller "BFeed::BFeed::Login" does not exist
+[Mon Nov  9 00:06:11 2015] [debug] Template "b_feed/login/protected.html.ep" not found
+[Mon Nov  9 00:06:11 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Nov  9 00:06:11 2015] [debug] Template "not_found.html.ep" not found
+[Mon Nov  9 00:06:11 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Nov  9 00:06:11 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Nov  9 00:06:11 2015] [debug] 404 Not Found (0.006602s, 151.469/s)
+[Mon Nov  9 00:07:36 2015] [debug] GET "/"
+[Mon Nov  9 00:07:36 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Mon Nov  9 00:07:36 2015] [debug] Rendering cached template "login/index.html.ep"
+[Mon Nov  9 00:07:36 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Mon Nov  9 00:07:36 2015] [debug] 200 OK (0.001561s, 640.615/s)
+[Mon Nov  9 00:07:43 2015] [debug] GET "/"
+[Mon Nov  9 00:07:43 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Mon Nov  9 00:07:43 2015] [debug] Rendering cached template "login/index.html.ep"
+[Mon Nov  9 00:07:43 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Mon Nov  9 00:07:43 2015] [debug] 200 OK (0.002388s, 418.760/s)
+[Mon Nov  9 00:07:48 2015] [debug] GET "/"
+[Mon Nov  9 00:07:48 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Mon Nov  9 00:07:48 2015] [debug] 302 Found (0.001301s, 768.640/s)
+[Mon Nov  9 00:07:48 2015] [debug] GET "/protected"
+[Mon Nov  9 00:07:48 2015] [debug] Controller "BFeed::BFeed::Login" does not exist
+[Mon Nov  9 00:07:48 2015] [debug] Template "b_feed/login/protected.html.ep" not found
+[Mon Nov  9 00:07:48 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Nov  9 00:07:48 2015] [debug] Template "not_found.html.ep" not found
+[Mon Nov  9 00:07:48 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Nov  9 00:07:48 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Nov  9 00:07:48 2015] [debug] 404 Not Found (0.014615s, 68.423/s)
+[Mon Nov  9 00:07:52 2015] [debug] GET "/"
+[Mon Nov  9 00:07:52 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Mon Nov  9 00:07:52 2015] [debug] Rendering cached template "login/index.html.ep"
+[Mon Nov  9 00:07:52 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Mon Nov  9 00:07:52 2015] [debug] 200 OK (0.008959s, 111.620/s)
+[Mon Nov  9 00:08:12 2015] [debug] GET "/"
+[Mon Nov  9 00:08:12 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Mon Nov  9 00:08:12 2015] [debug] Rendering cached template "login/index.html.ep"
+[Mon Nov  9 00:08:12 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Mon Nov  9 00:08:12 2015] [debug] 200 OK (0.001652s, 605.327/s)
+[Wed Nov 11 13:32:54 2015] [debug] GET "/content/beacon12323/content343434"
+[Wed Nov 11 13:32:54 2015] [debug] Template "not_found.development.html.ep" not found
+[Wed Nov 11 13:32:54 2015] [debug] Template "not_found.html.ep" not found
+[Wed Nov 11 13:32:54 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Wed Nov 11 13:32:54 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Wed Nov 11 13:32:54 2015] [debug] 404 Not Found (0.021474s, 46.568/s)
+[Wed Nov 11 13:33:19 2015] [debug] GET "/content/beacon12323"
+[Wed Nov 11 13:33:19 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get"
+[Wed Nov 11 13:33:19 2015] [debug] 200 OK (0.001741s, 574.383/s)
+[Wed Nov 11 13:43:27 2015] [debug] GET "/content/beacon12323"
+[Wed Nov 11 13:43:27 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get"
+[Wed Nov 11 13:43:27 2015] [debug] 200 OK (0.001770s, 564.972/s)
+[Wed Nov 11 14:12:58 2015] [debug] GET "/content"
+[Wed Nov 11 14:12:58 2015] [debug] Template "control.html.ep" not found
+[Wed Nov 11 14:12:58 2015] [debug] Template "not_found.development.html.ep" not found
+[Wed Nov 11 14:12:58 2015] [debug] Template "not_found.html.ep" not found
+[Wed Nov 11 14:12:58 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Wed Nov 11 14:12:58 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Wed Nov 11 14:12:58 2015] [debug] 404 Not Found (0.025645s, 38.994/s)
+[Wed Nov 11 16:24:55 2015] [debug] GET "/"
+[Wed Nov 11 16:24:55 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Wed Nov 11 16:24:55 2015] [error] Can't locate object method "new" via package "BFeed::Model::User" (perhaps you forgot to load "BFeed::Model::User"?) at lib/BFeed.pm line 14.
+
+[Wed Nov 11 16:24:55 2015] [debug] Template "exception.development.html.ep" not found
+[Wed Nov 11 16:24:55 2015] [debug] Template "exception.html.ep" not found
+[Wed Nov 11 16:24:55 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Wed Nov 11 16:24:55 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Wed Nov 11 16:24:55 2015] [debug] 500 Internal Server Error (0.029840s, 33.512/s)
+[Wed Nov 11 16:27:01 2015] [debug] GET "/"
+[Wed Nov 11 16:27:01 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Wed Nov 11 16:27:01 2015] [error] Can't locate object method "new" via package "BFeed::Model::User" (perhaps you forgot to load "BFeed::Model::User"?) at lib/BFeed.pm line 14.
+
+[Wed Nov 11 16:27:01 2015] [debug] Template "exception.development.html.ep" not found
+[Wed Nov 11 16:27:01 2015] [debug] Template "exception.html.ep" not found
+[Wed Nov 11 16:27:01 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Wed Nov 11 16:27:01 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Wed Nov 11 16:27:01 2015] [debug] 500 Internal Server Error (0.029378s, 34.039/s)
+[Wed Nov 11 16:29:05 2015] [debug] GET "/"
+[Wed Nov 11 16:29:05 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Wed Nov 11 16:29:05 2015] [error] Can't locate object method "resultset" via package "BFeed::Model::User" at lib/BFeed/Model/User.pm line 97.
+
+[Wed Nov 11 16:29:05 2015] [debug] Template "exception.development.html.ep" not found
+[Wed Nov 11 16:29:05 2015] [debug] Template "exception.html.ep" not found
+[Wed Nov 11 16:29:05 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Wed Nov 11 16:29:05 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Wed Nov 11 16:29:05 2015] [debug] 500 Internal Server Error (0.023626s, 42.326/s)
+[Wed Nov 11 16:38:04 2015] [debug] GET "/"
+[Wed Nov 11 16:38:04 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Wed Nov 11 16:38:04 2015] [error] Can't locate object method "users" via package "BFeed::Controller::Login" at /home/maniek/perl5/lib/perl5/Mojolicious.pm line 120.
+
+[Wed Nov 11 16:38:04 2015] [debug] Template "exception.development.html.ep" not found
+[Wed Nov 11 16:38:04 2015] [debug] Template "exception.html.ep" not found
+[Wed Nov 11 16:38:04 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Wed Nov 11 16:38:04 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Wed Nov 11 16:38:04 2015] [debug] 500 Internal Server Error (0.034767s, 28.763/s)
+[Wed Nov 11 16:50:03 2015] [debug] GET "/"
+[Wed Nov 11 16:50:03 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Wed Nov 11 16:50:03 2015] [debug] Rendering template "login/index.html.ep"
+[Wed Nov 11 16:50:03 2015] [debug] Rendering template "layouts/default.html.ep"
+[Wed Nov 11 16:50:03 2015] [debug] 200 OK (0.005511s, 181.455/s)
+[Wed Nov 11 17:02:13 2015] [debug] GET "/"
+[Wed Nov 11 17:02:13 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Wed Nov 11 17:02:13 2015] [error] Can't locate object method "connect" via package "BFeed::Model" at lib/BFeed.pm line 16.
+
+[Wed Nov 11 17:02:13 2015] [debug] Template "exception.development.html.ep" not found
+[Wed Nov 11 17:02:13 2015] [debug] Template "exception.html.ep" not found
+[Wed Nov 11 17:02:13 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Wed Nov 11 17:02:13 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Wed Nov 11 17:02:13 2015] [debug] 500 Internal Server Error (0.023536s, 42.488/s)
+[Wed Nov 11 17:03:29 2015] [debug] GET "/"
+[Wed Nov 11 17:03:29 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Wed Nov 11 17:03:29 2015] [error] Can't locate object method "connect" via package "BFeed::Schema" (perhaps you forgot to load "BFeed::Schema"?) at lib/BFeed.pm line 16.
+
+[Wed Nov 11 17:03:29 2015] [debug] Template "exception.development.html.ep" not found
+[Wed Nov 11 17:03:29 2015] [debug] Template "exception.html.ep" not found
+[Wed Nov 11 17:03:29 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Wed Nov 11 17:03:29 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Wed Nov 11 17:03:29 2015] [debug] 500 Internal Server Error (0.030283s, 33.022/s)
+[Wed Nov 11 17:03:46 2015] [debug] GET "/"
+[Wed Nov 11 17:03:46 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Wed Nov 11 17:03:46 2015] [debug] Rendering template "login/index.html.ep"
+[Wed Nov 11 17:03:46 2015] [debug] Rendering template "layouts/default.html.ep"
+[Wed Nov 11 17:03:46 2015] [debug] 200 OK (0.043521s, 22.977/s)
+[Wed Nov 11 17:04:04 2015] [debug] GET "/"
+[Wed Nov 11 17:04:04 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Wed Nov 11 17:04:04 2015] [debug] Rendering cached template "login/index.html.ep"
+[Wed Nov 11 17:04:04 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Wed Nov 11 17:04:04 2015] [debug] 200 OK (0.014116s, 70.842/s)
+[Wed Nov 11 17:06:30 2015] [debug] GET "/"
+[Wed Nov 11 17:06:30 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Wed Nov 11 17:06:30 2015] [error] DBIx::Class::Schema::resultset(): resultset() expects a source name at lib/BFeed/Controller/Login.pm line 11
+
+[Wed Nov 11 17:06:30 2015] [debug] Template "exception.development.html.ep" not found
+[Wed Nov 11 17:06:30 2015] [debug] Template "exception.html.ep" not found
+[Wed Nov 11 17:06:30 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Wed Nov 11 17:06:30 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Wed Nov 11 17:06:30 2015] [debug] 500 Internal Server Error (0.058929s, 16.970/s)
+[Wed Nov 11 17:07:31 2015] [debug] GET "/"
+[Wed Nov 11 17:07:31 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Wed Nov 11 17:07:31 2015] [error] DBIx::Class::Schema::source(): Can't find source for BFeed::Controller::Login=HASH(0x3506530) at lib/BFeed.pm line 16
+
+[Wed Nov 11 17:07:31 2015] [debug] Template "exception.development.html.ep" not found
+[Wed Nov 11 17:07:31 2015] [debug] Template "exception.html.ep" not found
+[Wed Nov 11 17:07:31 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Wed Nov 11 17:07:31 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Wed Nov 11 17:07:31 2015] [debug] 500 Internal Server Error (0.059554s, 16.791/s)
+[Wed Nov 11 17:08:15 2015] [debug] GET "/"
+[Wed Nov 11 17:08:15 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Wed Nov 11 17:08:15 2015] [debug] Rendering template "login/index.html.ep"
+[Wed Nov 11 17:08:15 2015] [debug] Rendering template "layouts/default.html.ep"
+[Wed Nov 11 17:08:15 2015] [debug] 200 OK (0.053322s, 18.754/s)
+[Wed Nov 11 17:10:29 2015] [debug] GET "/"
+[Wed Nov 11 17:10:29 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Wed Nov 11 17:10:29 2015] [error] DBIx::Class::Storage::DBI::catch {...} (): DBI Connection failed: install_driver(mysql) failed: Can't locate DBD/mysql.pm in @INC (you may need to install the DBD::mysql module) (@INC contains: lib /home/maniek/perl5/lib/perl5 /home/maniek/perl5/perlbrew/perls/perl-5.20.0/lib/site_perl/5.20.0/x86_64-linux /home/maniek/perl5/perlbrew/perls/perl-5.20.0/lib/site_perl/5.20.0 /home/maniek/perl5/perlbrew/perls/perl-5.20.0/lib/5.20.0/x86_64-linux /home/maniek/perl5/perlbrew/perls/perl-5.20.0/lib/5.20.0 .) at (eval 137) line 3.
+Perhaps the DBD::mysql perl module hasn't been fully installed,
+or perhaps the capitalisation of 'mysql' isn't right.
+Available drivers: DBM, ExampleP, File, Gofer, Proxy, SQLite, Sponge.
+ at /home/maniek/perl5/lib/perl5/DBIx/Class/Storage/DBI.pm line 1489. at lib/BFeed/Controller/Login.pm line 11
+
+[Wed Nov 11 17:10:29 2015] [debug] Template "exception.development.html.ep" not found
+[Wed Nov 11 17:10:29 2015] [debug] Template "exception.html.ep" not found
+[Wed Nov 11 17:10:29 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Wed Nov 11 17:10:29 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Wed Nov 11 17:10:29 2015] [debug] 500 Internal Server Error (0.089981s, 11.113/s)
