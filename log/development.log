@@ -614,3 +614,12 @@ Available drivers: DBM, ExampleP, File, Gofer, Proxy, SQLite, Sponge.
 [Thu Nov 12 02:07:14 2015] [debug] Rendering template "mojo/debug.html.ep"
 [Thu Nov 12 02:07:14 2015] [debug] Rendering template "mojo/menubar.html.ep"
 [Thu Nov 12 02:07:14 2015] [debug] 404 Not Found (0.025649s, 38.988/s)
+[Thu Nov 12 15:02:47 2015] [debug] GET "/"
+[Thu Nov 12 15:02:47 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Thu Nov 12 15:02:47 2015] [error] Can't call method "pass" on an undefined value at lib/BFeed/Controller/Login.pm line 14.
+
+[Thu Nov 12 15:02:47 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Nov 12 15:02:47 2015] [debug] Template "exception.html.ep" not found
+[Thu Nov 12 15:02:47 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Thu Nov 12 15:02:47 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Thu Nov 12 15:02:47 2015] [debug] 500 Internal Server Error (0.107231s, 9.326/s)

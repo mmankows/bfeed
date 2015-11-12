@@ -36,15 +36,14 @@ __PACKAGE__->table("beaconlog");
 
 =head2 beacon_id
 
-  data_type: 'char'
+  data_type: 'bigint'
   is_nullable: 0
-  size: 34
 
 =head2 logdate
 
   data_type: 'timestamp'
   datetime_undef_if_invalid: 1
-  default_value: '0000-00-00 00:00:00'
+  default_value: current_timestamp
   is_nullable: 0
 
 =cut
@@ -55,12 +54,12 @@ __PACKAGE__->add_columns(
   "content_id",
   { data_type => "bigint", is_nullable => 0 },
   "beacon_id",
-  { data_type => "char", is_nullable => 0, size => 34 },
+  { data_type => "bigint", is_nullable => 0 },
   "logdate",
   {
     data_type => "timestamp",
     datetime_undef_if_invalid => 1,
-    default_value => "0000-00-00 00:00:00",
+    default_value => \"current_timestamp",
     is_nullable => 0,
   },
 );
@@ -78,8 +77,8 @@ __PACKAGE__->add_columns(
 __PACKAGE__->set_primary_key("beaconlog_id");
 
 
-# Created by DBIx::Class::Schema::Loader v0.07043 @ 2015-11-11 15:44:59
-# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:ZpAX+N9RpqwrDZdaan6mhw
+# Created by DBIx::Class::Schema::Loader v0.07043 @ 2015-11-12 15:01:47
+# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:lhZwoSrABzrQfp9o4x6k5w
 
 
 # You can replace this text with custom code or comments, and it will be preserved on regeneration

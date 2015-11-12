@@ -84,9 +84,26 @@ __PACKAGE__->add_columns(
 
 __PACKAGE__->set_primary_key("user_id");
 
+=head1 RELATIONS
 
-# Created by DBIx::Class::Schema::Loader v0.07043 @ 2015-11-11 15:44:59
-# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:auiIfl9yubTlT+BDq95wLg
+=head2 beacons
+
+Type: has_many
+
+Related object: L<BFeed::Model::Result::Beacon>
+
+=cut
+
+__PACKAGE__->has_many(
+  "beacons",
+  "BFeed::Model::Result::Beacon",
+  { "foreign.user_id" => "self.user_id" },
+  { cascade_copy => 0, cascade_delete => 0 },
+);
+
+
+# Created by DBIx::Class::Schema::Loader v0.07043 @ 2015-11-12 15:01:47
+# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:CoqSE3FMeT1bvDSEKd9VTA
 
 
 # You can replace this text with custom code or comments, and it will be preserved on regeneration

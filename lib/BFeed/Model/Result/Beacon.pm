@@ -25,26 +25,39 @@ __PACKAGE__->table("beacon");
 
 =head2 beacon_id
 
-  data_type: 'char'
+  data_type: 'bigint'
+  is_auto_increment: 1
   is_nullable: 0
-  size: 34
 
 =head2 user_id
 
   data_type: 'bigint'
+  is_foreign_key: 1
   is_nullable: 0
+
+=head2 short_id
+
+  data_type: 'char'
+  is_nullable: 0
+  size: 34
+
+=head2 uu_id
+
+  data_type: 'char'
+  is_nullable: 0
+  size: 36
 
 =head2 minor_id
 
   data_type: 'char'
   is_nullable: 0
-  size: 34
+  size: 36
 
 =head2 major_id
 
   data_type: 'char'
   is_nullable: 0
-  size: 34
+  size: 36
 
 =head2 name
 
@@ -61,13 +74,17 @@ __PACKAGE__->table("beacon");
 
 __PACKAGE__->add_columns(
   "beacon_id",
-  { data_type => "char", is_nullable => 0, size => 34 },
+  { data_type => "bigint", is_auto_increment => 1, is_nullable => 0 },
   "user_id",
-  { data_type => "bigint", is_nullable => 0 },
+  { data_type => "bigint", is_foreign_key => 1, is_nullable => 0 },
+  "short_id",
+  { data_type => "char", is_nullable => 0, size => 34 },
+  "uu_id",
+  { data_type => "char", is_nullable => 0, size => 36 },
   "minor_id",
-  { data_type => "char", is_nullable => 0, size => 34 },
+  { data_type => "char", is_nullable => 0, size => 36 },
   "major_id",
-  { data_type => "char", is_nullable => 0, size => 34 },
+  { data_type => "char", is_nullable => 0, size => 36 },
   "name",
   { data_type => "char", is_nullable => 0, size => 255 },
   "description",
@@ -86,9 +103,41 @@ __PACKAGE__->add_columns(
 
 __PACKAGE__->set_primary_key("beacon_id");
 
+=head1 RELATIONS
 
-# Created by DBIx::Class::Schema::Loader v0.07043 @ 2015-11-11 15:44:59
-# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:8fQL9OP8ck9yuWXxs6HZaw
+=head2 rules
+
+Type: has_many
+
+Related object: L<BFeed::Model::Result::Rule>
+
+=cut
+
+__PACKAGE__->has_many(
+  "rules",
+  "BFeed::Model::Result::Rule",
+  { "foreign.beacon_id" => "self.beacon_id" },
+  { cascade_copy => 0, cascade_delete => 0 },
+);
+
+=head2 user
+
+Type: belongs_to
+
+Related object: L<BFeed::Model::Result::User>
+
+=cut
+
+__PACKAGE__->belongs_to(
+  "user",
+  "BFeed::Model::Result::User",
+  { user_id => "user_id" },
+  { is_deferrable => 1, on_delete => "RESTRICT", on_update => "RESTRICT" },
+);
+
+
+# Created by DBIx::Class::Schema::Loader v0.07043 @ 2015-11-12 15:01:47
+# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:lh6rPQApTVhP9hOem/YlMA
 
 
 # You can replace this text with custom code or comments, and it will be preserved on regeneration

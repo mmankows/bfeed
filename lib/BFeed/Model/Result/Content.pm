@@ -29,12 +29,6 @@ __PACKAGE__->table("content");
   is_auto_increment: 1
   is_nullable: 0
 
-=head2 beacon_id
-
-  data_type: 'char'
-  is_nullable: 0
-  size: 34
-
 =head2 name
 
   data_type: 'char'
@@ -61,8 +55,6 @@ __PACKAGE__->table("content");
 __PACKAGE__->add_columns(
   "content_id",
   { data_type => "bigint", is_auto_increment => 1, is_nullable => 0 },
-  "beacon_id",
-  { data_type => "char", is_nullable => 0, size => 34 },
   "name",
   { data_type => "char", is_nullable => 0, size => 255 },
   "desc",
@@ -85,9 +77,26 @@ __PACKAGE__->add_columns(
 
 __PACKAGE__->set_primary_key("content_id");
 
+=head1 RELATIONS
 
-# Created by DBIx::Class::Schema::Loader v0.07043 @ 2015-11-11 15:44:59
-# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:GorXrXAPNOepklKyAy/pWA
+=head2 rules
+
+Type: has_many
+
+Related object: L<BFeed::Model::Result::Rule>
+
+=cut
+
+__PACKAGE__->has_many(
+  "rules",
+  "BFeed::Model::Result::Rule",
+  { "foreign.content_id" => "self.content_id" },
+  { cascade_copy => 0, cascade_delete => 0 },
+);
+
+
+# Created by DBIx::Class::Schema::Loader v0.07043 @ 2015-11-12 15:01:47
+# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:myuYvetZeLIytibSbwXe1A
 
 
 # You can replace this text with custom code or comments, and it will be preserved on regeneration

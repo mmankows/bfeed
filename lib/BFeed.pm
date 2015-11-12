@@ -12,7 +12,7 @@ sub startup {
   $self->secrets(['|<7!m3K@t0#z138']);
 
 
-  $self->helper( dbh => sub {  return BFeed::Model->connect("dbi:mysql:dbname=bfeed_data", 'root', 'lkr92xc')->resultset($_[1]) });
+  $self->helper( dbh => sub {  return BFeed::Model->connect("dbi:mysql:dbname=bfeed_data", 'root', '')->resultset($_[1]) });
 
   # Documentation browser under "/perldoc"
   #$self->plugin('PODRenderer');

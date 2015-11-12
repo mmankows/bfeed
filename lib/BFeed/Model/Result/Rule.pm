@@ -32,13 +32,14 @@ __PACKAGE__->table("rule");
 =head2 content_id
 
   data_type: 'bigint'
+  is_foreign_key: 1
   is_nullable: 0
 
 =head2 beacon_id
 
-  data_type: 'char'
+  data_type: 'bigint'
+  is_foreign_key: 1
   is_nullable: 0
-  size: 34
 
 =head2 name
 
@@ -69,9 +70,9 @@ __PACKAGE__->add_columns(
   "rule_id",
   { data_type => "bigint", is_auto_increment => 1, is_nullable => 0 },
   "content_id",
-  { data_type => "bigint", is_nullable => 0 },
+  { data_type => "bigint", is_foreign_key => 1, is_nullable => 0 },
   "beacon_id",
-  { data_type => "char", is_nullable => 0, size => 34 },
+  { data_type => "bigint", is_foreign_key => 1, is_nullable => 0 },
   "name",
   { data_type => "char", is_nullable => 0, size => 255 },
   "desc",
@@ -99,9 +100,41 @@ __PACKAGE__->add_columns(
 
 __PACKAGE__->set_primary_key("rule_id");
 
+=head1 RELATIONS
 
-# Created by DBIx::Class::Schema::Loader v0.07043 @ 2015-11-11 15:44:59
-# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:HHxtyo1c21kvUgHw3JS0jA
+=head2 beacon
+
+Type: belongs_to
+
+Related object: L<BFeed::Model::Result::Beacon>
+
+=cut
+
+__PACKAGE__->belongs_to(
+  "beacon",
+  "BFeed::Model::Result::Beacon",
+  { beacon_id => "beacon_id" },
+  { is_deferrable => 1, on_delete => "RESTRICT", on_update => "RESTRICT" },
+);
+
+=head2 content
+
+Type: belongs_to
+
+Related object: L<BFeed::Model::Result::Content>
+
+=cut
+
+__PACKAGE__->belongs_to(
+  "content",
+  "BFeed::Model::Result::Content",
+  { content_id => "content_id" },
+  { is_deferrable => 1, on_delete => "RESTRICT", on_update => "RESTRICT" },
+);
+
+
+# Created by DBIx::Class::Schema::Loader v0.07043 @ 2015-11-12 15:01:47
+# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:hXBp0FwBqeuW0+a87J+tXQ
 
 
 # You can replace this text with custom code or comments, and it will be preserved on regeneration
