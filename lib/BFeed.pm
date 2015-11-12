@@ -1,5 +1,6 @@
 package BFeed;
 use Mojo::Base 'Mojolicious';
+use BFeed::Config;
 use Data::Dumper;
 
 use BFeed::Model;
@@ -9,10 +10,11 @@ use BFeed::Model;
 sub startup {
   my $self = shift;
 
-  $self->secrets(['|<7!m3K@t0#z138']);
+  my $conf = BFeed::Config->new;
+  $self->secrets([$conf->secret]);
 
 
-  $self->helper( dbh => sub {  return BFeed::Model->connect("dbi:mysql:dbname=bfeed_data", 'root', '')->resultset($_[1]) });
+  $self->helper( dbh => sub {  return BFeed::Model->connect("dbi:mysql:dbname=$conf->db_name", $conf->db_user, $conf_db->pass)->resultset($_[1]) });
 
   # Documentation browser under "/perldoc"
   #$self->plugin('PODRenderer');
