@@ -9,10 +9,10 @@ sub index {
   
   my $dbh = $self->dbh('User');
   my $row = $dbh->find({login=>$user});
-  use Data::Dumper;
-  warn Dumper $row;
   #return $self->render unless $self->users->check($user, $pass);
-  return 1;
+
+  return undef unless $pass eq $row->pass;
+
 
   $self->session(user => $user);
   $self->flash(message => 'Thanks for logging in.');

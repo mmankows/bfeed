@@ -5,6 +5,15 @@ USE `bfeed_data`;
 -- ----------------------------------------------------------------------------
 -- ---------------- MAIN BUSSINESS LOGIC --------------------------------------
 
+-- Authenticaton
+CREATE TABLE user (
+    `user_id` BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    `login`   char(32) NOT NULL,    
+    `pass`    char(32) NOT NULL,
+    `email`   char(64) NOT NULL,
+    `role`    ENUM('STANDARD','ADMIN')
+);
+
 -- Table for keeping beacons information
 CREATE TABLE beacon (
     `beacon_id`   char(34) NOT NULL PRIMARY KEY,
@@ -13,7 +22,7 @@ CREATE TABLE beacon (
     `major_id`    char(34) NOT NULL,
     `name`        char(255) NOT NULL,
     `description` blob,
-    FOREIGN KEY (`beacon_id`) REFERENCES user (`beacon_id`)
+    FOREIGN KEY (`user_id`) REFERENCES user (`user_id`)
 );
 
 -- Table for storing content assigned to beacons
@@ -52,11 +61,3 @@ CREATE TABLE beaconlog (
     FOREIGN KEY (`content_id`) REFERENCES content (`content_id`)
 );
 
--- Authenticaton
-CREATE TABLE user (
-    `user_id` BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-    `login`   char(32) NOT NULL,    
-    `pass`    char(32) NOT NULL,
-    `email`   char(64) NOT NULL,
-    `role`    ENUM('STANDARD','ADMIN')
-);

@@ -499,3 +499,118 @@ Available drivers: DBM, ExampleP, File, Gofer, Proxy, SQLite, Sponge.
 [Wed Nov 11 17:10:29 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
 [Wed Nov 11 17:10:29 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
 [Wed Nov 11 17:10:29 2015] [debug] 500 Internal Server Error (0.089981s, 11.113/s)
+[Thu Nov 12 01:45:11 2015] [debug] GET "/content"
+[Thu Nov 12 01:45:11 2015] [debug] Template "not_found.development.html.ep" not found
+[Thu Nov 12 01:45:11 2015] [debug] Template "not_found.html.ep" not found
+[Thu Nov 12 01:45:11 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Thu Nov 12 01:45:11 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Thu Nov 12 01:45:11 2015] [debug] 404 Not Found (0.041721s, 23.969/s)
+[Thu Nov 12 01:46:28 2015] [debug] GET "/"
+[Thu Nov 12 01:46:28 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Thu Nov 12 01:46:28 2015] [error] DBIx::Class::Storage::DBI::catch {...} (): DBI Connection failed: install_driver(mysql) failed: Can't locate DBD/mysql.pm in @INC (you may need to install the DBD::mysql module) (@INC contains: lib /home/maniek/perl5/perlbrew/perls/perl-5.20.0/lib/site_perl/5.20.0/x86_64-linux /home/maniek/perl5/perlbrew/perls/perl-5.20.0/lib/site_perl/5.20.0 /home/maniek/perl5/perlbrew/perls/perl-5.20.0/lib/5.20.0/x86_64-linux /home/maniek/perl5/perlbrew/perls/perl-5.20.0/lib/5.20.0 .) at (eval 135) line 3.
+Perhaps the DBD::mysql perl module hasn't been fully installed,
+or perhaps the capitalisation of 'mysql' isn't right.
+Available drivers: DBM, ExampleP, File, Gofer, Proxy, SQLite, Sponge.
+ at /home/maniek/perl5/perlbrew/perls/perl-5.20.0/lib/site_perl/5.20.0/DBIx/Class/Storage/DBI.pm line 1489. at lib/BFeed/Controller/Login.pm line 11
+
+[Thu Nov 12 01:46:28 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Nov 12 01:46:28 2015] [debug] Template "exception.html.ep" not found
+[Thu Nov 12 01:46:28 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Thu Nov 12 01:46:28 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Thu Nov 12 01:46:28 2015] [debug] 500 Internal Server Error (0.120328s, 8.311/s)
+[Thu Nov 12 01:47:05 2015] [debug] GET "/"
+[Thu Nov 12 01:47:05 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Thu Nov 12 01:47:05 2015] [error] DBIx::Class::Storage::DBI::catch {...} (): DBI Connection failed: install_driver(mysql) failed: Can't locate DBD/mysql.pm in @INC (you may need to install the DBD::mysql module) (@INC contains: lib /home/maniek/perl5/perlbrew/perls/perl-5.20.0/lib/site_perl/5.20.0/x86_64-linux /home/maniek/perl5/perlbrew/perls/perl-5.20.0/lib/site_perl/5.20.0 /home/maniek/perl5/perlbrew/perls/perl-5.20.0/lib/5.20.0/x86_64-linux /home/maniek/perl5/perlbrew/perls/perl-5.20.0/lib/5.20.0 .) at (eval 135) line 3.
+Perhaps the DBD::mysql perl module hasn't been fully installed,
+or perhaps the capitalisation of 'mysql' isn't right.
+Available drivers: DBM, ExampleP, File, Gofer, Proxy, SQLite, Sponge.
+ at /home/maniek/perl5/perlbrew/perls/perl-5.20.0/lib/site_perl/5.20.0/DBIx/Class/Storage/DBI.pm line 1489. at lib/BFeed/Controller/Login.pm line 11
+
+[Thu Nov 12 01:47:05 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Nov 12 01:47:05 2015] [debug] Template "exception.html.ep" not found
+[Thu Nov 12 01:47:05 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Thu Nov 12 01:47:05 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Thu Nov 12 01:47:05 2015] [debug] 500 Internal Server Error (0.101963s, 9.807/s)
+[Thu Nov 12 01:51:24 2015] [debug] GET "/"
+[Thu Nov 12 01:51:24 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Thu Nov 12 01:51:24 2015] [error] DBIx::Class::Storage::DBI::catch {...} (): DBI Connection failed: install_driver(mysql) failed: Can't locate DBD/mysql.pm in @INC (you may need to install the DBD::mysql module) (@INC contains: lib /home/maniek/perl5/perlbrew/perls/perl-5.20.0/lib/site_perl/5.20.0/x86_64-linux /home/maniek/perl5/perlbrew/perls/perl-5.20.0/lib/site_perl/5.20.0 /home/maniek/perl5/perlbrew/perls/perl-5.20.0/lib/5.20.0/x86_64-linux /home/maniek/perl5/perlbrew/perls/perl-5.20.0/lib/5.20.0 .) at (eval 135) line 3.
+Perhaps the DBD::mysql perl module hasn't been fully installed,
+or perhaps the capitalisation of 'mysql' isn't right.
+Available drivers: DBM, ExampleP, File, Gofer, Proxy, SQLite, Sponge.
+ at /home/maniek/perl5/perlbrew/perls/perl-5.20.0/lib/site_perl/5.20.0/DBIx/Class/Storage/DBI.pm line 1489. at lib/BFeed/Controller/Login.pm line 11
+
+[Thu Nov 12 01:51:24 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Nov 12 01:51:24 2015] [debug] Template "exception.html.ep" not found
+[Thu Nov 12 01:51:24 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Thu Nov 12 01:51:24 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Thu Nov 12 01:51:24 2015] [debug] 500 Internal Server Error (0.103974s, 9.618/s)
+[Thu Nov 12 01:55:30 2015] [debug] GET "/"
+[Thu Nov 12 01:55:30 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Thu Nov 12 01:55:30 2015] [error] DBIx::Class::Storage::DBI::catch {...} (): DBI Connection failed: DBI connect('dbname=bfeed_data','root',...) failed: Access denied for user 'root'@'localhost' (using password: NO) at /home/maniek/perl5/perlbrew/perls/perl-5.20.0/lib/site_perl/5.20.0/DBIx/Class/Storage/DBI.pm line 1489. at lib/BFeed/Controller/Login.pm line 11
+
+[Thu Nov 12 01:55:30 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Nov 12 01:55:30 2015] [debug] Template "exception.html.ep" not found
+[Thu Nov 12 01:55:30 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Thu Nov 12 01:55:30 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Thu Nov 12 01:55:30 2015] [debug] 500 Internal Server Error (0.104658s, 9.555/s)
+[Thu Nov 12 02:01:46 2015] [debug] GET "/"
+[Thu Nov 12 02:01:46 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Thu Nov 12 02:01:46 2015] [debug] Rendering template "login/index.html.ep"
+[Thu Nov 12 02:01:46 2015] [debug] Rendering template "layouts/default.html.ep"
+[Thu Nov 12 02:01:46 2015] [debug] 200 OK (0.102791s, 9.728/s)
+[Thu Nov 12 02:03:28 2015] [debug] GET "/"
+[Thu Nov 12 02:03:28 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Thu Nov 12 02:03:28 2015] [debug] Rendering template "login/index.html.ep"
+[Thu Nov 12 02:03:28 2015] [debug] Rendering template "layouts/default.html.ep"
+[Thu Nov 12 02:03:28 2015] [debug] 200 OK (0.088621s, 11.284/s)
+[Thu Nov 12 02:04:35 2015] [debug] GET "/"
+[Thu Nov 12 02:04:35 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Thu Nov 12 02:04:35 2015] [debug] Rendering template "login/index.html.ep"
+[Thu Nov 12 02:04:35 2015] [debug] Rendering template "layouts/default.html.ep"
+[Thu Nov 12 02:04:35 2015] [debug] 200 OK (0.069947s, 14.297/s)
+[Thu Nov 12 02:04:40 2015] [debug] GET "/"
+[Thu Nov 12 02:04:40 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Thu Nov 12 02:04:40 2015] [debug] Rendering cached template "login/index.html.ep"
+[Thu Nov 12 02:04:40 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Thu Nov 12 02:04:40 2015] [debug] 200 OK (0.007524s, 132.908/s)
+[Thu Nov 12 02:06:22 2015] [debug] GET "/"
+[Thu Nov 12 02:06:22 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Thu Nov 12 02:06:22 2015] [debug] Rendering template "login/index.html.ep"
+[Thu Nov 12 02:06:22 2015] [debug] Rendering template "layouts/default.html.ep"
+[Thu Nov 12 02:06:22 2015] [debug] 200 OK (0.099271s, 10.073/s)
+[Thu Nov 12 02:06:44 2015] [debug] GET "/"
+[Thu Nov 12 02:06:44 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Thu Nov 12 02:06:44 2015] [debug] Rendering template "login/index.html.ep"
+[Thu Nov 12 02:06:44 2015] [debug] Rendering template "layouts/default.html.ep"
+[Thu Nov 12 02:06:44 2015] [debug] 200 OK (0.066773s, 14.976/s)
+[Thu Nov 12 02:06:44 2015] [debug] GET "/"
+[Thu Nov 12 02:06:44 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Thu Nov 12 02:06:44 2015] [debug] Rendering cached template "login/index.html.ep"
+[Thu Nov 12 02:06:44 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Thu Nov 12 02:06:44 2015] [debug] 200 OK (0.006575s, 152.091/s)
+[Thu Nov 12 02:06:51 2015] [debug] GET "/"
+[Thu Nov 12 02:06:51 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Thu Nov 12 02:06:51 2015] [debug] Rendering cached template "login/index.html.ep"
+[Thu Nov 12 02:06:51 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Thu Nov 12 02:06:51 2015] [debug] 200 OK (0.008372s, 119.446/s)
+[Thu Nov 12 02:07:02 2015] [debug] GET "/"
+[Thu Nov 12 02:07:02 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Thu Nov 12 02:07:02 2015] [debug] Rendering template "login/index.html.ep"
+[Thu Nov 12 02:07:02 2015] [debug] Rendering template "layouts/default.html.ep"
+[Thu Nov 12 02:07:02 2015] [debug] 200 OK (0.096061s, 10.410/s)
+[Thu Nov 12 02:07:11 2015] [debug] GET "/"
+[Thu Nov 12 02:07:11 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Thu Nov 12 02:07:11 2015] [debug] 302 Found (0.007066s, 141.523/s)
+[Thu Nov 12 02:07:11 2015] [debug] GET "/protected"
+[Thu Nov 12 02:07:11 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Thu Nov 12 02:07:11 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "protected"
+[Thu Nov 12 02:07:11 2015] [debug] Action not found in controller
+[Thu Nov 12 02:07:11 2015] [debug] Rendering template "login/protected.html.ep"
+[Thu Nov 12 02:07:11 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Thu Nov 12 02:07:11 2015] [debug] 200 OK (0.004543s, 220.119/s)
+[Thu Nov 12 02:07:14 2015] [debug] GET "/logout"
+[Thu Nov 12 02:07:14 2015] [debug] Template "not_found.development.html.ep" not found
+[Thu Nov 12 02:07:14 2015] [debug] Template "not_found.html.ep" not found
+[Thu Nov 12 02:07:14 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Thu Nov 12 02:07:14 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Thu Nov 12 02:07:14 2015] [debug] 404 Not Found (0.025649s, 38.988/s)
