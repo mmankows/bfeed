@@ -16,10 +16,14 @@ CREATE TABLE user (
 
 -- Table for keeping beacons information
 CREATE TABLE beacon (
-    `beacon_id`   char(34) NOT NULL PRIMARY KEY,
+    `beacon_id`	  BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     `user_id`     BIGINT NOT NULL,
-    `minor_id`    char(34) NOT NULL,
-    `major_id`    char(34) NOT NULL,
+    `short_id`    char(34) NOT NULL,
+
+    `uu_id`       char(36) NOT NULL,
+    `minor_id`    char(36) NOT NULL,
+    `major_id`    char(36) NOT NULL,
+
     `name`        char(255) NOT NULL,
     `description` blob,
     FOREIGN KEY (`user_id`) REFERENCES user (`user_id`)
@@ -28,19 +32,17 @@ CREATE TABLE beacon (
 -- Table for storing content assigned to beacons
 CREATE TABLE content (
     `content_id` BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-    `beacon_id`  char(34) NOT NULL,
     `name`       char(255) NOT NULL,
     `desc`       blob NOT NULL,
     `url`        blob NOT NULL,
-    `img_url`    blob NOT NULL,
-    FOREIGN KEY (`beacon_id`) REFERENCES beacon (`beacon_id`)
+    `img_url`    blob NOT NULL
 );
 
 -- Rules matched to acquire specific content
 CREATE TABLE rule (
     `rule_id`    BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     `content_id` BIGINT NOT NULL,
-    `beacon_id`  char(34) NOT NULL,
+    `beacon_id`  BIGINT NOT NULL,
     `name`       char(255) NOT NULL,
     `desc`       blob NOT NULL,
     `rule`       blob NOT NULL,
@@ -56,8 +58,7 @@ CREATE TABLE rule (
 CREATE TABLE beaconlog (
     `beaconlog_id` BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     `content_id` BIGINT NOT NULL,
-    `beacon_id`  char(34) NOT NULL,
-    `logdate`    TIMESTAMP ON UPDATE CURRENT_TIMESTAMP(),
-    FOREIGN KEY (`content_id`) REFERENCES content (`content_id`)
+    `beacon_id`  BIGINT NOT NULL,
+    `logdate`    TIMESTAMP DEFAULT CURRENT_TIMESTAMP() ON UPDATE CURRENT_TIMESTAMP()
 );
 
