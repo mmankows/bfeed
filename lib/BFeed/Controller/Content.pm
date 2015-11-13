@@ -1,7 +1,7 @@
 package BFeed::Controller::Content;
 use base 'BFeed::Controller';
 
-sub get {
+sub content_for_beacon {
     my $self = shift;
     my $short_id = $self->stash('short_id');
 
@@ -23,15 +23,9 @@ sub get {
         );
 
         my $rule = $self->_match_rules( $beacon, \@beacon_rules );
-        $resp = {
-            name => $rule->content->name,
-            url => $rule->content->url,
-            img_url => $rule->content->img_url,
-        };
-        $status = 200;
+	return $self->stash(id => $rule->content_id)->get() if $rule;
         
     } else {
-        $resp   = {};
         $status = 404;
     }
 

@@ -41,7 +41,7 @@ sub __register_services {
   my ($route) = @_;
 
   # Content service 
-  $route->get('/content/:short_id')->to('login#mobile_app')->to('content#get')->name('get_content');
+  $route->get('/beacon/:short_id/content')->to('login#mobile_app')->to('content#content_for_beacon');
 }
 
 sub __register_authorized_services {
@@ -55,10 +55,10 @@ sub __register_authorized_services {
     /;
 
     for my $service ( @services ) {
-        $authorized_route->get   ("/$service")    ->to("$service#list")->name("list_$service");
-        $authorized_route->get   ("/$service/:id")->to("$service#get")->name("get_$service");
-        $authorized_route->post  ("/$service")    ->to("$service#post")->name("add_$service");
-        $authorized_route->put   ("/$service/:id")->to("$service#put")->name("update_$service");
+        $authorized_route->get   ("/$service")    ->to("$service#list"  )->name("list_$service");
+        $authorized_route->get   ("/$service/:id")->to("$service#get"   )->name("get_$service");
+        $authorized_route->post  ("/$service")    ->to("$service#post"  )->name("add_$service");
+        $authorized_route->put   ("/$service/:id")->to("$service#put"   )->name("update_$service");
         $authorized_route->delete("/$service/:id")->to("$service#delete")->name("delete_$service");
     }
 

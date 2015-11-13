@@ -2055,3 +2055,216 @@ Compilation failed in require at (eval 114) line 1.
 [Fri Nov 13 01:29:26 2015] [debug] GET "/content/4"
 [Fri Nov 13 01:29:26 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get"
 [Fri Nov 13 01:29:26 2015] [debug] 404 Not Found (0.007662s, 130.514/s)
+[Fri Nov 13 19:30:04 2015] [debug] GET "/content/4"
+[Fri Nov 13 19:30:04 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get"
+[Fri Nov 13 19:30:05 2015] [debug] 404 Not Found (0.436385s, 2.292/s)
+[Fri Nov 13 19:30:07 2015] [debug] GET "/content/4"
+[Fri Nov 13 19:30:07 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get"
+[Fri Nov 13 19:30:07 2015] [debug] 404 Not Found (0.006472s, 154.512/s)
+[Fri Nov 13 19:30:09 2015] [debug] GET "/content"
+[Fri Nov 13 19:30:09 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "list"
+[Fri Nov 13 19:30:09 2015] [debug] 200 OK (0.024971s, 40.046/s)
+[Fri Nov 13 19:31:00 2015] [debug] GET "/content"
+[Fri Nov 13 19:31:00 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "list"
+[Fri Nov 13 19:31:00 2015] [debug] 200 OK (0.068628s, 14.571/s)
+[Fri Nov 13 19:31:01 2015] [debug] GET "/content"
+[Fri Nov 13 19:31:01 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "list"
+[Fri Nov 13 19:31:01 2015] [debug] 200 OK (0.009063s, 110.339/s)
+[Fri Nov 13 19:31:19 2015] [debug] GET "/content"
+[Fri Nov 13 19:31:19 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "list"
+[Fri Nov 13 19:31:19 2015] [debug] 200 OK (0.006478s, 154.369/s)
+[Fri Nov 13 19:31:55 2015] [debug] GET "/content"
+[Fri Nov 13 19:31:55 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "list"
+[Fri Nov 13 19:31:55 2015] [debug] 200 OK (0.068247s, 14.653/s)
+[Fri Nov 13 19:31:57 2015] [debug] GET "/beacon"
+[Fri Nov 13 19:31:57 2015] [debug] Routing to controller "BFeed::Controller::Beacon" and action "list"
+[Fri Nov 13 19:31:57 2015] [debug] 200 OK (0.025604s, 39.056/s)
+[Fri Nov 13 19:32:01 2015] [debug] GET "/rule"
+[Fri Nov 13 19:32:01 2015] [debug] Routing to controller "BFeed::Controller::Rule" and action "list"
+[Fri Nov 13 19:32:01 2015] [debug] 200 OK (0.004468s, 223.814/s)
+[Fri Nov 13 19:32:02 2015] [debug] GET "/rule"
+[Fri Nov 13 19:32:02 2015] [debug] Routing to controller "BFeed::Controller::Rule" and action "list"
+[Fri Nov 13 19:32:02 2015] [debug] 200 OK (0.006290s, 158.983/s)
+[Fri Nov 13 19:42:36 2015] [debug] GET "/beacon/1/content"
+[Fri Nov 13 19:42:36 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get_for_beacon"
+[Fri Nov 13 19:42:36 2015] [debug] 404 Not Found (0.064589s, 15.483/s)
+[Fri Nov 13 19:42:54 2015] [debug] GET "/beacon/beacon1/content"
+[Fri Nov 13 19:42:54 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get_for_beacon"
+[Fri Nov 13 19:42:54 2015] [debug] 302 Found (0.014266s, 70.097/s)
+[Fri Nov 13 19:43:21 2015] [debug] GET "/beacon/beacon1/content"
+[Fri Nov 13 19:43:21 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get_for_beacon"
+[Fri Nov 13 19:43:21 2015] [error] Undefined subroutine &Controller::_to_hashref called at lib/BFeed/Controller/Content.pm line 27.
+
+[Fri Nov 13 19:43:21 2015] [debug] Template "exception.development.html.ep" not found
+[Fri Nov 13 19:43:21 2015] [debug] Template "exception.html.ep" not found
+[Fri Nov 13 19:43:21 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Fri Nov 13 19:43:21 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Fri Nov 13 19:43:21 2015] [debug] 500 Internal Server Error (0.148959s, 6.713/s)
+[Fri Nov 13 19:43:45 2015] [debug] GET "/beacon/beacon1/content"
+[Fri Nov 13 19:43:45 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get_for_beacon"
+[Fri Nov 13 19:43:45 2015] [debug] 302 Found (0.095257s, 10.498/s)
+[Fri Nov 13 19:44:54 2015] [debug] GET "/beacon/beacon1/content"
+[Fri Nov 13 19:44:54 2015] [error] Global symbol "$id" requires explicit package name at lib/BFeed/Controller.pm line 41.
+Compilation failed in require at /home/maniek/perl5/perlbrew/perls/perl-5.20.0/lib/5.20.0/base.pm line 99.
+	...propagated at /home/maniek/perl5/perlbrew/perls/perl-5.20.0/lib/5.20.0/base.pm line 108.
+BEGIN failed--compilation aborted at lib/BFeed/Controller/Content.pm line 2.
+Compilation failed in require at (eval 109) line 1.
+
+[Fri Nov 13 19:44:54 2015] [debug] Template "exception.development.html.ep" not found
+[Fri Nov 13 19:44:54 2015] [debug] Template "exception.html.ep" not found
+[Fri Nov 13 19:44:54 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Fri Nov 13 19:44:54 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Fri Nov 13 19:44:54 2015] [debug] 500 Internal Server Error (0.027467s, 36.407/s)
+[Fri Nov 13 19:45:06 2015] [debug] GET "/beacon/beacon1/content"
+[Fri Nov 13 19:45:06 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get_for_beacon"
+[Fri Nov 13 19:45:06 2015] [debug] 302 Found (0.072502s, 13.793/s)
+[Fri Nov 13 19:45:47 2015] [debug] GET "/beacon/beacon1/content"
+[Fri Nov 13 19:45:47 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get_for_beacon"
+[Fri Nov 13 19:45:47 2015] [debug] 200 OK (0.080504s, 12.422/s)
+[Fri Nov 13 19:46:08 2015] [debug] GET "/beacon/beacon1/content"
+[Fri Nov 13 19:46:08 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get_for_beacon"
+[Fri Nov 13 19:46:08 2015] [debug] 200 OK (0.098238s, 10.179/s)
+[Fri Nov 13 19:46:23 2015] [debug] GET "/beacon/beacon1/content"
+[Fri Nov 13 19:46:23 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get_for_beacon"
+[Fri Nov 13 19:46:23 2015] [debug] 200 OK (0.016851s, 59.344/s)
+[Fri Nov 13 19:46:31 2015] [debug] GET "/beacon/beacon1/content"
+[Fri Nov 13 19:46:31 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get_for_beacon"
+[Fri Nov 13 19:46:31 2015] [debug] 200 OK (0.012775s, 78.278/s)
+[Fri Nov 13 19:46:51 2015] [debug] GET "/beacon/beacon1/content"
+[Fri Nov 13 19:46:51 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get_for_beacon"
+[Fri Nov 13 19:46:51 2015] [debug] 200 OK (0.116500s, 8.584/s)
+[Fri Nov 13 19:46:58 2015] [debug] GET "/beacon/beacon1/content"
+[Fri Nov 13 19:46:58 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get_for_beacon"
+[Fri Nov 13 19:46:58 2015] [debug] 200 OK (0.015654s, 63.881/s)
+[Fri Nov 13 19:47:42 2015] [debug] GET "/beacon/beacon1/content"
+[Fri Nov 13 19:47:42 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get_for_beacon"
+[Fri Nov 13 19:47:42 2015] [error] Can't locate object method "_to_hashref" via package "BFeed::Model::Result::Content" at lib/BFeed/Controller.pm line 50.
+
+[Fri Nov 13 19:47:42 2015] [debug] Template "exception.development.html.ep" not found
+[Fri Nov 13 19:47:42 2015] [debug] Template "exception.html.ep" not found
+[Fri Nov 13 19:47:42 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Fri Nov 13 19:47:42 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Fri Nov 13 19:47:42 2015] [debug] 500 Internal Server Error (0.098064s, 10.197/s)
+[Fri Nov 13 19:47:58 2015] [debug] GET "/beacon/beacon1/content"
+[Fri Nov 13 19:47:58 2015] [error] syntax error at lib/BFeed/Controller.pm line 50, near "->_to_hashref $resp"
+Compilation failed in require at /home/maniek/perl5/perlbrew/perls/perl-5.20.0/lib/5.20.0/base.pm line 99.
+	...propagated at /home/maniek/perl5/perlbrew/perls/perl-5.20.0/lib/5.20.0/base.pm line 108.
+BEGIN failed--compilation aborted at lib/BFeed/Controller/Content.pm line 2.
+Compilation failed in require at (eval 109) line 1.
+
+[Fri Nov 13 19:47:58 2015] [debug] Template "exception.development.html.ep" not found
+[Fri Nov 13 19:47:58 2015] [debug] Template "exception.html.ep" not found
+[Fri Nov 13 19:47:58 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Fri Nov 13 19:47:58 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Fri Nov 13 19:47:58 2015] [debug] 500 Internal Server Error (0.042946s, 23.285/s)
+[Fri Nov 13 19:48:11 2015] [debug] GET "/beacon/beacon1/content"
+[Fri Nov 13 19:48:11 2015] [error] syntax error at lib/BFeed/Controller.pm line 50, near "->_to_hashref $resp"
+Compilation failed in require at /home/maniek/perl5/perlbrew/perls/perl-5.20.0/lib/5.20.0/base.pm line 99.
+	...propagated at /home/maniek/perl5/perlbrew/perls/perl-5.20.0/lib/5.20.0/base.pm line 108.
+BEGIN failed--compilation aborted at lib/BFeed/Controller/Content.pm line 2.
+Compilation failed in require at (eval 109) line 1.
+
+[Fri Nov 13 19:48:11 2015] [debug] Template "exception.development.html.ep" not found
+[Fri Nov 13 19:48:11 2015] [debug] Template "exception.html.ep" not found
+[Fri Nov 13 19:48:11 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Fri Nov 13 19:48:11 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Fri Nov 13 19:48:11 2015] [debug] 500 Internal Server Error (0.026555s, 37.658/s)
+[Fri Nov 13 19:48:47 2015] [debug] GET "/beacon/beacon1/content"
+[Fri Nov 13 19:48:47 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get_for_beacon"
+[Fri Nov 13 19:48:47 2015] [error] Can't locate object method "to_hashref" via package "BFeed::Model::Result::Content" at lib/BFeed/Controller.pm line 50.
+
+[Fri Nov 13 19:48:47 2015] [debug] Template "exception.development.html.ep" not found
+[Fri Nov 13 19:48:47 2015] [debug] Template "exception.html.ep" not found
+[Fri Nov 13 19:48:47 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Fri Nov 13 19:48:47 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Fri Nov 13 19:48:47 2015] [debug] 500 Internal Server Error (0.098682s, 10.134/s)
+[Fri Nov 13 19:49:06 2015] [debug] GET "/beacon/beacon1/content"
+[Fri Nov 13 19:49:06 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get_for_beacon"
+[Fri Nov 13 19:49:06 2015] [error] Can't locate object method "_to_hashref" via package "BFeed::Model::Result::Content" at lib/BFeed/Controller.pm line 50.
+
+[Fri Nov 13 19:49:06 2015] [debug] Template "exception.development.html.ep" not found
+[Fri Nov 13 19:49:06 2015] [debug] Template "exception.html.ep" not found
+[Fri Nov 13 19:49:06 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Fri Nov 13 19:49:06 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Fri Nov 13 19:49:06 2015] [debug] 500 Internal Server Error (0.098347s, 10.168/s)
+[Fri Nov 13 19:49:32 2015] [debug] GET "/beacon/beacon1/content"
+[Fri Nov 13 19:49:32 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get_for_beacon"
+[Fri Nov 13 19:49:32 2015] [debug] 200 OK (0.104259s, 9.591/s)
+[Fri Nov 13 19:49:34 2015] [debug] GET "/beacon/beacon1/content"
+[Fri Nov 13 19:49:34 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get_for_beacon"
+[Fri Nov 13 19:49:34 2015] [debug] 200 OK (0.012020s, 83.195/s)
+[Fri Nov 13 19:50:07 2015] [debug] GET "/beacon/beacon1/content"
+[Fri Nov 13 19:50:07 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get_for_beacon"
+[Fri Nov 13 19:50:07 2015] [debug] 200 OK (0.011133s, 89.823/s)
+[Fri Nov 13 19:50:09 2015] [debug] GET "/beacon/beacon2/content"
+[Fri Nov 13 19:50:09 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get_for_beacon"
+[Fri Nov 13 19:50:09 2015] [debug] 200 OK (0.010743s, 93.084/s)
+[Fri Nov 13 19:50:44 2015] [debug] GET "/beacon/beacon2/content"
+[Fri Nov 13 19:50:44 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get_for_beacon"
+[Fri Nov 13 19:50:44 2015] [debug] 302 Found (0.112959s, 8.853/s)
+[Fri Nov 13 19:54:48 2015] [debug] GET "/beacon/beacon2/content"
+[Fri Nov 13 19:54:48 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get_for_beacon"
+[Fri Nov 13 19:54:49 2015] [debug] 302 Found (0.095660s, 10.454/s)
+[Fri Nov 13 20:04:22 2015] [debug] GET "/beacon/beacon2/content"
+[Fri Nov 13 20:04:22 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get_for_beacon"
+[Fri Nov 13 20:04:22 2015] [debug] 302 Found (0.112503s, 8.889/s)
+[Fri Nov 13 20:06:12 2015] [debug] GET "/beacon/beacon2/content"
+[Fri Nov 13 20:06:12 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get_for_beacon"
+[Fri Nov 13 20:06:12 2015] [debug] 200 OK (0.102242s, 9.781/s)
+[Fri Nov 13 20:06:50 2015] [debug] GET "/beacon/beacon2/content"
+[Fri Nov 13 20:06:50 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get_for_beacon"
+[Fri Nov 13 20:06:51 2015] [debug] 200 OK (0.117101s, 8.540/s)
+[Fri Nov 13 20:06:56 2015] [debug] GET "/beacon/beacon2/content"
+[Fri Nov 13 20:06:56 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get_for_beacon"
+[Fri Nov 13 20:06:56 2015] [debug] 200 OK (0.011669s, 85.697/s)
+[Fri Nov 13 20:07:20 2015] [debug] GET "/beacon/beacon2/content"
+[Fri Nov 13 20:07:20 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get_for_beacon"
+[Fri Nov 13 20:07:20 2015] [debug] 200 OK (0.074894s, 13.352/s)
+[Fri Nov 13 20:08:29 2015] [debug] GET "/beacon/beacon2/content"
+[Fri Nov 13 20:08:29 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "content_for_beacon"
+[Fri Nov 13 20:08:30 2015] [debug] 200 OK (0.103937s, 9.621/s)
+[Fri Nov 13 20:10:05 2015] [debug] GET "/beacon/beacon2/content"
+[Fri Nov 13 20:10:05 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "content_for_beacon"
+[Fri Nov 13 20:10:05 2015] [debug] 200 OK (0.010830s, 92.336/s)
+[Fri Nov 13 20:11:05 2015] [debug] GET "/beacon/beacon2/content"
+[Fri Nov 13 20:11:05 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "content_for_beacon"
+[Fri Nov 13 20:11:05 2015] [debug] 200 OK (0.102837s, 9.724/s)
+[Fri Nov 13 20:11:07 2015] [debug] GET "/beacon/beacon122/content"
+[Fri Nov 13 20:11:07 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "content_for_beacon"
+[Fri Nov 13 20:11:07 2015] [debug] 404 Not Found (0.006555s, 152.555/s)
+[Fri Nov 13 20:11:10 2015] [debug] GET "/beacon/beacon2/content"
+[Fri Nov 13 20:11:10 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "content_for_beacon"
+[Fri Nov 13 20:11:10 2015] [debug] 200 OK (0.011645s, 85.874/s)
+[Fri Nov 13 20:11:15 2015] [debug] GET "/beacon/beacon1/content"
+[Fri Nov 13 20:11:15 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "content_for_beacon"
+[Fri Nov 13 20:11:15 2015] [debug] 200 OK (0.008750s, 114.286/s)
+[Fri Nov 13 20:11:17 2015] [debug] GET "/beacon/beacon2/content"
+[Fri Nov 13 20:11:17 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "content_for_beacon"
+[Fri Nov 13 20:11:17 2015] [debug] 200 OK (0.009507s, 105.186/s)
+[Fri Nov 13 20:11:22 2015] [debug] GET "/beacon/beacon1/content"
+[Fri Nov 13 20:11:22 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "content_for_beacon"
+[Fri Nov 13 20:11:22 2015] [debug] 200 OK (0.010886s, 91.861/s)
+[Fri Nov 13 20:11:33 2015] [debug] GET "/beacon/beacon2/content"
+[Fri Nov 13 20:11:33 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "content_for_beacon"
+[Fri Nov 13 20:11:33 2015] [debug] 200 OK (0.008664s, 115.420/s)
+[Fri Nov 13 20:11:40 2015] [debug] GET "/beacon/beacon1/content"
+[Fri Nov 13 20:11:40 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "content_for_beacon"
+[Fri Nov 13 20:11:40 2015] [debug] 200 OK (0.013566s, 73.714/s)
+[Fri Nov 13 20:11:43 2015] [debug] GET "/beacon/beacon2/content"
+[Fri Nov 13 20:11:43 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "content_for_beacon"
+[Fri Nov 13 20:11:43 2015] [debug] 200 OK (0.017157s, 58.285/s)
+[Fri Nov 13 20:11:47 2015] [debug] GET "/beacon/beacon3/content"
+[Fri Nov 13 20:11:47 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "content_for_beacon"
+[Fri Nov 13 20:11:47 2015] [debug] 200 OK (0.006248s, 160.051/s)
+[Fri Nov 13 20:13:43 2015] [debug] GET "/beacon/beacon3/content"
+[Fri Nov 13 20:13:43 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "content_for_beacon"
+[Fri Nov 13 20:13:43 2015] [debug] 200 OK (0.006117s, 163.479/s)
+[Fri Nov 13 20:13:45 2015] [debug] GET "/beacon/beacon2/content"
+[Fri Nov 13 20:13:45 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "content_for_beacon"
+[Fri Nov 13 20:13:45 2015] [debug] 200 OK (0.008190s, 122.100/s)
+[Fri Nov 13 20:14:04 2015] [debug] GET "/beacon/beacon2/content"
+[Fri Nov 13 20:14:04 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "content_for_beacon"
+[Fri Nov 13 20:14:04 2015] [debug] 200 OK (0.011966s, 83.570/s)
+[Fri Nov 13 20:15:08 2015] [debug] GET "/beacon/beacon2/content"
+[Fri Nov 13 20:15:08 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "content_for_beacon"
+[Fri Nov 13 20:15:08 2015] [debug] 200 OK (0.075197s, 13.298/s)

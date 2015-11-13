@@ -26,5 +26,5 @@ INSERT INTO content VALUES
 
 INSERT INTO rule VALUES 
 (1,1,1,1,'rula 1','Opis ruli1','{"my":"rule"}'),
-(2,1,1,2,'rula 2','Opis ruli1','{"my":"rule"}'),
+(2,1,2,2,'rula 2','Opis ruli1','{"my":"rule"}'),
 (3,1,2,1,'rula 3','Opis ruli1','{"my":"rule"}');

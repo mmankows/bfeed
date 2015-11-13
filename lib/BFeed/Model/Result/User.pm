@@ -137,13 +137,5 @@ __PACKAGE__->has_many(
 
 
 # You can replace this text with custom code or comments, and it will be preserved on regeneration
-sub check {
-    my ($self, $user, $passwd) = @_;
-    
-    use Data::Dumper;
-    print Dumper $self->resultset->find( { login => $user } );
-    return 0;
-    
-}
 
 1;

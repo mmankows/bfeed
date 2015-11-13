@@ -17,12 +17,10 @@ sub list {
     eval {
         $resp = [ map {_to_hashref($_) }  $dbh->resultset( $controller )->search( { user_id => $user_id } )->all() ]
     };
-    print "RESP" . @$resp;
 
     if ( not $@ ) {
         $status = 200;
     } else {
-        print $@;
         $status = 400;
     }
 
@@ -44,6 +42,7 @@ sub get {
     my $controller = Mojo::Util::camelize( $self->stash('controller') );
     
     $resp = $dbh->resultset($controller)->find($id);
+
     if ( $resp ) {
         $status = 200;
     } else {
@@ -135,7 +134,6 @@ sub _to_hashref {
     return undef if not $rs;
     return {
         map {
-            print "$_\n";
             $_ => $rs->get_column( $_ )
         } $rs->result_source->columns()
     };
