@@ -101,9 +101,39 @@ __PACKAGE__->has_many(
   { cascade_copy => 0, cascade_delete => 0 },
 );
 
+=head2 contents
 
-# Created by DBIx::Class::Schema::Loader v0.07043 @ 2015-11-12 15:01:47
-# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:CoqSE3FMeT1bvDSEKd9VTA
+Type: has_many
+
+Related object: L<BFeed::Model::Result::Content>
+
+=cut
+
+__PACKAGE__->has_many(
+  "contents",
+  "BFeed::Model::Result::Content",
+  { "foreign.user_id" => "self.user_id" },
+  { cascade_copy => 0, cascade_delete => 0 },
+);
+
+=head2 rules
+
+Type: has_many
+
+Related object: L<BFeed::Model::Result::Rule>
+
+=cut
+
+__PACKAGE__->has_many(
+  "rules",
+  "BFeed::Model::Result::Rule",
+  { "foreign.user_id" => "self.user_id" },
+  { cascade_copy => 0, cascade_delete => 0 },
+);
+
+
+# Created by DBIx::Class::Schema::Loader v0.07043 @ 2015-11-13 01:27:37
+# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:xY7SZWNSNxl5kqNHGENuDg
 
 
 # You can replace this text with custom code or comments, and it will be preserved on regeneration

@@ -29,25 +29,31 @@ __PACKAGE__->table("content");
   is_auto_increment: 1
   is_nullable: 0
 
+=head2 user_id
+
+  data_type: 'bigint'
+  is_foreign_key: 1
+  is_nullable: 0
+
 =head2 name
 
   data_type: 'char'
   is_nullable: 0
   size: 255
 
-=head2 desc
+=head2 description
 
-  data_type: 'blob'
+  data_type: 'text'
   is_nullable: 0
 
 =head2 url
 
-  data_type: 'blob'
+  data_type: 'text'
   is_nullable: 0
 
 =head2 img_url
 
-  data_type: 'blob'
+  data_type: 'text'
   is_nullable: 0
 
 =cut
@@ -55,14 +61,16 @@ __PACKAGE__->table("content");
 __PACKAGE__->add_columns(
   "content_id",
   { data_type => "bigint", is_auto_increment => 1, is_nullable => 0 },
+  "user_id",
+  { data_type => "bigint", is_foreign_key => 1, is_nullable => 0 },
   "name",
   { data_type => "char", is_nullable => 0, size => 255 },
-  "desc",
-  { data_type => "blob", is_nullable => 0 },
+  "description",
+  { data_type => "text", is_nullable => 0 },
   "url",
-  { data_type => "blob", is_nullable => 0 },
+  { data_type => "text", is_nullable => 0 },
   "img_url",
-  { data_type => "blob", is_nullable => 0 },
+  { data_type => "text", is_nullable => 0 },
 );
 
 =head1 PRIMARY KEY
@@ -94,9 +102,24 @@ __PACKAGE__->has_many(
   { cascade_copy => 0, cascade_delete => 0 },
 );
 
+=head2 user
 
-# Created by DBIx::Class::Schema::Loader v0.07043 @ 2015-11-12 15:01:47
-# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:myuYvetZeLIytibSbwXe1A
+Type: belongs_to
+
+Related object: L<BFeed::Model::Result::User>
+
+=cut
+
+__PACKAGE__->belongs_to(
+  "user",
+  "BFeed::Model::Result::User",
+  { user_id => "user_id" },
+  { is_deferrable => 1, on_delete => "RESTRICT", on_update => "RESTRICT" },
+);
+
+
+# Created by DBIx::Class::Schema::Loader v0.07043 @ 2015-11-13 01:27:37
+# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:6z0Y6eaauQfMQZdWzC/1jg
 
 
 # You can replace this text with custom code or comments, and it will be preserved on regeneration

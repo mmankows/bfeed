@@ -2,21 +2,25 @@ package BFeed::Controller::Login;
 use Mojo::Base 'Mojolicious::Controller';
 
 sub index {
-  my $self = shift;
+    my $self = shift;
 
-  my $user = $self->param('user') || '';
-  my $pass = $self->param('pass') || '';
-  
-  my $dbh = $self->dbh('User');
-  my $row = $dbh->find({login=>$user});
-  #return $self->render unless $self->users->check($user, $pass);
+    my $login = $self->param('user') || '';
+    my $pass = $self->param('pass') || '';
 
-  return undef unless $pass eq $row->pass;
+    my $dbh = $self->dbh;
 
+    my $user = $dbh->resultset('User')->search({login=>$login})->first();
+    #return $self->render unless $self->users->check($user, $pass);
+    if (not $user or not $pass eq $user->pass) {
+        return undef;
+    }
 
-  $self->session(user => $user);
-  $self->flash(message => 'Thanks for logging in.');
-  $self->redirect_to('protected');
+    $self->session(
+        user => $user,
+        user_id => $user->user_id,
+    );
+    $self->flash(message => 'Thanks for logging in.');
+    $self->redirect_to('protected');
 }
 
 sub logged_in {

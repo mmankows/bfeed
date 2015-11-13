@@ -14,8 +14,6 @@ sub new {
         $self = bless {
             config => YAML::Syck::LoadFile($cfg_path) || die ("Can't read config")
         };
-        use Data::Dumper;
-        warn Dumper $self;
     }
     return $self;
 } 
@@ -23,7 +21,6 @@ sub new {
 sub db_user {
     my ($self) = @_;
     return $self->{config}{database}{user};
-
 }
 
 sub db_pass {
@@ -39,6 +36,16 @@ sub db_name {
 sub secret {
     my ($self) = @_;
     return join "", map { chr int rand(255) } 1...20;
+}
+
+sub db_data {
+    my ($self) = @_;
+    
+    return (
+        "dbi:mysql:dbname=".$self->db_name, 
+        $self->db_user, 
+        $self->db_pass
+    );
 }
 
 sub kim_jest_klimek {

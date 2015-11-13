@@ -67,7 +67,7 @@ __PACKAGE__->table("beacon");
 
 =head2 description
 
-  data_type: 'blob'
+  data_type: 'text'
   is_nullable: 1
 
 =cut
@@ -88,7 +88,7 @@ __PACKAGE__->add_columns(
   "name",
   { data_type => "char", is_nullable => 0, size => 255 },
   "description",
-  { data_type => "blob", is_nullable => 1 },
+  { data_type => "text", is_nullable => 1 },
 );
 
 =head1 PRIMARY KEY
@@ -136,8 +136,8 @@ __PACKAGE__->belongs_to(
 );
 
 
-# Created by DBIx::Class::Schema::Loader v0.07043 @ 2015-11-12 15:01:47
-# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:lh6rPQApTVhP9hOem/YlMA
+# Created by DBIx::Class::Schema::Loader v0.07043 @ 2015-11-12 23:15:56
+# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:2+0DCTVSF4pb/a9atrckaA
 
 
 # You can replace this text with custom code or comments, and it will be preserved on regeneration

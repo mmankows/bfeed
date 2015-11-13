@@ -623,3 +623,1435 @@ Available drivers: DBM, ExampleP, File, Gofer, Proxy, SQLite, Sponge.
 [Thu Nov 12 15:02:47 2015] [debug] Rendering template "mojo/debug.html.ep"
 [Thu Nov 12 15:02:47 2015] [debug] Rendering template "mojo/menubar.html.ep"
 [Thu Nov 12 15:02:47 2015] [debug] 500 Internal Server Error (0.107231s, 9.326/s)
+[Thu Nov 12 18:05:01 2015] [debug] GET "/content/beacon1"
+[Thu Nov 12 18:05:01 2015] [error] syntax error at lib/BFeed/Controller/Content.pm line 19, near "order_by"
+syntax error at lib/BFeed/Controller/Content.pm line 21, near "})"
+BEGIN not safe after errors--compilation aborted at lib/BFeed/Controller/Content.pm line 22.
+Compilation failed in require at (eval 111) line 1.
+
+[Thu Nov 12 18:05:01 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Nov 12 18:05:01 2015] [debug] Template "exception.html.ep" not found
+[Thu Nov 12 18:05:01 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Thu Nov 12 18:05:01 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Thu Nov 12 18:05:01 2015] [debug] 500 Internal Server Error (0.060052s, 16.652/s)
+[Thu Nov 12 18:05:27 2015] [debug] GET "/content/beacon1"
+[Thu Nov 12 18:05:27 2015] [error] syntax error at lib/BFeed/Controller/Content.pm line 19, near "order_by"
+BEGIN not safe after errors--compilation aborted at lib/BFeed/Controller/Content.pm line 22.
+Compilation failed in require at (eval 111) line 1.
+
+[Thu Nov 12 18:05:27 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Nov 12 18:05:27 2015] [debug] Template "exception.html.ep" not found
+[Thu Nov 12 18:05:27 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Thu Nov 12 18:05:27 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Thu Nov 12 18:05:27 2015] [debug] 500 Internal Server Error (0.026591s, 37.607/s)
+[Thu Nov 12 18:05:39 2015] [debug] GET "/content/beacon1"
+[Thu Nov 12 18:05:39 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get"
+[Thu Nov 12 18:05:39 2015] [error] DBIx::Class::Schema::resultset(): resultset() expects a source name at lib/BFeed.pm line 18
+
+[Thu Nov 12 18:05:39 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Nov 12 18:05:39 2015] [debug] Template "exception.html.ep" not found
+[Thu Nov 12 18:05:39 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Thu Nov 12 18:05:39 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Thu Nov 12 18:05:39 2015] [debug] 500 Internal Server Error (0.057750s, 17.316/s)
+[Thu Nov 12 18:18:34 2015] [debug] GET "/content/beacon1"
+[Thu Nov 12 18:18:34 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get"
+[Thu Nov 12 18:18:34 2015] [error] DBIx::Class::Schema::resultset(): resultset() expects a source name at lib/BFeed.pm line 18
+
+[Thu Nov 12 18:18:34 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Nov 12 18:18:34 2015] [debug] Template "exception.html.ep" not found
+[Thu Nov 12 18:18:34 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Thu Nov 12 18:18:34 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Thu Nov 12 18:18:34 2015] [debug] 500 Internal Server Error (0.062651s, 15.961/s)
+[Thu Nov 12 18:18:36 2015] [debug] GET "/content/beacon1"
+[Thu Nov 12 18:18:36 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get"
+[Thu Nov 12 18:18:36 2015] [error] DBIx::Class::Schema::resultset(): resultset() expects a source name at lib/BFeed.pm line 18
+
+[Thu Nov 12 18:18:36 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Nov 12 18:18:36 2015] [debug] Template "exception.html.ep" not found
+[Thu Nov 12 18:18:36 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Thu Nov 12 18:18:36 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Thu Nov 12 18:18:36 2015] [debug] 500 Internal Server Error (0.014481s, 69.056/s)
+[Thu Nov 12 18:18:37 2015] [debug] GET "/content/beacon1"
+[Thu Nov 12 18:18:37 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get"
+[Thu Nov 12 18:18:37 2015] [error] DBIx::Class::Schema::resultset(): resultset() expects a source name at lib/BFeed.pm line 18
+
+[Thu Nov 12 18:18:37 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Nov 12 18:18:37 2015] [debug] Template "exception.html.ep" not found
+[Thu Nov 12 18:18:37 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Thu Nov 12 18:18:37 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Thu Nov 12 18:18:37 2015] [debug] 500 Internal Server Error (0.016147s, 61.931/s)
+[Thu Nov 12 18:19:12 2015] [debug] GET "/content/beacon1"
+[Thu Nov 12 18:19:12 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get"
+[Thu Nov 12 18:19:12 2015] [error] DBIx::Class::Schema::source(): Can't find source for BFeed::Controller::Content=HASH(0x2726198) at lib/BFeed.pm line 18
+
+[Thu Nov 12 18:19:12 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Nov 12 18:19:12 2015] [debug] Template "exception.html.ep" not found
+[Thu Nov 12 18:19:12 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Thu Nov 12 18:19:12 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Thu Nov 12 18:19:12 2015] [debug] 500 Internal Server Error (0.063179s, 15.828/s)
+[Thu Nov 12 18:20:20 2015] [debug] GET "/content/beacon1"
+[Thu Nov 12 18:20:20 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get"
+[Thu Nov 12 18:20:20 2015] [error] Can't locate object method "status" via package "BFeed::Controller::Content" at /home/maniek/perl5/perlbrew/perls/perl-5.20.0/lib/site_perl/5.20.0/Mojolicious.pm line 119.
+
+[Thu Nov 12 18:20:20 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Nov 12 18:20:20 2015] [debug] Template "exception.html.ep" not found
+[Thu Nov 12 18:20:20 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Thu Nov 12 18:20:20 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Thu Nov 12 18:20:20 2015] [debug] 500 Internal Server Error (0.100881s, 9.913/s)
+[Thu Nov 12 18:21:20 2015] [debug] GET "/content/beacon1"
+[Thu Nov 12 18:21:20 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get"
+[Thu Nov 12 18:21:20 2015] [error] Can't locate object method "status" via package "BFeed::Controller::Content" at /home/maniek/perl5/perlbrew/perls/perl-5.20.0/lib/site_perl/5.20.0/Mojolicious.pm line 119.
+
+[Thu Nov 12 18:21:20 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Nov 12 18:21:20 2015] [debug] Template "exception.html.ep" not found
+[Thu Nov 12 18:21:20 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Thu Nov 12 18:21:20 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Thu Nov 12 18:21:20 2015] [debug] 500 Internal Server Error (0.114307s, 8.748/s)
+[Thu Nov 12 18:23:37 2015] [debug] GET "/content/beacon1"
+[Thu Nov 12 18:23:37 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get"
+[Thu Nov 12 18:23:37 2015] [debug] 404 Not Found (0.096734s, 10.338/s)
+[Thu Nov 12 18:24:00 2015] [debug] GET "/content/beacon1"
+[Thu Nov 12 18:24:00 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get"
+[Thu Nov 12 18:24:00 2015] [debug] 404 Not Found (0.088518s, 11.297/s)
+[Thu Nov 12 18:26:33 2015] [debug] GET "/content/beacon1"
+[Thu Nov 12 18:26:33 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get"
+[Thu Nov 12 18:26:33 2015] [debug] 404 Not Found (0.104486s, 9.571/s)
+[Thu Nov 12 18:26:36 2015] [debug] GET "/content/beacon1"
+[Thu Nov 12 18:26:36 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get"
+[Thu Nov 12 18:26:36 2015] [debug] 404 Not Found (0.012627s, 79.195/s)
+[Thu Nov 12 18:26:42 2015] [debug] GET "/content/beacon1"
+[Thu Nov 12 18:26:42 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get"
+[Thu Nov 12 18:26:42 2015] [debug] 404 Not Found (0.010973s, 91.133/s)
+[Thu Nov 12 18:27:00 2015] [debug] GET "/content/beacon1"
+[Thu Nov 12 18:27:00 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get"
+[Thu Nov 12 18:27:00 2015] [debug] Template "content/get.html.ep" not found
+[Thu Nov 12 18:27:00 2015] [debug] Nothing has been rendered, expecting delayed response
+[Thu Nov 12 18:27:15 2015] [debug] Inactivity timeout
+[Thu Nov 12 18:27:15 2015] [debug] GET "/content/beacon1"
+[Thu Nov 12 18:27:15 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get"
+[Thu Nov 12 18:27:15 2015] [debug] Template "content/get.html.ep" not found
+[Thu Nov 12 18:27:15 2015] [debug] Nothing has been rendered, expecting delayed response
+[Thu Nov 12 18:27:30 2015] [debug] Inactivity timeout
+[Thu Nov 12 18:27:55 2015] [debug] GET "/content/beacon1"
+[Thu Nov 12 18:27:55 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get"
+[Thu Nov 12 18:27:55 2015] [debug] 200 OK (0.081572s, 12.259/s)
+[Thu Nov 12 18:30:06 2015] [debug] GET "/content/beacon1"
+[Thu Nov 12 18:30:06 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get"
+[Thu Nov 12 18:30:06 2015] [error] Can't locate object method "row" via package "BFeed::Model::Result::Beacon" at lib/BFeed/Controller/Content.pm line 12.
+
+[Thu Nov 12 18:30:06 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Nov 12 18:30:06 2015] [debug] Template "exception.html.ep" not found
+[Thu Nov 12 18:30:06 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Thu Nov 12 18:30:06 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Thu Nov 12 18:30:06 2015] [debug] 500 Internal Server Error (0.106496s, 9.390/s)
+[Thu Nov 12 18:32:07 2015] [debug] GET "/content/beacon1"
+[Thu Nov 12 18:32:07 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get"
+[Thu Nov 12 18:32:08 2015] [debug] 200 OK (0.110360s, 9.061/s)
+[Thu Nov 12 18:36:06 2015] [debug] GET "/content/beacon1"
+[Thu Nov 12 18:36:06 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get"
+[Thu Nov 12 18:36:06 2015] [error] Can't locate object method "hash_row" via package "BFeed::Model::Result::Beacon" at lib/BFeed/Controller/Content.pm line 24.
+
+[Thu Nov 12 18:36:06 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Nov 12 18:36:06 2015] [debug] Template "exception.html.ep" not found
+[Thu Nov 12 18:36:06 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Thu Nov 12 18:36:06 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Thu Nov 12 18:36:06 2015] [debug] 500 Internal Server Error (0.124333s, 8.043/s)
+[Thu Nov 12 18:36:53 2015] [debug] GET "/content/beacon1"
+[Thu Nov 12 18:36:53 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get"
+[Thu Nov 12 18:36:53 2015] [error] Can't locate object method "hashref_first" via package "BFeed::Model::Result::Beacon" at lib/BFeed/Controller/Content.pm line 24.
+
+[Thu Nov 12 18:36:53 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Nov 12 18:36:53 2015] [debug] Template "exception.html.ep" not found
+[Thu Nov 12 18:36:53 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Thu Nov 12 18:36:53 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Thu Nov 12 18:36:53 2015] [debug] 500 Internal Server Error (0.114083s, 8.766/s)
+[Thu Nov 12 18:43:25 2015] [debug] GET "/content/beacon1"
+[Thu Nov 12 18:43:25 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get"
+[Thu Nov 12 18:43:26 2015] [error] Can't locate object method "first" via package "BFeed::Model::Result::Beacon" at lib/BFeed/Controller/Content.pm line 9.
+
+[Thu Nov 12 18:43:26 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Nov 12 18:43:26 2015] [debug] Template "exception.html.ep" not found
+[Thu Nov 12 18:43:26 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Thu Nov 12 18:43:26 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Thu Nov 12 18:43:26 2015] [debug] 500 Internal Server Error (0.119500s, 8.368/s)
+[Thu Nov 12 18:43:54 2015] [debug] GET "/content/beacon1"
+[Thu Nov 12 18:43:54 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get"
+[Thu Nov 12 18:43:54 2015] [error] DBIx::Class::Storage::DBI::_dbh_execute(): DBI Exception: DBD::mysql::st execute failed: Unknown column 'short_id' in 'where clause' [for Statement "SELECT me.rule_id, me.content_id, me.beacon_id, me.name, me.desc, me.rule, me.type FROM rule me  JOIN content content ON content.content_id = me.content_id WHERE ( short_id = ? ) ORDER BY rule_id" with ParamValues: 0='1'] at lib/BFeed/Controller/Content.pm line 14
+
+[Thu Nov 12 18:43:54 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Nov 12 18:43:54 2015] [debug] Template "exception.html.ep" not found
+[Thu Nov 12 18:43:54 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Thu Nov 12 18:43:54 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Thu Nov 12 18:43:54 2015] [debug] 500 Internal Server Error (0.141102s, 7.087/s)
+[Thu Nov 12 18:44:33 2015] [debug] GET "/content/beacon1"
+[Thu Nov 12 18:44:33 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get"
+[Thu Nov 12 18:44:34 2015] [debug] 200 OK (0.113428s, 8.816/s)
+[Thu Nov 12 18:45:09 2015] [debug] GET "/content/beacon1"
+[Thu Nov 12 18:45:09 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get"
+[Thu Nov 12 18:45:10 2015] [debug] 200 OK (0.105351s, 9.492/s)
+[Thu Nov 12 18:51:18 2015] [debug] GET "/"
+[Thu Nov 12 18:51:18 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Thu Nov 12 18:51:18 2015] [error] Can't call method "pass" on an undefined value at lib/BFeed/Controller/Login.pm line 14.
+
+[Thu Nov 12 18:51:18 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Nov 12 18:51:18 2015] [debug] Template "exception.html.ep" not found
+[Thu Nov 12 18:51:18 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Thu Nov 12 18:51:18 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Thu Nov 12 18:51:18 2015] [debug] 500 Internal Server Error (0.131429s, 7.609/s)
+[Thu Nov 12 18:51:43 2015] [debug] GET "/content/beacon1"
+[Thu Nov 12 18:51:43 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get"
+[Thu Nov 12 18:51:43 2015] [error] Can't locate object method "hash_rs" via package "BFeed::Model::Result::Beacon" at lib/BFeed/Controller/Content.pm line 24.
+
+[Thu Nov 12 18:51:43 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Nov 12 18:51:43 2015] [debug] Template "exception.html.ep" not found
+[Thu Nov 12 18:51:43 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Thu Nov 12 18:51:43 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Thu Nov 12 18:51:43 2015] [debug] 500 Internal Server Error (0.464396s, 2.153/s)
+[Thu Nov 12 18:52:20 2015] [debug] GET "/content/beacon1"
+[Thu Nov 12 18:52:20 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get"
+[Thu Nov 12 18:52:20 2015] [error] Can't locate object method "hashref_rs" via package "BFeed::Model::Result::Beacon" at lib/BFeed/Controller/Content.pm line 24.
+
+[Thu Nov 12 18:52:20 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Nov 12 18:52:20 2015] [debug] Template "exception.html.ep" not found
+[Thu Nov 12 18:52:20 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Thu Nov 12 18:52:20 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Thu Nov 12 18:52:20 2015] [debug] 500 Internal Server Error (0.103889s, 9.626/s)
+[Thu Nov 12 18:53:52 2015] [debug] GET "/content/beacon1"
+[Thu Nov 12 18:53:52 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get"
+[Thu Nov 12 18:53:52 2015] [error] Can't call method "beacon_id" on unblessed reference at lib/BFeed/Controller/Content.pm line 14.
+
+[Thu Nov 12 18:53:52 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Nov 12 18:53:52 2015] [debug] Template "exception.html.ep" not found
+[Thu Nov 12 18:53:52 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Thu Nov 12 18:53:52 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Thu Nov 12 18:53:52 2015] [debug] 500 Internal Server Error (0.126179s, 7.925/s)
+[Thu Nov 12 18:55:07 2015] [debug] GET "/content/beacon1"
+[Thu Nov 12 18:55:07 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get"
+[Thu Nov 12 18:55:07 2015] [error] Can't locate object method "first" via package "BFeed::Model::Result::Beacon" at lib/BFeed/Controller/Content.pm line 9.
+
+[Thu Nov 12 18:55:07 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Nov 12 18:55:07 2015] [debug] Template "exception.html.ep" not found
+[Thu Nov 12 18:55:07 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Thu Nov 12 18:55:07 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Thu Nov 12 18:55:07 2015] [debug] 500 Internal Server Error (0.096347s, 10.379/s)
+[Thu Nov 12 18:55:41 2015] [debug] GET "/content/beacon1"
+[Thu Nov 12 18:55:41 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get"
+[Thu Nov 12 18:55:41 2015] [debug] 200 OK (0.072094s, 13.871/s)
+[Thu Nov 12 18:56:08 2015] [debug] GET "/content/beacon1"
+[Thu Nov 12 18:56:08 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get"
+[Thu Nov 12 18:56:09 2015] [debug] 200 OK (0.076150s, 13.132/s)
+[Thu Nov 12 18:56:31 2015] [debug] GET "/content/beacon1"
+[Thu Nov 12 18:56:31 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get"
+[Thu Nov 12 18:56:31 2015] [debug] 200 OK (0.107313s, 9.319/s)
+[Thu Nov 12 18:59:12 2015] [debug] GET "/content/beacon1"
+[Thu Nov 12 18:59:12 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get"
+[Thu Nov 12 18:59:12 2015] [error] DBIx::Class::Storage::DBI::_dbh_execute(): DBI Exception: DBD::mysql::st execute failed: Unknown column 'short_id' in 'where clause' [for Statement "SELECT me.rule_id, me.content_id, me.beacon_id, me.name, me.desc, me.rule, me.type FROM rule me  JOIN content content ON content.content_id = me.content_id WHERE ( short_id = ? ) ORDER BY rule_id" with ParamValues: 0='1'] at lib/BFeed/Controller/Content.pm line 13
+
+[Thu Nov 12 18:59:12 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Nov 12 18:59:12 2015] [debug] Template "exception.html.ep" not found
+[Thu Nov 12 18:59:12 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Thu Nov 12 18:59:12 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Thu Nov 12 18:59:12 2015] [debug] 500 Internal Server Error (0.102283s, 9.777/s)
+[Thu Nov 12 18:59:51 2015] [debug] GET "/content/beacon1"
+[Thu Nov 12 18:59:51 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get"
+[Thu Nov 12 18:59:51 2015] [error] Can't locate object method "url" via package "BFeed::Model::Result::Rule" at lib/BFeed/Controller/Content.pm line 25.
+
+[Thu Nov 12 18:59:51 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Nov 12 18:59:51 2015] [debug] Template "exception.html.ep" not found
+[Thu Nov 12 18:59:51 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Thu Nov 12 18:59:51 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Thu Nov 12 18:59:51 2015] [debug] 500 Internal Server Error (0.101007s, 9.900/s)
+[Thu Nov 12 19:03:41 2015] [debug] GET "/content/beacon1"
+[Thu Nov 12 19:03:41 2015] [error] Global symbol "$ule" requires explicit package name at lib/BFeed/Controller/Content.pm line 27.
+Compilation failed in require at (eval 111) line 1.
+
+[Thu Nov 12 19:03:41 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Nov 12 19:03:41 2015] [debug] Template "exception.html.ep" not found
+[Thu Nov 12 19:03:41 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Thu Nov 12 19:03:41 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Thu Nov 12 19:03:41 2015] [debug] 500 Internal Server Error (0.031238s, 32.012/s)
+[Thu Nov 12 19:03:50 2015] [debug] GET "/content/beacon1"
+[Thu Nov 12 19:03:50 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get"
+[Thu Nov 12 19:03:50 2015] [debug] 200 OK (0.097418s, 10.265/s)
+[Thu Nov 12 19:07:42 2015] [debug] GET "/content/beacon1"
+[Thu Nov 12 19:07:42 2015] [error] Global symbol "$resp" requires explicit package name at lib/BFeed/Controller/Content.pm line 40.
+Compilation failed in require at (eval 111) line 1.
+
+[Thu Nov 12 19:07:42 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Nov 12 19:07:42 2015] [debug] Template "exception.html.ep" not found
+[Thu Nov 12 19:07:42 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Thu Nov 12 19:07:42 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Thu Nov 12 19:07:42 2015] [debug] 500 Internal Server Error (0.047460s, 21.070/s)
+[Thu Nov 12 19:08:04 2015] [debug] GET "/content/beacon1"
+[Thu Nov 12 19:08:04 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get"
+[Thu Nov 12 19:08:05 2015] [debug] 200 OK (0.104558s, 9.564/s)
+[Thu Nov 12 19:12:15 2015] [debug] GET "/content/beacon1"
+[Thu Nov 12 19:12:15 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get"
+[Thu Nov 12 19:12:15 2015] [error] Can't call method "content" on an undefined value at lib/BFeed/Controller/Content.pm line 26.
+
+[Thu Nov 12 19:12:15 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Nov 12 19:12:15 2015] [debug] Template "exception.html.ep" not found
+[Thu Nov 12 19:12:15 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Thu Nov 12 19:12:15 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Thu Nov 12 19:12:15 2015] [debug] 500 Internal Server Error (0.112648s, 8.877/s)
+[Thu Nov 12 19:13:00 2015] [debug] GET "/content/beacon1"
+[Thu Nov 12 19:13:00 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get"
+[Thu Nov 12 19:13:00 2015] [error] Can't call method "content" on an undefined value at lib/BFeed/Controller/Content.pm line 26.
+
+[Thu Nov 12 19:13:00 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Nov 12 19:13:00 2015] [debug] Template "exception.html.ep" not found
+[Thu Nov 12 19:13:00 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Thu Nov 12 19:13:00 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Thu Nov 12 19:13:00 2015] [debug] 500 Internal Server Error (0.105854s, 9.447/s)
+[Thu Nov 12 19:13:01 2015] [debug] GET "/content/beacon1"
+[Thu Nov 12 19:13:01 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get"
+[Thu Nov 12 19:13:02 2015] [error] Can't call method "content" on an undefined value at lib/BFeed/Controller/Content.pm line 26.
+
+[Thu Nov 12 19:13:02 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Nov 12 19:13:02 2015] [debug] Template "exception.html.ep" not found
+[Thu Nov 12 19:13:02 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Thu Nov 12 19:13:02 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Thu Nov 12 19:13:02 2015] [debug] 500 Internal Server Error (0.192553s, 5.193/s)
+[Thu Nov 12 19:13:15 2015] [debug] GET "/content/beacon1"
+[Thu Nov 12 19:13:15 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get"
+[Thu Nov 12 19:13:15 2015] [error] Can't use an undefined value as an ARRAY reference at lib/BFeed/Controller/Content.pm line 59.
+
+[Thu Nov 12 19:13:15 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Nov 12 19:13:15 2015] [debug] Template "exception.html.ep" not found
+[Thu Nov 12 19:13:15 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Thu Nov 12 19:13:15 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Thu Nov 12 19:13:15 2015] [debug] 500 Internal Server Error (0.101057s, 9.895/s)
+[Thu Nov 12 19:13:40 2015] [debug] GET "/content/beacon1"
+[Thu Nov 12 19:13:40 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get"
+[Thu Nov 12 19:13:40 2015] [error] Can't call method "content" on an undefined value at lib/BFeed/Controller/Content.pm line 26.
+
+[Thu Nov 12 19:13:40 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Nov 12 19:13:40 2015] [debug] Template "exception.html.ep" not found
+[Thu Nov 12 19:13:40 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Thu Nov 12 19:13:40 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Thu Nov 12 19:13:40 2015] [debug] 500 Internal Server Error (0.099731s, 10.027/s)
+[Thu Nov 12 19:13:57 2015] [debug] GET "/content/beacon1"
+[Thu Nov 12 19:13:57 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get"
+[Thu Nov 12 19:13:57 2015] [error] Not an ARRAY reference at lib/BFeed/Controller/Content.pm line 60.
+
+[Thu Nov 12 19:13:57 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Nov 12 19:13:57 2015] [debug] Template "exception.html.ep" not found
+[Thu Nov 12 19:13:57 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Thu Nov 12 19:13:57 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Thu Nov 12 19:13:57 2015] [debug] 500 Internal Server Error (0.120055s, 8.330/s)
+[Thu Nov 12 19:14:16 2015] [debug] GET "/content/beacon1"
+[Thu Nov 12 19:14:16 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get"
+[Thu Nov 12 19:14:16 2015] [error] Can't call method "content" on an undefined value at lib/BFeed/Controller/Content.pm line 27.
+
+[Thu Nov 12 19:14:16 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Nov 12 19:14:16 2015] [debug] Template "exception.html.ep" not found
+[Thu Nov 12 19:14:16 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Thu Nov 12 19:14:16 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Thu Nov 12 19:14:16 2015] [debug] 500 Internal Server Error (0.100826s, 9.918/s)
+[Thu Nov 12 19:14:57 2015] [debug] GET "/content/beacon1"
+[Thu Nov 12 19:14:57 2015] [error] Global symbol "@rules" requires explicit package name at lib/BFeed/Controller/Content.pm line 60.
+Compilation failed in require at (eval 111) line 1.
+
+[Thu Nov 12 19:14:57 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Nov 12 19:14:57 2015] [debug] Template "exception.html.ep" not found
+[Thu Nov 12 19:14:57 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Thu Nov 12 19:14:57 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Thu Nov 12 19:14:57 2015] [debug] 500 Internal Server Error (0.025467s, 39.267/s)
+[Thu Nov 12 19:15:23 2015] [debug] GET "/content/beacon1"
+[Thu Nov 12 19:15:23 2015] [error] Global symbol "@rules" requires explicit package name at lib/BFeed/Controller/Content.pm line 60.
+Compilation failed in require at (eval 111) line 1.
+
+[Thu Nov 12 19:15:23 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Nov 12 19:15:23 2015] [debug] Template "exception.html.ep" not found
+[Thu Nov 12 19:15:23 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Thu Nov 12 19:15:23 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Thu Nov 12 19:15:23 2015] [debug] 500 Internal Server Error (0.025939s, 38.552/s)
+[Thu Nov 12 19:15:38 2015] [debug] GET "/content/beacon1"
+[Thu Nov 12 19:15:38 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get"
+[Thu Nov 12 19:15:38 2015] [debug] 200 OK (0.082705s, 12.091/s)
+[Thu Nov 12 19:52:04 2015] [debug] GET "/content/beacon1"
+[Thu Nov 12 19:52:04 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get"
+[Thu Nov 12 19:52:05 2015] [debug] 200 OK (0.075474s, 13.250/s)
+[Thu Nov 12 19:52:17 2015] [debug] DELETE "/content/7"
+[Thu Nov 12 19:52:17 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Thu Nov 12 19:52:17 2015] [debug] 302 Found (0.001143s, 874.891/s)
+[Thu Nov 12 19:52:20 2015] [debug] DELETE "/content/7"
+[Thu Nov 12 19:52:20 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Thu Nov 12 19:52:20 2015] [debug] 302 Found (0.000906s, 1103.753/s)
+[Thu Nov 12 19:53:14 2015] [debug] DELETE "/content/7"
+[Thu Nov 12 19:53:14 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Thu Nov 12 19:53:14 2015] [debug] 302 Found (0.004140s, 241.546/s)
+[Thu Nov 12 19:53:36 2015] [debug] DELETE "/content/7"
+[Thu Nov 12 19:53:36 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Thu Nov 12 19:53:36 2015] [debug] 302 Found (0.002658s, 376.223/s)
+[Thu Nov 12 19:54:04 2015] [debug] POST "/content/7"
+[Thu Nov 12 19:54:04 2015] [debug] Template "not_found.development.html.ep" not found
+[Thu Nov 12 19:54:04 2015] [debug] Template "not_found.html.ep" not found
+[Thu Nov 12 19:54:04 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Thu Nov 12 19:54:04 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Thu Nov 12 19:54:04 2015] [debug] 404 Not Found (0.028232s, 35.421/s)
+[Thu Nov 12 19:54:12 2015] [debug] PUT "/content/7"
+[Thu Nov 12 19:54:12 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Thu Nov 12 19:54:12 2015] [debug] 302 Found (0.001424s, 702.247/s)
+[Thu Nov 12 19:54:21 2015] [debug] GET "/content/7"
+[Thu Nov 12 19:54:21 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get"
+[Thu Nov 12 19:54:21 2015] [debug] 404 Not Found (0.074347s, 13.450/s)
+[Thu Nov 12 19:54:37 2015] [debug] DELETE "/content/7"
+[Thu Nov 12 19:54:37 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Thu Nov 12 19:54:37 2015] [debug] 302 Found (0.000872s, 1146.789/s)
+[Thu Nov 12 19:54:39 2015] [debug] DELETE "/content/7"
+[Thu Nov 12 19:54:39 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Thu Nov 12 19:54:39 2015] [debug] 302 Found (0.000860s, 1162.791/s)
+[Thu Nov 12 19:54:39 2015] [debug] DELETE "/content/7"
+[Thu Nov 12 19:54:39 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Thu Nov 12 19:54:39 2015] [debug] 302 Found (0.000838s, 1193.317/s)
+[Thu Nov 12 19:54:40 2015] [debug] DELETE "/content/7"
+[Thu Nov 12 19:54:40 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Thu Nov 12 19:54:40 2015] [debug] 302 Found (0.000856s, 1168.224/s)
+[Thu Nov 12 19:54:40 2015] [debug] DELETE "/content/7"
+[Thu Nov 12 19:54:40 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Thu Nov 12 19:54:40 2015] [debug] 302 Found (0.001226s, 815.661/s)
+[Thu Nov 12 19:54:41 2015] [debug] DELETE "/content/7"
+[Thu Nov 12 19:54:41 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Thu Nov 12 19:54:41 2015] [debug] 302 Found (0.001086s, 920.810/s)
+[Thu Nov 12 19:54:42 2015] [debug] DELETE "/content/7"
+[Thu Nov 12 19:54:42 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Thu Nov 12 19:54:42 2015] [debug] 302 Found (0.000980s, 1020.408/s)
+[Thu Nov 12 19:54:42 2015] [debug] DELETE "/content/7"
+[Thu Nov 12 19:54:42 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Thu Nov 12 19:54:42 2015] [debug] 302 Found (0.000900s, 1111.111/s)
+[Thu Nov 12 19:54:43 2015] [debug] DELETE "/content/7"
+[Thu Nov 12 19:54:43 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Thu Nov 12 19:54:43 2015] [debug] 302 Found (0.000490s, 2040.816/s)
+[Thu Nov 12 19:54:43 2015] [debug] DELETE "/content/7"
+[Thu Nov 12 19:54:43 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Thu Nov 12 19:54:43 2015] [debug] 302 Found (0.000824s, 1213.592/s)
+[Thu Nov 12 19:54:43 2015] [debug] DELETE "/content/7"
+[Thu Nov 12 19:54:43 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Thu Nov 12 19:54:43 2015] [debug] 302 Found (0.000880s, 1136.364/s)
+[Thu Nov 12 19:54:44 2015] [debug] DELETE "/content/7"
+[Thu Nov 12 19:54:44 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Thu Nov 12 19:54:44 2015] [debug] 302 Found (0.000532s, 1879.699/s)
+[Thu Nov 12 19:54:44 2015] [debug] DELETE "/content/7"
+[Thu Nov 12 19:54:44 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Thu Nov 12 19:54:44 2015] [debug] 302 Found (0.001127s, 887.311/s)
+[Thu Nov 12 19:54:46 2015] [debug] DELETE "/content/7"
+[Thu Nov 12 19:54:46 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Thu Nov 12 19:54:46 2015] [debug] 302 Found (0.001236s, 809.061/s)
+[Thu Nov 12 19:54:46 2015] [debug] DELETE "/content/7"
+[Thu Nov 12 19:54:46 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Thu Nov 12 19:54:46 2015] [debug] 302 Found (0.000929s, 1076.426/s)
+[Thu Nov 12 19:54:47 2015] [debug] DELETE "/content/7"
+[Thu Nov 12 19:54:47 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Thu Nov 12 19:54:47 2015] [debug] 302 Found (0.000875s, 1142.857/s)
+[Thu Nov 12 19:54:48 2015] [debug] DELETE "/content/7"
+[Thu Nov 12 19:54:48 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Thu Nov 12 19:54:48 2015] [debug] 302 Found (0.001139s, 877.963/s)
+[Thu Nov 12 19:54:48 2015] [debug] DELETE "/content/7"
+[Thu Nov 12 19:54:48 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Thu Nov 12 19:54:48 2015] [debug] 302 Found (0.000884s, 1131.222/s)
+[Thu Nov 12 19:54:49 2015] [debug] DELETE "/content/7"
+[Thu Nov 12 19:54:49 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Thu Nov 12 19:54:49 2015] [debug] 302 Found (0.000923s, 1083.424/s)
+[Thu Nov 12 19:55:17 2015] [debug] GET "/user=test"
+[Thu Nov 12 19:55:17 2015] [debug] Template "not_found.development.html.ep" not found
+[Thu Nov 12 19:55:17 2015] [debug] Template "not_found.html.ep" not found
+[Thu Nov 12 19:55:17 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Thu Nov 12 19:55:17 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Thu Nov 12 19:55:17 2015] [debug] 404 Not Found (0.011044s, 90.547/s)
+[Thu Nov 12 19:55:41 2015] [debug] GET "/"
+[Thu Nov 12 19:55:41 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Thu Nov 12 19:55:41 2015] [error] Can't call method "pass" on an undefined value at lib/BFeed/Controller/Login.pm line 14.
+
+[Thu Nov 12 19:55:41 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Nov 12 19:55:41 2015] [debug] Template "exception.html.ep" not found
+[Thu Nov 12 19:55:41 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Thu Nov 12 19:55:41 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Thu Nov 12 19:55:41 2015] [debug] 500 Internal Server Error (0.026356s, 37.942/s)
+[Thu Nov 12 20:02:49 2015] [debug] GET "/user=test"
+[Thu Nov 12 20:02:49 2015] [debug] Template "not_found.development.html.ep" not found
+[Thu Nov 12 20:02:49 2015] [debug] Template "not_found.html.ep" not found
+[Thu Nov 12 20:02:49 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Thu Nov 12 20:02:49 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Thu Nov 12 20:02:49 2015] [debug] 404 Not Found (0.043806s, 22.828/s)
+[Thu Nov 12 20:05:57 2015] [debug] GET "/"
+[Thu Nov 12 20:05:57 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Thu Nov 12 20:05:57 2015] [error] Can't locate object method "pass" via package "DBIx::Class::ResultSet" at lib/BFeed/Controller/Login.pm line 14.
+
+[Thu Nov 12 20:05:57 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Nov 12 20:05:57 2015] [debug] Template "exception.html.ep" not found
+[Thu Nov 12 20:05:57 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Thu Nov 12 20:05:57 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Thu Nov 12 20:05:57 2015] [debug] 500 Internal Server Error (0.068345s, 14.632/s)
+[Thu Nov 12 20:06:41 2015] [debug] GET "/"
+[Thu Nov 12 20:06:41 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Thu Nov 12 20:06:41 2015] [error] Can't locate object method "pass" via package "DBIx::Class::ResultSet" at lib/BFeed/Controller/Login.pm line 14.
+
+[Thu Nov 12 20:06:41 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Nov 12 20:06:41 2015] [debug] Template "exception.html.ep" not found
+[Thu Nov 12 20:06:41 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Thu Nov 12 20:06:41 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Thu Nov 12 20:06:41 2015] [debug] 500 Internal Server Error (0.083004s, 12.048/s)
+[Thu Nov 12 20:08:28 2015] [debug] GET "/"
+[Thu Nov 12 20:08:29 2015] [error] Global symbol "$user_pass" requires explicit package name at lib/BFeed/Controller/Login.pm line 14.
+Compilation failed in require at (eval 111) line 1.
+
+[Thu Nov 12 20:08:29 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Nov 12 20:08:29 2015] [debug] Template "exception.html.ep" not found
+[Thu Nov 12 20:08:29 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Thu Nov 12 20:08:29 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Thu Nov 12 20:08:29 2015] [debug] 500 Internal Server Error (0.051940s, 19.253/s)
+[Thu Nov 12 20:08:46 2015] [debug] GET "/"
+[Thu Nov 12 20:08:46 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Thu Nov 12 20:08:47 2015] [error] Can't call method "pass" on an undefined value at lib/BFeed/Controller/Login.pm line 15.
+
+[Thu Nov 12 20:08:47 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Nov 12 20:08:47 2015] [debug] Template "exception.html.ep" not found
+[Thu Nov 12 20:08:47 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Thu Nov 12 20:08:47 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Thu Nov 12 20:08:47 2015] [debug] 500 Internal Server Error (0.096048s, 10.411/s)
+[Thu Nov 12 20:09:18 2015] [debug] GET "/"
+[Thu Nov 12 20:09:18 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Thu Nov 12 20:09:18 2015] [debug] Rendering template "login/index.html.ep"
+[Thu Nov 12 20:09:18 2015] [debug] Rendering template "layouts/default.html.ep"
+[Thu Nov 12 20:09:18 2015] [debug] 200 OK (0.094021s, 10.636/s)
+[Thu Nov 12 20:09:22 2015] [debug] GET "/"
+[Thu Nov 12 20:09:22 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Thu Nov 12 20:09:22 2015] [debug] 302 Found (0.007382s, 135.465/s)
+[Thu Nov 12 20:09:22 2015] [debug] GET "/protected"
+[Thu Nov 12 20:09:22 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Thu Nov 12 20:09:22 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "protected"
+[Thu Nov 12 20:09:22 2015] [debug] Action not found in controller
+[Thu Nov 12 20:09:22 2015] [debug] Rendering template "login/protected.html.ep"
+[Thu Nov 12 20:09:22 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Thu Nov 12 20:09:22 2015] [debug] 200 OK (0.065442s, 15.281/s)
+[Thu Nov 12 22:00:28 2015] [debug] GET "/protected"
+[Thu Nov 12 22:00:28 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Thu Nov 12 22:00:28 2015] [debug] 302 Found (0.003416s, 292.740/s)
+[Thu Nov 12 22:00:28 2015] [debug] GET "/"
+[Thu Nov 12 22:00:28 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Thu Nov 12 22:00:28 2015] [debug] Rendering template "login/index.html.ep"
+[Thu Nov 12 22:00:28 2015] [debug] Rendering template "layouts/default.html.ep"
+[Thu Nov 12 22:00:28 2015] [debug] 200 OK (0.094120s, 10.625/s)
+[Thu Nov 12 22:00:34 2015] [debug] GET "/"
+[Thu Nov 12 22:00:34 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Thu Nov 12 22:00:34 2015] [debug] 302 Found (0.005458s, 183.217/s)
+[Thu Nov 12 22:00:34 2015] [debug] GET "/protected"
+[Thu Nov 12 22:00:34 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Thu Nov 12 22:00:34 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "protected"
+[Thu Nov 12 22:00:34 2015] [debug] Action not found in controller
+[Thu Nov 12 22:00:34 2015] [debug] Rendering template "login/protected.html.ep"
+[Thu Nov 12 22:00:34 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Thu Nov 12 22:00:34 2015] [debug] 200 OK (0.002371s, 421.763/s)
+[Thu Nov 12 22:00:38 2015] [debug] GET "/protected"
+[Thu Nov 12 22:00:38 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Thu Nov 12 22:00:38 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "protected"
+[Thu Nov 12 22:00:38 2015] [debug] Action not found in controller
+[Thu Nov 12 22:00:38 2015] [debug] Rendering cached template "login/protected.html.ep"
+[Thu Nov 12 22:00:38 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Thu Nov 12 22:00:38 2015] [debug] 200 OK (0.003682s, 271.592/s)
+[Thu Nov 12 22:00:39 2015] [debug] GET "/protected"
+[Thu Nov 12 22:00:39 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Thu Nov 12 22:00:39 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "protected"
+[Thu Nov 12 22:00:39 2015] [debug] Action not found in controller
+[Thu Nov 12 22:00:39 2015] [debug] Rendering cached template "login/protected.html.ep"
+[Thu Nov 12 22:00:39 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Thu Nov 12 22:00:39 2015] [debug] 200 OK (0.001990s, 502.513/s)
+[Thu Nov 12 22:00:39 2015] [debug] GET "/protected"
+[Thu Nov 12 22:00:39 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Thu Nov 12 22:00:39 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "protected"
+[Thu Nov 12 22:00:39 2015] [debug] Action not found in controller
+[Thu Nov 12 22:00:39 2015] [debug] Rendering cached template "login/protected.html.ep"
+[Thu Nov 12 22:00:39 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Thu Nov 12 22:00:39 2015] [debug] 200 OK (0.002437s, 410.341/s)
+[Thu Nov 12 22:00:40 2015] [debug] GET "/protected"
+[Thu Nov 12 22:00:40 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Thu Nov 12 22:00:40 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "protected"
+[Thu Nov 12 22:00:40 2015] [debug] Action not found in controller
+[Thu Nov 12 22:00:40 2015] [debug] Rendering cached template "login/protected.html.ep"
+[Thu Nov 12 22:00:40 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Thu Nov 12 22:00:40 2015] [debug] 200 OK (0.002671s, 374.392/s)
+[Thu Nov 12 22:00:41 2015] [debug] GET "/protected"
+[Thu Nov 12 22:00:41 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Thu Nov 12 22:00:41 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "protected"
+[Thu Nov 12 22:00:41 2015] [debug] Action not found in controller
+[Thu Nov 12 22:00:41 2015] [debug] Rendering cached template "login/protected.html.ep"
+[Thu Nov 12 22:00:41 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Thu Nov 12 22:00:41 2015] [debug] 200 OK (0.002795s, 357.782/s)
+[Thu Nov 12 22:00:41 2015] [debug] GET "/protected"
+[Thu Nov 12 22:00:41 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Thu Nov 12 22:00:41 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "protected"
+[Thu Nov 12 22:00:41 2015] [debug] Action not found in controller
+[Thu Nov 12 22:00:41 2015] [debug] Rendering cached template "login/protected.html.ep"
+[Thu Nov 12 22:00:41 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Thu Nov 12 22:00:41 2015] [debug] 200 OK (0.002040s, 490.196/s)
+[Thu Nov 12 22:00:43 2015] [debug] GET "/"
+[Thu Nov 12 22:00:43 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Thu Nov 12 22:00:43 2015] [debug] Rendering cached template "login/index.html.ep"
+[Thu Nov 12 22:00:43 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Thu Nov 12 22:00:43 2015] [debug] 200 OK (0.004566s, 219.010/s)
+[Thu Nov 12 22:00:47 2015] [debug] GET "/"
+[Thu Nov 12 22:00:47 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Thu Nov 12 22:00:47 2015] [debug] Rendering cached template "login/index.html.ep"
+[Thu Nov 12 22:00:47 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Thu Nov 12 22:00:47 2015] [debug] 200 OK (0.005895s, 169.635/s)
+[Thu Nov 12 22:00:48 2015] [debug] GET "/"
+[Thu Nov 12 22:00:48 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Thu Nov 12 22:00:48 2015] [debug] Rendering cached template "login/index.html.ep"
+[Thu Nov 12 22:00:48 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Thu Nov 12 22:00:48 2015] [debug] 200 OK (0.005340s, 187.266/s)
+[Thu Nov 12 22:00:50 2015] [debug] GET "/protected"
+[Thu Nov 12 22:00:50 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Thu Nov 12 22:00:50 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "protected"
+[Thu Nov 12 22:00:50 2015] [debug] Action not found in controller
+[Thu Nov 12 22:00:50 2015] [debug] Rendering cached template "login/protected.html.ep"
+[Thu Nov 12 22:00:50 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Thu Nov 12 22:00:50 2015] [debug] 200 OK (0.002026s, 493.583/s)
+[Thu Nov 12 22:01:36 2015] [debug] GET "/protected"
+[Thu Nov 12 22:01:36 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Thu Nov 12 22:01:36 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "protected"
+[Thu Nov 12 22:01:36 2015] [debug] Action not found in controller
+[Thu Nov 12 22:01:36 2015] [debug] Rendering template "login/protected.html.ep"
+[Thu Nov 12 22:01:36 2015] [debug] Rendering template "layouts/default.html.ep"
+[Thu Nov 12 22:01:36 2015] [debug] 200 OK (0.013204s, 75.735/s)
+[Thu Nov 12 22:03:36 2015] [debug] DELETE "/content/3"
+[Thu Nov 12 22:03:36 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Thu Nov 12 22:03:36 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "delete"
+[Thu Nov 12 22:03:36 2015] [debug] 200 OK (0.141543s, 7.065/s)
+[Thu Nov 12 22:03:42 2015] [debug] DELETE "/content/3"
+[Thu Nov 12 22:03:42 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Thu Nov 12 22:03:42 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "delete"
+[Thu Nov 12 22:03:42 2015] [debug] 404 Not Found (0.003728s, 268.240/s)
+[Thu Nov 12 22:13:52 2015] [debug] DELETE "/content/5"
+[Thu Nov 12 22:13:52 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Thu Nov 12 22:13:52 2015] [error] Bareword "BFeed::Controller" not allowed while "strict subs" in use at lib/BFeed/Controller/Content.pm line 3.
+Compilation failed in require at (eval 112) line 1.
+
+[Thu Nov 12 22:13:52 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Nov 12 22:13:52 2015] [debug] Template "exception.html.ep" not found
+[Thu Nov 12 22:13:52 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Thu Nov 12 22:13:52 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Thu Nov 12 22:13:52 2015] [debug] 500 Internal Server Error (0.027634s, 36.187/s)
+[Thu Nov 12 22:22:19 2015] [debug] DELETE "/content/5"
+[Thu Nov 12 22:22:19 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Thu Nov 12 22:22:19 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "delete"
+[Thu Nov 12 22:22:19 2015] [debug] Action not found in controller
+[Thu Nov 12 22:22:19 2015] [debug] Template "content/delete.html.ep" not found
+[Thu Nov 12 22:22:19 2015] [debug] Template "not_found.development.html.ep" not found
+[Thu Nov 12 22:22:19 2015] [debug] Template "not_found.html.ep" not found
+[Thu Nov 12 22:22:19 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Thu Nov 12 22:22:19 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Thu Nov 12 22:22:19 2015] [debug] 404 Not Found (0.011158s, 89.622/s)
+[Thu Nov 12 22:22:39 2015] [debug] DELETE "/content/5"
+[Thu Nov 12 22:22:39 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Thu Nov 12 22:22:39 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "delete"
+[Thu Nov 12 22:22:39 2015] [debug] Action not found in controller
+[Thu Nov 12 22:22:39 2015] [debug] Template "content/delete.html.ep" not found
+[Thu Nov 12 22:22:39 2015] [debug] Template "not_found.development.html.ep" not found
+[Thu Nov 12 22:22:39 2015] [debug] Template "not_found.html.ep" not found
+[Thu Nov 12 22:22:39 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Thu Nov 12 22:22:39 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Thu Nov 12 22:22:39 2015] [debug] 404 Not Found (0.006285s, 159.109/s)
+[Thu Nov 12 22:22:49 2015] [debug] DELETE "/content/5"
+[Thu Nov 12 22:22:49 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Thu Nov 12 22:22:49 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "delete"
+[Thu Nov 12 22:22:49 2015] [debug] Action not found in controller
+[Thu Nov 12 22:22:49 2015] [debug] Template "content/delete.html.ep" not found
+[Thu Nov 12 22:22:49 2015] [debug] Template "not_found.development.html.ep" not found
+[Thu Nov 12 22:22:49 2015] [debug] Template "not_found.html.ep" not found
+[Thu Nov 12 22:22:49 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Thu Nov 12 22:22:49 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Thu Nov 12 22:22:49 2015] [debug] 404 Not Found (0.017641s, 56.686/s)
+[Thu Nov 12 22:22:55 2015] [debug] GET "/protected"
+[Thu Nov 12 22:22:55 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Thu Nov 12 22:22:55 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "protected"
+[Thu Nov 12 22:22:55 2015] [debug] Action not found in controller
+[Thu Nov 12 22:22:55 2015] [debug] Rendering template "login/protected.html.ep"
+[Thu Nov 12 22:22:55 2015] [debug] Rendering template "layouts/default.html.ep"
+[Thu Nov 12 22:22:55 2015] [debug] 200 OK (0.003597s, 278.009/s)
+[Thu Nov 12 22:23:50 2015] [debug] DELETE "/content/5"
+[Thu Nov 12 22:23:50 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Thu Nov 12 22:23:50 2015] [error] Bareword "BFeed::Controller" not allowed while "strict subs" in use at lib/BFeed/Controller/Content.pm line 3.
+Compilation failed in require at (eval 112) line 1.
+
+[Thu Nov 12 22:23:50 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Nov 12 22:23:50 2015] [debug] Template "exception.html.ep" not found
+[Thu Nov 12 22:23:50 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Thu Nov 12 22:23:50 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Thu Nov 12 22:23:50 2015] [debug] 500 Internal Server Error (0.028231s, 35.422/s)
+[Thu Nov 12 22:24:41 2015] [debug] DELETE "/content/5"
+[Thu Nov 12 22:24:41 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Thu Nov 12 22:24:41 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "delete"
+[Thu Nov 12 22:24:41 2015] [debug] Action not found in controller
+[Thu Nov 12 22:24:41 2015] [debug] Template "content/delete.html.ep" not found
+[Thu Nov 12 22:24:41 2015] [debug] Template "not_found.development.html.ep" not found
+[Thu Nov 12 22:24:41 2015] [debug] Template "not_found.html.ep" not found
+[Thu Nov 12 22:24:41 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Thu Nov 12 22:24:41 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Thu Nov 12 22:24:41 2015] [debug] 404 Not Found (0.011655s, 85.800/s)
+[Thu Nov 12 22:25:33 2015] [debug] DELETE "/content/5"
+[Thu Nov 12 22:25:33 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Thu Nov 12 22:25:33 2015] [debug] Cookie "mojolicious" has a bad signature
+[Thu Nov 12 22:25:33 2015] [debug] 302 Found (0.002990s, 334.448/s)
+[Thu Nov 12 22:25:33 2015] [debug] DELETE "/"
+[Thu Nov 12 22:25:33 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Thu Nov 12 22:25:33 2015] [debug] Rendering template "login/index.html.ep"
+[Thu Nov 12 22:25:33 2015] [debug] Cookie "mojolicious" has a bad signature
+[Thu Nov 12 22:25:33 2015] [debug] Rendering template "layouts/default.html.ep"
+[Thu Nov 12 22:25:33 2015] [debug] 200 OK (0.069936s, 14.299/s)
+[Thu Nov 12 22:25:39 2015] [debug] GET "/"
+[Thu Nov 12 22:25:39 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Thu Nov 12 22:25:39 2015] [debug] Rendering cached template "login/index.html.ep"
+[Thu Nov 12 22:25:39 2015] [debug] Cookie "mojolicious" has a bad signature
+[Thu Nov 12 22:25:39 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Thu Nov 12 22:25:39 2015] [debug] 200 OK (0.005056s, 197.785/s)
+[Thu Nov 12 22:25:40 2015] [debug] GET "/"
+[Thu Nov 12 22:25:40 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Thu Nov 12 22:25:40 2015] [debug] Cookie "mojolicious" has a bad signature
+[Thu Nov 12 22:25:40 2015] [debug] Cookie "mojolicious" has a bad signature
+[Thu Nov 12 22:25:40 2015] [debug] 302 Found (0.006374s, 156.887/s)
+[Thu Nov 12 22:25:40 2015] [debug] GET "/protected"
+[Thu Nov 12 22:25:40 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Thu Nov 12 22:25:40 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "protected"
+[Thu Nov 12 22:25:40 2015] [debug] Action not found in controller
+[Thu Nov 12 22:25:40 2015] [debug] Rendering template "login/protected.html.ep"
+[Thu Nov 12 22:25:40 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Thu Nov 12 22:25:40 2015] [debug] 200 OK (0.002659s, 376.081/s)
+[Thu Nov 12 22:25:54 2015] [debug] DELETE "/content/5"
+[Thu Nov 12 22:25:54 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Thu Nov 12 22:25:54 2015] [error] Bareword "BFeed::Controller" not allowed while "strict subs" in use at lib/BFeed/Controller/Content.pm line 3.
+Compilation failed in require at (eval 145) line 1.
+
+[Thu Nov 12 22:25:54 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Nov 12 22:25:54 2015] [debug] Template "exception.html.ep" not found
+[Thu Nov 12 22:25:54 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Thu Nov 12 22:25:54 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Thu Nov 12 22:25:54 2015] [debug] 500 Internal Server Error (0.026781s, 37.340/s)
+[Thu Nov 12 22:28:21 2015] [debug] DELETE "/content/5"
+[Thu Nov 12 22:28:21 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Thu Nov 12 22:28:21 2015] [error] Bareword "BFeed::Controller" not allowed while "strict subs" in use at lib/BFeed/Controller/Content.pm line 3.
+Compilation failed in require at (eval 112) line 1.
+
+[Thu Nov 12 22:28:21 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Nov 12 22:28:21 2015] [debug] Template "exception.html.ep" not found
+[Thu Nov 12 22:28:21 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Thu Nov 12 22:28:21 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Thu Nov 12 22:28:21 2015] [debug] 500 Internal Server Error (0.039413s, 25.372/s)
+[Thu Nov 12 22:31:49 2015] [debug] GET "/content/5"
+[Thu Nov 12 22:31:49 2015] [error] Bareword "BFeed::Controller" not allowed while "strict subs" in use at lib/BFeed/Controller/Content.pm line 3.
+Compilation failed in require at (eval 111) line 1.
+
+[Thu Nov 12 22:31:49 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Nov 12 22:31:49 2015] [debug] Template "exception.html.ep" not found
+[Thu Nov 12 22:31:49 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Thu Nov 12 22:31:49 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Thu Nov 12 22:31:49 2015] [debug] 500 Internal Server Error (0.040951s, 24.419/s)
+[Thu Nov 12 22:33:26 2015] [debug] GET "/content/5"
+[Thu Nov 12 22:33:26 2015] [error] Bareword "BFeed::Controller" not allowed while "strict subs" in use at lib/BFeed/Controller/Content.pm line 3.
+Compilation failed in require at (eval 111) line 1.
+
+[Thu Nov 12 22:33:26 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Nov 12 22:33:26 2015] [debug] Template "exception.html.ep" not found
+[Thu Nov 12 22:33:26 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Thu Nov 12 22:33:26 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Thu Nov 12 22:33:26 2015] [debug] 500 Internal Server Error (0.040688s, 24.577/s)
+[Thu Nov 12 22:33:48 2015] [debug] GET "/content/5"
+[Thu Nov 12 22:33:48 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "delete"
+[Thu Nov 12 22:33:48 2015] [debug] Action not found in controller
+[Thu Nov 12 22:33:48 2015] [debug] Template "content/delete.html.ep" not found
+[Thu Nov 12 22:33:48 2015] [debug] Template "not_found.development.html.ep" not found
+[Thu Nov 12 22:33:48 2015] [debug] Template "not_found.html.ep" not found
+[Thu Nov 12 22:33:48 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Thu Nov 12 22:33:48 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Thu Nov 12 22:33:48 2015] [debug] 404 Not Found (0.012623s, 79.220/s)
+[Thu Nov 12 22:37:18 2015] [debug] GET "/content/5"
+[Thu Nov 12 22:37:18 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "delete"
+[Thu Nov 12 22:37:18 2015] [error] DBIx::Class::Schema::source(): Can't find source for content at lib/BFeed/Controller.pm line 41
+
+[Thu Nov 12 22:37:18 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Nov 12 22:37:18 2015] [debug] Template "exception.html.ep" not found
+[Thu Nov 12 22:37:18 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Thu Nov 12 22:37:18 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Thu Nov 12 22:37:18 2015] [debug] 500 Internal Server Error (0.058517s, 17.089/s)
+[Thu Nov 12 22:40:46 2015] [debug] GET "/content/5"
+[Thu Nov 12 22:40:46 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "delete"
+[Thu Nov 12 22:40:46 2015] [error] Undefined subroutine &BFeed::Controller::camelize called at lib/BFeed/Controller.pm line 42.
+
+[Thu Nov 12 22:40:46 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Nov 12 22:40:46 2015] [debug] Template "exception.html.ep" not found
+[Thu Nov 12 22:40:46 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Thu Nov 12 22:40:46 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Thu Nov 12 22:40:46 2015] [debug] 500 Internal Server Error (0.087584s, 11.418/s)
+[Thu Nov 12 22:41:20 2015] [debug] GET "/content/5"
+[Thu Nov 12 22:41:20 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "delete"
+[Thu Nov 12 22:41:20 2015] [debug] 200 OK (0.120173s, 8.321/s)
+[Thu Nov 12 22:51:03 2015] [debug] POST "/content/7"
+[Thu Nov 12 22:51:03 2015] [debug] Template "not_found.development.html.ep" not found
+[Thu Nov 12 22:51:03 2015] [debug] Template "not_found.html.ep" not found
+[Thu Nov 12 22:51:03 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Thu Nov 12 22:51:03 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Thu Nov 12 22:51:03 2015] [debug] 404 Not Found (0.039882s, 25.074/s)
+[Thu Nov 12 22:51:19 2015] [debug] POST "/content"
+[Thu Nov 12 22:51:19 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Thu Nov 12 22:51:19 2015] [debug] 302 Found (0.003082s, 324.465/s)
+[Thu Nov 12 22:51:31 2015] [debug] POST "/content"
+[Thu Nov 12 22:51:31 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Thu Nov 12 22:51:31 2015] [debug] 302 Found (0.000966s, 1035.197/s)
+[Thu Nov 12 22:51:36 2015] [debug] POST "/content"
+[Thu Nov 12 22:51:36 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Thu Nov 12 22:51:36 2015] [debug] 302 Found (0.000457s, 2188.184/s)
+[Thu Nov 12 22:53:13 2015] [debug] POST "/content"
+[Thu Nov 12 22:53:13 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "post"
+[Thu Nov 12 22:53:13 2015] [error] DBIx::Class::Schema::resultset(): resultset() expects a source name at lib/BFeed/Controller.pm line 21
+
+[Thu Nov 12 22:53:13 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Nov 12 22:53:13 2015] [debug] Template "exception.html.ep" not found
+[Thu Nov 12 22:53:13 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Thu Nov 12 22:53:13 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Thu Nov 12 22:53:13 2015] [debug] 500 Internal Server Error (0.052566s, 19.024/s)
+[Thu Nov 12 22:53:18 2015] [debug] POST "/content"
+[Thu Nov 12 22:53:18 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "post"
+[Thu Nov 12 22:53:18 2015] [error] DBIx::Class::Schema::resultset(): resultset() expects a source name at lib/BFeed/Controller.pm line 21
+
+[Thu Nov 12 22:53:18 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Nov 12 22:53:18 2015] [debug] Template "exception.html.ep" not found
+[Thu Nov 12 22:53:18 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Thu Nov 12 22:53:18 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Thu Nov 12 22:53:18 2015] [debug] 500 Internal Server Error (0.010674s, 93.686/s)
+[Thu Nov 12 22:53:21 2015] [debug] POST "/content"
+[Thu Nov 12 22:53:21 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "post"
+[Thu Nov 12 22:53:21 2015] [error] DBIx::Class::Schema::resultset(): resultset() expects a source name at lib/BFeed/Controller.pm line 21
+
+[Thu Nov 12 22:53:21 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Nov 12 22:53:21 2015] [debug] Template "exception.html.ep" not found
+[Thu Nov 12 22:53:21 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Thu Nov 12 22:53:21 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Thu Nov 12 22:53:21 2015] [debug] 500 Internal Server Error (0.010615s, 94.206/s)
+[Thu Nov 12 22:53:39 2015] [debug] POST "/content"
+[Thu Nov 12 22:53:39 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "post"
+[Thu Nov 12 22:53:39 2015] [error] DBIx::Class::Schema::resultset(): resultset() expects a source name at lib/BFeed/Controller.pm line 21
+
+[Thu Nov 12 22:53:39 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Nov 12 22:53:39 2015] [debug] Template "exception.html.ep" not found
+[Thu Nov 12 22:53:39 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Thu Nov 12 22:53:39 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Thu Nov 12 22:53:39 2015] [debug] 500 Internal Server Error (0.056052s, 17.841/s)
+[Thu Nov 12 22:54:24 2015] [debug] POST "/content"
+[Thu Nov 12 22:54:24 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "post"
+[Thu Nov 12 22:54:24 2015] [error] DBIx::Class::Schema::resultset(): resultset() expects a source name at lib/BFeed/Controller.pm line 21
+
+[Thu Nov 12 22:54:24 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Nov 12 22:54:24 2015] [debug] Template "exception.html.ep" not found
+[Thu Nov 12 22:54:24 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Thu Nov 12 22:54:24 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Thu Nov 12 22:54:24 2015] [debug] 500 Internal Server Error (0.081069s, 12.335/s)
+[Thu Nov 12 22:54:27 2015] [debug] POST "/content"
+[Thu Nov 12 22:54:27 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "post"
+[Thu Nov 12 22:54:27 2015] [error] DBIx::Class::Schema::resultset(): resultset() expects a source name at lib/BFeed/Controller.pm line 21
+
+[Thu Nov 12 22:54:27 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Nov 12 22:54:27 2015] [debug] Template "exception.html.ep" not found
+[Thu Nov 12 22:54:27 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Thu Nov 12 22:54:27 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Thu Nov 12 22:54:27 2015] [debug] 500 Internal Server Error (0.015397s, 64.948/s)
+[Thu Nov 12 22:54:28 2015] [debug] POST "/content"
+[Thu Nov 12 22:54:28 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "post"
+[Thu Nov 12 22:54:28 2015] [error] DBIx::Class::Schema::resultset(): resultset() expects a source name at lib/BFeed/Controller.pm line 21
+
+[Thu Nov 12 22:54:28 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Nov 12 22:54:28 2015] [debug] Template "exception.html.ep" not found
+[Thu Nov 12 22:54:28 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Thu Nov 12 22:54:28 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Thu Nov 12 22:54:28 2015] [debug] 500 Internal Server Error (0.015508s, 64.483/s)
+[Thu Nov 12 22:54:29 2015] [debug] POST "/content"
+[Thu Nov 12 22:54:29 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "post"
+[Thu Nov 12 22:54:29 2015] [error] DBIx::Class::Schema::resultset(): resultset() expects a source name at lib/BFeed/Controller.pm line 21
+
+[Thu Nov 12 22:54:29 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Nov 12 22:54:29 2015] [debug] Template "exception.html.ep" not found
+[Thu Nov 12 22:54:29 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Thu Nov 12 22:54:29 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Thu Nov 12 22:54:29 2015] [debug] 500 Internal Server Error (0.010003s, 99.970/s)
+[Thu Nov 12 22:54:30 2015] [debug] POST "/content"
+[Thu Nov 12 22:54:30 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "post"
+[Thu Nov 12 22:54:30 2015] [error] DBIx::Class::Schema::resultset(): resultset() expects a source name at lib/BFeed/Controller.pm line 21
+
+[Thu Nov 12 22:54:30 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Nov 12 22:54:30 2015] [debug] Template "exception.html.ep" not found
+[Thu Nov 12 22:54:30 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Thu Nov 12 22:54:30 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Thu Nov 12 22:54:30 2015] [debug] 500 Internal Server Error (0.014093s, 70.957/s)
+[Thu Nov 12 22:54:30 2015] [debug] POST "/content"
+[Thu Nov 12 22:54:30 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "post"
+[Thu Nov 12 22:54:30 2015] [error] DBIx::Class::Schema::resultset(): resultset() expects a source name at lib/BFeed/Controller.pm line 21
+
+[Thu Nov 12 22:54:30 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Nov 12 22:54:30 2015] [debug] Template "exception.html.ep" not found
+[Thu Nov 12 22:54:30 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Thu Nov 12 22:54:30 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Thu Nov 12 22:54:30 2015] [debug] 500 Internal Server Error (0.010216s, 97.886/s)
+[Thu Nov 12 22:54:31 2015] [debug] POST "/content"
+[Thu Nov 12 22:54:31 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "post"
+[Thu Nov 12 22:54:31 2015] [error] DBIx::Class::Schema::resultset(): resultset() expects a source name at lib/BFeed/Controller.pm line 21
+
+[Thu Nov 12 22:54:31 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Nov 12 22:54:31 2015] [debug] Template "exception.html.ep" not found
+[Thu Nov 12 22:54:31 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Thu Nov 12 22:54:31 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Thu Nov 12 22:54:31 2015] [debug] 500 Internal Server Error (0.009908s, 100.929/s)
+[Thu Nov 12 22:54:32 2015] [debug] POST "/content"
+[Thu Nov 12 22:54:32 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "post"
+[Thu Nov 12 22:54:32 2015] [error] DBIx::Class::Schema::resultset(): resultset() expects a source name at lib/BFeed/Controller.pm line 21
+
+[Thu Nov 12 22:54:32 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Nov 12 22:54:32 2015] [debug] Template "exception.html.ep" not found
+[Thu Nov 12 22:54:32 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Thu Nov 12 22:54:32 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Thu Nov 12 22:54:32 2015] [debug] 500 Internal Server Error (0.014467s, 69.123/s)
+[Thu Nov 12 22:54:32 2015] [debug] POST "/content"
+[Thu Nov 12 22:54:32 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "post"
+[Thu Nov 12 22:54:32 2015] [error] DBIx::Class::Schema::resultset(): resultset() expects a source name at lib/BFeed/Controller.pm line 21
+
+[Thu Nov 12 22:54:32 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Nov 12 22:54:32 2015] [debug] Template "exception.html.ep" not found
+[Thu Nov 12 22:54:32 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Thu Nov 12 22:54:32 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Thu Nov 12 22:54:32 2015] [debug] 500 Internal Server Error (0.014702s, 68.018/s)
+[Thu Nov 12 22:54:34 2015] [debug] POST "/content"
+[Thu Nov 12 22:54:34 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "post"
+[Thu Nov 12 22:54:34 2015] [error] DBIx::Class::Schema::resultset(): resultset() expects a source name at lib/BFeed/Controller.pm line 21
+
+[Thu Nov 12 22:54:34 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Nov 12 22:54:34 2015] [debug] Template "exception.html.ep" not found
+[Thu Nov 12 22:54:34 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Thu Nov 12 22:54:34 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Thu Nov 12 22:54:34 2015] [debug] 500 Internal Server Error (0.010019s, 99.810/s)
+[Thu Nov 12 22:54:34 2015] [debug] POST "/content"
+[Thu Nov 12 22:54:34 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "post"
+[Thu Nov 12 22:54:34 2015] [error] DBIx::Class::Schema::resultset(): resultset() expects a source name at lib/BFeed/Controller.pm line 21
+
+[Thu Nov 12 22:54:34 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Nov 12 22:54:34 2015] [debug] Template "exception.html.ep" not found
+[Thu Nov 12 22:54:34 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Thu Nov 12 22:54:34 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Thu Nov 12 22:54:34 2015] [debug] 500 Internal Server Error (0.011128s, 89.863/s)
+[Thu Nov 12 22:54:36 2015] [debug] POST "/content"
+[Thu Nov 12 22:54:36 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "post"
+[Thu Nov 12 22:54:36 2015] [error] DBIx::Class::Schema::resultset(): resultset() expects a source name at lib/BFeed/Controller.pm line 21
+
+[Thu Nov 12 22:54:36 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Nov 12 22:54:36 2015] [debug] Template "exception.html.ep" not found
+[Thu Nov 12 22:54:36 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Thu Nov 12 22:54:36 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Thu Nov 12 22:54:36 2015] [debug] 500 Internal Server Error (0.016987s, 58.869/s)
+[Thu Nov 12 22:54:38 2015] [debug] POST "/"
+[Thu Nov 12 22:54:38 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Thu Nov 12 22:54:38 2015] [debug] Rendering template "login/index.html.ep"
+[Thu Nov 12 22:54:38 2015] [debug] Rendering template "layouts/default.html.ep"
+[Thu Nov 12 22:54:38 2015] [debug] 200 OK (0.062045s, 16.117/s)
+[Thu Nov 12 22:54:41 2015] [debug] POST "/content"
+[Thu Nov 12 22:54:41 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "post"
+[Thu Nov 12 22:54:41 2015] [error] DBIx::Class::Schema::resultset(): resultset() expects a source name at lib/BFeed/Controller.pm line 21
+
+[Thu Nov 12 22:54:41 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Nov 12 22:54:41 2015] [debug] Template "exception.html.ep" not found
+[Thu Nov 12 22:54:41 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Thu Nov 12 22:54:41 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Thu Nov 12 22:54:41 2015] [debug] 500 Internal Server Error (0.015853s, 63.080/s)
+[Thu Nov 12 22:55:48 2015] [debug] POST "/content"
+[Thu Nov 12 22:55:48 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "post"
+[Thu Nov 12 22:55:48 2015] [error] DBIx::Class::Schema::resultset(): resultset() expects a source name at lib/BFeed/Controller.pm line 22
+
+[Thu Nov 12 22:55:48 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Nov 12 22:55:48 2015] [debug] Template "exception.html.ep" not found
+[Thu Nov 12 22:55:48 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Thu Nov 12 22:55:48 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Thu Nov 12 22:55:48 2015] [debug] 500 Internal Server Error (0.058268s, 17.162/s)
+[Thu Nov 12 22:56:08 2015] [debug] POST "/content"
+[Thu Nov 12 22:56:08 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "post"
+[Thu Nov 12 22:56:08 2015] [error] DBIx::Class::Schema::resultset(): resultset() expects a source name at lib/BFeed/Controller.pm line 22
+
+[Thu Nov 12 22:56:08 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Nov 12 22:56:08 2015] [debug] Template "exception.html.ep" not found
+[Thu Nov 12 22:56:08 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Thu Nov 12 22:56:08 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Thu Nov 12 22:56:08 2015] [debug] 500 Internal Server Error (0.057178s, 17.489/s)
+[Thu Nov 12 22:56:35 2015] [debug] POST "/content"
+[Thu Nov 12 22:56:35 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "post"
+[Thu Nov 12 22:56:35 2015] [error] DBIx::Class::Schema::resultset(): resultset() expects a source name at lib/BFeed/Controller.pm line 21
+
+[Thu Nov 12 22:56:35 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Nov 12 22:56:35 2015] [debug] Template "exception.html.ep" not found
+[Thu Nov 12 22:56:35 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Thu Nov 12 22:56:35 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Thu Nov 12 22:56:35 2015] [debug] 500 Internal Server Error (0.058637s, 17.054/s)
+[Thu Nov 12 22:57:44 2015] [debug] POST "/content"
+[Thu Nov 12 22:57:44 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "post"
+[Thu Nov 12 22:57:44 2015] [error] DBIx::Class::Schema::resultset(): resultset() expects a source name at lib/BFeed/Controller.pm line 21
+
+[Thu Nov 12 22:57:44 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Nov 12 22:57:44 2015] [debug] Template "exception.html.ep" not found
+[Thu Nov 12 22:57:44 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Thu Nov 12 22:57:44 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Thu Nov 12 22:57:44 2015] [debug] 500 Internal Server Error (0.016227s, 61.626/s)
+[Thu Nov 12 23:02:50 2015] [debug] POST "/content"
+[Thu Nov 12 23:02:50 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "post"
+[Thu Nov 12 23:02:50 2015] [error] DBIx::Class::Schema::resultset(): resultset() expects a source name at lib/BFeed/Controller.pm line 21
+
+[Thu Nov 12 23:02:50 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Nov 12 23:02:50 2015] [debug] Template "exception.html.ep" not found
+[Thu Nov 12 23:02:50 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Thu Nov 12 23:02:50 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Thu Nov 12 23:02:50 2015] [debug] 500 Internal Server Error (0.085214s, 11.735/s)
+[Thu Nov 12 23:04:01 2015] [debug] POST "/content"
+[Thu Nov 12 23:04:01 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "post"
+[Thu Nov 12 23:04:01 2015] [error] DBIx::Class::Schema::resultset(): resultset() expects a source name at lib/BFeed/Controller.pm line 21
+
+[Thu Nov 12 23:04:01 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Nov 12 23:04:01 2015] [debug] Template "exception.html.ep" not found
+[Thu Nov 12 23:04:01 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Thu Nov 12 23:04:01 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Thu Nov 12 23:04:01 2015] [debug] 500 Internal Server Error (0.058043s, 17.229/s)
+[Thu Nov 12 23:05:10 2015] [debug] POST "/content"
+[Thu Nov 12 23:05:10 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "post"
+[Thu Nov 12 23:05:10 2015] [error] DBIx::Class::Schema::resultset(): resultset() expects a source name at lib/BFeed/Controller.pm line 21
+
+[Thu Nov 12 23:05:10 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Nov 12 23:05:10 2015] [debug] Template "exception.html.ep" not found
+[Thu Nov 12 23:05:10 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Thu Nov 12 23:05:10 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Thu Nov 12 23:05:10 2015] [debug] 500 Internal Server Error (0.082237s, 12.160/s)
+[Thu Nov 12 23:06:01 2015] [debug] POST "/content"
+[Thu Nov 12 23:06:01 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "post"
+[Thu Nov 12 23:06:01 2015] [error] DBIx::Class::Storage::DBI::_dbh_execute(): DBI Exception: DBD::mysql::st execute failed: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'desc, img_url, name, url) VALUES ( '', 'someurl', 'mojkon1', 'someurl' )' at line 1 [for Statement "INSERT INTO content ( desc, img_url, name, url) VALUES ( ?, ?, ?, ? )" with ParamValues: 0="", 1="someurl", 2="mojkon1", 3="someurl"] at lib/BFeed/Controller.pm line 21
+
+[Thu Nov 12 23:06:01 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Nov 12 23:06:01 2015] [debug] Template "exception.html.ep" not found
+[Thu Nov 12 23:06:01 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Thu Nov 12 23:06:01 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Thu Nov 12 23:06:01 2015] [debug] 500 Internal Server Error (0.115431s, 8.663/s)
+[Thu Nov 12 23:10:17 2015] [debug] POST "/content"
+[Thu Nov 12 23:10:17 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "post"
+[Thu Nov 12 23:10:17 2015] [error] DBIx::Class::Storage::DBI::_dbh_execute(): DBI Exception: DBD::mysql::st execute failed: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'desc, img_url, name, url) VALUES ( '', 'someurl', 'mojkon1', 'someurl' )' at line 1 [for Statement "INSERT INTO content ( desc, img_url, name, url) VALUES ( ?, ?, ?, ? )" with ParamValues: 0="", 1="someurl", 2="mojkon1", 3="someurl"] at lib/BFeed/Controller.pm line 21
+
+[Thu Nov 12 23:10:17 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Nov 12 23:10:17 2015] [debug] Template "exception.html.ep" not found
+[Thu Nov 12 23:10:17 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Thu Nov 12 23:10:17 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Thu Nov 12 23:10:17 2015] [debug] 500 Internal Server Error (0.021241s, 47.079/s)
+[Thu Nov 12 23:10:50 2015] [debug] POST "/content"
+[Thu Nov 12 23:10:50 2015] [error] syntax error at lib/BFeed/Controller.pm line 28, near ") {"
+Global symbol "$self" requires explicit package name at lib/BFeed/Controller.pm line 31.
+Global symbol "$resp" requires explicit package name at lib/BFeed/Controller.pm line 34.
+syntax error at lib/BFeed/Controller.pm line 37, near "}"
+syntax error at lib/BFeed/Controller.pm line 60, near "}"
+syntax error at lib/BFeed/Controller.pm line 83, near "}"
+Compilation failed in require at /home/maniek/perl5/perlbrew/perls/perl-5.20.0/lib/5.20.0/base.pm line 99.
+	...propagated at /home/maniek/perl5/perlbrew/perls/perl-5.20.0/lib/5.20.0/base.pm line 108.
+BEGIN failed--compilation aborted at lib/BFeed/Controller/Content.pm line 3.
+Compilation failed in require at (eval 111) line 1.
+
+[Thu Nov 12 23:10:50 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Nov 12 23:10:50 2015] [debug] Template "exception.html.ep" not found
+[Thu Nov 12 23:10:50 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Thu Nov 12 23:10:50 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Thu Nov 12 23:10:50 2015] [debug] 500 Internal Server Error (0.041963s, 23.831/s)
+[Thu Nov 12 23:11:10 2015] [debug] POST "/content"
+[Thu Nov 12 23:11:10 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "post"
+[Thu Nov 12 23:11:10 2015] [debug] 200 OK (0.066092s, 15.130/s)
+[Thu Nov 12 23:16:26 2015] [debug] POST "/content"
+[Thu Nov 12 23:16:26 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "post"
+[Thu Nov 12 23:16:26 2015] [debug] 200 OK (0.089977s, 11.114/s)
+[Thu Nov 12 23:20:41 2015] [debug] POST "/content"
+[Thu Nov 12 23:20:41 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "post"
+[Thu Nov 12 23:20:41 2015] [debug] 200 OK (0.053562s, 18.670/s)
+[Thu Nov 12 23:21:04 2015] [debug] POST "/content"
+[Thu Nov 12 23:21:04 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "post"
+[Thu Nov 12 23:21:04 2015] [debug] 200 OK (0.010213s, 97.914/s)
+[Thu Nov 12 23:22:16 2015] [debug] POST "/content"
+[Thu Nov 12 23:22:16 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "post"
+[Thu Nov 12 23:22:16 2015] [debug] 200 OK (0.116307s, 8.598/s)
+[Thu Nov 12 23:23:58 2015] [debug] POST "/content"
+[Thu Nov 12 23:23:58 2015] [error] syntax error at lib/BFeed/Controller.pm line 21, near ") ) "
+Missing right curly or square bracket at lib/BFeed/Controller.pm line 82, at end of line
+Compilation failed in require at /home/maniek/perl5/perlbrew/perls/perl-5.20.0/lib/5.20.0/base.pm line 99.
+	...propagated at /home/maniek/perl5/perlbrew/perls/perl-5.20.0/lib/5.20.0/base.pm line 108.
+BEGIN failed--compilation aborted at lib/BFeed/Controller/Content.pm line 3.
+Compilation failed in require at (eval 110) line 1.
+
+[Thu Nov 12 23:23:58 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Nov 12 23:23:58 2015] [debug] Template "exception.html.ep" not found
+[Thu Nov 12 23:23:58 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Thu Nov 12 23:23:58 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Thu Nov 12 23:23:58 2015] [debug] 500 Internal Server Error (0.040372s, 24.770/s)
+[Thu Nov 12 23:24:18 2015] [debug] POST "/content"
+[Thu Nov 12 23:24:18 2015] [error] syntax error at lib/BFeed/Controller.pm line 21, near ") )"
+Compilation failed in require at /home/maniek/perl5/perlbrew/perls/perl-5.20.0/lib/5.20.0/base.pm line 99.
+	...propagated at /home/maniek/perl5/perlbrew/perls/perl-5.20.0/lib/5.20.0/base.pm line 108.
+BEGIN failed--compilation aborted at lib/BFeed/Controller/Content.pm line 3.
+Compilation failed in require at (eval 110) line 1.
+
+[Thu Nov 12 23:24:18 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Nov 12 23:24:18 2015] [debug] Template "exception.html.ep" not found
+[Thu Nov 12 23:24:18 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Thu Nov 12 23:24:18 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Thu Nov 12 23:24:18 2015] [debug] 500 Internal Server Error (0.029588s, 33.797/s)
+[Thu Nov 12 23:24:43 2015] [debug] POST "/content"
+[Thu Nov 12 23:24:43 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "post"
+[Thu Nov 12 23:24:43 2015] [debug] 200 OK (0.122705s, 8.150/s)
+[Thu Nov 12 23:24:51 2015] [debug] POST "/content"
+[Thu Nov 12 23:24:51 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "post"
+[Thu Nov 12 23:24:51 2015] [debug] 200 OK (0.061254s, 16.325/s)
+[Thu Nov 12 23:24:57 2015] [debug] POST "/content"
+[Thu Nov 12 23:24:57 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "post"
+[Thu Nov 12 23:24:57 2015] [debug] 200 OK (0.033214s, 30.108/s)
+[Thu Nov 12 23:32:04 2015] [debug] POST "/content"
+[Thu Nov 12 23:32:04 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "post"
+[Thu Nov 12 23:32:04 2015] [debug] 200 OK (0.044469s, 22.488/s)
+[Thu Nov 12 23:32:55 2015] [debug] POST "/content"
+[Thu Nov 12 23:32:55 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "post"
+[Thu Nov 12 23:32:55 2015] [debug] 200 OK (0.004407s, 226.912/s)
+[Thu Nov 12 23:33:05 2015] [debug] POST "/content"
+[Thu Nov 12 23:33:05 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "post"
+[Thu Nov 12 23:33:05 2015] [debug] 200 OK (0.003182s, 314.268/s)
+[Thu Nov 12 23:33:07 2015] [debug] POST "/content"
+[Thu Nov 12 23:33:07 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "post"
+[Thu Nov 12 23:33:07 2015] [debug] 200 OK (0.003820s, 261.780/s)
+[Thu Nov 12 23:33:43 2015] [debug] POST "/content"
+[Thu Nov 12 23:33:43 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "post"
+[Thu Nov 12 23:33:43 2015] [debug] 200 OK (0.054737s, 18.269/s)
+[Thu Nov 12 23:34:01 2015] [debug] POST "/content"
+[Thu Nov 12 23:34:01 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "post"
+[Thu Nov 12 23:34:01 2015] [debug] 400 Bad Request (0.053727s, 18.613/s)
+[Thu Nov 12 23:34:08 2015] [debug] POST "/user"
+[Thu Nov 12 23:34:08 2015] [debug] Routing to controller "BFeed::Controller::User" and action "post"
+[Thu Nov 12 23:34:08 2015] [debug] 400 Bad Request (0.005068s, 197.316/s)
+[Thu Nov 12 23:34:25 2015] [debug] POST "/user"
+[Thu Nov 12 23:34:25 2015] [debug] Routing to controller "BFeed::Controller::User" and action "post"
+[Thu Nov 12 23:34:25 2015] [debug] 400 Bad Request (0.054803s, 18.247/s)
+[Thu Nov 12 23:34:39 2015] [debug] POST "/user"
+[Thu Nov 12 23:34:39 2015] [debug] Routing to controller "BFeed::Controller::User" and action "post"
+[Thu Nov 12 23:34:39 2015] [debug] 200 OK (0.119468s, 8.370/s)
+[Fri Nov 13 00:03:34 2015] [debug] GET "/user"
+[Fri Nov 13 00:03:34 2015] [debug] Routing to controller "BFeed::Controller::User" and action "get_all"
+[Fri Nov 13 00:03:34 2015] [debug] 200 OK (0.068253s, 14.651/s)
+[Fri Nov 13 00:04:06 2015] [debug] GET "/user"
+[Fri Nov 13 00:04:06 2015] [debug] Routing to controller "BFeed::Controller::User" and action "get_all"
+[Fri Nov 13 00:04:06 2015] [debug] 200 OK (0.066169s, 15.113/s)
+[Fri Nov 13 00:06:00 2015] [debug] GET "/user"
+[Fri Nov 13 00:06:00 2015] [debug] Routing to controller "BFeed::Controller::User" and action "get_all"
+[Fri Nov 13 00:06:00 2015] [debug] 400 Bad Request (0.102033s, 9.801/s)
+[Fri Nov 13 00:07:41 2015] [debug] GET "/rule"
+[Fri Nov 13 00:07:41 2015] [debug] Class "BFeed::Controller::Rule" is not a controller
+[Fri Nov 13 00:07:41 2015] [debug] Template "rule/get_all.html.ep" not found
+[Fri Nov 13 00:07:41 2015] [debug] Template "not_found.development.html.ep" not found
+[Fri Nov 13 00:07:41 2015] [debug] Template "not_found.html.ep" not found
+[Fri Nov 13 00:07:41 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Fri Nov 13 00:07:41 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Fri Nov 13 00:07:41 2015] [debug] 404 Not Found (0.041990s, 23.815/s)
+[Fri Nov 13 00:09:10 2015] [debug] GET "/user"
+[Fri Nov 13 00:09:10 2015] [debug] Routing to controller "BFeed::Controller::User" and action "get_all"
+[Fri Nov 13 00:09:10 2015] [debug] 200 OK (0.066832s, 14.963/s)
+[Fri Nov 13 00:09:33 2015] [debug] GET "/rule"
+[Fri Nov 13 00:09:33 2015] [debug] Class "BFeed::Controller::Rule" is not a controller
+[Fri Nov 13 00:09:33 2015] [debug] Template "rule/get_all.html.ep" not found
+[Fri Nov 13 00:09:33 2015] [debug] Template "not_found.development.html.ep" not found
+[Fri Nov 13 00:09:33 2015] [debug] Template "not_found.html.ep" not found
+[Fri Nov 13 00:09:33 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Fri Nov 13 00:09:33 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Fri Nov 13 00:09:33 2015] [debug] 404 Not Found (0.029238s, 34.202/s)
+[Fri Nov 13 00:10:22 2015] [debug] GET "/rule"
+[Fri Nov 13 00:10:22 2015] [debug] Class "BFeed::Controller::Rule" is not a controller
+[Fri Nov 13 00:10:22 2015] [debug] Template "rule/get_all.html.ep" not found
+[Fri Nov 13 00:10:22 2015] [debug] Template "not_found.development.html.ep" not found
+[Fri Nov 13 00:10:22 2015] [debug] Template "not_found.html.ep" not found
+[Fri Nov 13 00:10:22 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Fri Nov 13 00:10:22 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Fri Nov 13 00:10:22 2015] [debug] 404 Not Found (0.041275s, 24.228/s)
+[Fri Nov 13 00:11:10 2015] [debug] GET "/beacon"
+[Fri Nov 13 00:11:10 2015] [debug] Routing to controller "BFeed::Controller::Beacon" and action "get_all"
+[Fri Nov 13 00:11:10 2015] [debug] 200 OK (0.094501s, 10.582/s)
+[Fri Nov 13 00:11:24 2015] [debug] GET "/beacon"
+[Fri Nov 13 00:11:24 2015] [debug] Routing to controller "BFeed::Controller::Beacon" and action "get_all"
+[Fri Nov 13 00:11:24 2015] [debug] 200 OK (0.096950s, 10.315/s)
+[Fri Nov 13 00:11:31 2015] [debug] GET "/beacon"
+[Fri Nov 13 00:11:31 2015] [debug] Routing to controller "BFeed::Controller::Beacon" and action "get_all"
+[Fri Nov 13 00:11:31 2015] [debug] 200 OK (0.091351s, 10.947/s)
+[Fri Nov 13 00:13:19 2015] [debug] GET "/beacon"
+[Fri Nov 13 00:13:19 2015] [debug] Routing to controller "BFeed::Controller::Beacon" and action "get_all"
+[Fri Nov 13 00:13:19 2015] [debug] 200 OK (0.093824s, 10.658/s)
+[Fri Nov 13 00:13:24 2015] [debug] GET "/rule"
+[Fri Nov 13 00:13:24 2015] [debug] Class "BFeed::Controller::Rule" is not a controller
+[Fri Nov 13 00:13:24 2015] [debug] Template "rule/get_all.html.ep" not found
+[Fri Nov 13 00:13:24 2015] [debug] Template "not_found.development.html.ep" not found
+[Fri Nov 13 00:13:24 2015] [debug] Template "not_found.html.ep" not found
+[Fri Nov 13 00:13:24 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Fri Nov 13 00:13:24 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Fri Nov 13 00:13:24 2015] [debug] 404 Not Found (0.041995s, 23.812/s)
+[Fri Nov 13 00:13:29 2015] [debug] GET "/user"
+[Fri Nov 13 00:13:29 2015] [debug] Routing to controller "BFeed::Controller::User" and action "get_all"
+[Fri Nov 13 00:13:29 2015] [debug] 200 OK (0.003307s, 302.389/s)
+[Fri Nov 13 00:21:34 2015] [debug] GET "/user"
+[Fri Nov 13 00:21:34 2015] [debug] Routing to controller "BFeed::Controller::User" and action "get_all"
+[Fri Nov 13 00:21:34 2015] [debug] 200 OK (0.091267s, 10.957/s)
+[Fri Nov 13 00:21:36 2015] [debug] GET "/rule"
+[Fri Nov 13 00:21:36 2015] [debug] Routing to controller "BFeed::Controller::Rule" and action "get_all"
+[Fri Nov 13 00:21:36 2015] [debug] 400 Bad Request (0.005229s, 191.241/s)
+[Fri Nov 13 00:25:09 2015] [debug] GET "/rule"
+[Fri Nov 13 00:25:09 2015] [debug] Routing to controller "BFeed::Controller::Rule" and action "get_all"
+[Fri Nov 13 00:25:09 2015] [debug] 400 Bad Request (0.069624s, 14.363/s)
+[Fri Nov 13 00:25:29 2015] [debug] GET "/rule"
+[Fri Nov 13 00:25:29 2015] [debug] Routing to controller "BFeed::Controller::Rule" and action "get_all"
+[Fri Nov 13 00:25:29 2015] [debug] 400 Bad Request (0.109008s, 9.174/s)
+[Fri Nov 13 01:03:08 2015] [debug] GET "/beacon/beacon1"
+[Fri Nov 13 01:03:08 2015] [debug] Routing to controller "BFeed::Controller::Beacon" and action "get"
+[Fri Nov 13 01:03:08 2015] [debug] 404 Not Found (0.068693s, 14.558/s)
+[Fri Nov 13 01:03:34 2015] [debug] GET "/beacon/beacon1"
+[Fri Nov 13 01:03:34 2015] [debug] Routing to controller "BFeed::Controller::Beacon" and action "get"
+[Fri Nov 13 01:03:34 2015] [debug] 404 Not Found (0.089355s, 11.191/s)
+[Fri Nov 13 01:04:22 2015] [debug] GET "/"
+[Fri Nov 13 01:04:22 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Fri Nov 13 01:04:22 2015] [debug] Rendering template "login/index.html.ep"
+[Fri Nov 13 01:04:22 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri Nov 13 01:04:22 2015] [debug] 200 OK (0.072469s, 13.799/s)
+[Fri Nov 13 01:04:26 2015] [debug] GET "/beacon/"
+[Fri Nov 13 01:04:26 2015] [debug] Routing to controller "BFeed::Controller::Beacon" and action "get_all"
+[Fri Nov 13 01:04:26 2015] [debug] 200 OK (0.008512s, 117.481/s)
+[Fri Nov 13 01:04:30 2015] [debug] GET "/beacon/beacon1"
+[Fri Nov 13 01:04:30 2015] [debug] Routing to controller "BFeed::Controller::Beacon" and action "get"
+[Fri Nov 13 01:04:30 2015] [debug] 404 Not Found (0.005652s, 176.929/s)
+[Fri Nov 13 01:05:22 2015] [debug] GET "/beacon/1"
+[Fri Nov 13 01:05:22 2015] [debug] Routing to controller "BFeed::Controller::Beacon" and action "get"
+[Fri Nov 13 01:05:22 2015] [debug] 200 OK (0.005143s, 194.439/s)
+[Fri Nov 13 01:14:37 2015] [debug] GET "/beacon/1"
+[Fri Nov 13 01:14:37 2015] [debug] Routing to controller "BFeed::Controller::Beacon" and action "get"
+[Fri Nov 13 01:14:37 2015] [error] Can't locate object method "_to_hashref" via package "BFeed::Model::Result::Beacon" at lib/BFeed/Controller.pm line 52.
+
+[Fri Nov 13 01:14:37 2015] [debug] Template "exception.development.html.ep" not found
+[Fri Nov 13 01:14:37 2015] [debug] Template "exception.html.ep" not found
+[Fri Nov 13 01:14:37 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Fri Nov 13 01:14:37 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Fri Nov 13 01:14:37 2015] [debug] 500 Internal Server Error (0.099310s, 10.069/s)
+[Fri Nov 13 01:15:50 2015] [debug] GET "/beacon/1"
+[Fri Nov 13 01:15:50 2015] [debug] Routing to controller "BFeed::Controller::Beacon" and action "get"
+[Fri Nov 13 01:15:50 2015] [error] Can't locate object method "_to_hashref" via package "BFeed::Model::Result::Beacon" at lib/BFeed/Controller.pm line 52.
+
+[Fri Nov 13 01:15:50 2015] [debug] Template "exception.development.html.ep" not found
+[Fri Nov 13 01:15:50 2015] [debug] Template "exception.html.ep" not found
+[Fri Nov 13 01:15:50 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Fri Nov 13 01:15:50 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Fri Nov 13 01:15:50 2015] [debug] 500 Internal Server Error (0.089546s, 11.167/s)
+[Fri Nov 13 01:16:46 2015] [debug] GET "/beacon/1"
+[Fri Nov 13 01:16:46 2015] [debug] Routing to controller "BFeed::Controller::Beacon" and action "get"
+[Fri Nov 13 01:16:46 2015] [error] DBIx::Class::Row::get_column(): No such column 'DBIx::Class::ResultSource::Table=HASH(0x2a102b0)' on BFeed::Model::Result::Beacon at lib/BFeed/Controller.pm line 137
+
+[Fri Nov 13 01:16:46 2015] [debug] Template "exception.development.html.ep" not found
+[Fri Nov 13 01:16:46 2015] [debug] Template "exception.html.ep" not found
+[Fri Nov 13 01:16:46 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Fri Nov 13 01:16:46 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Fri Nov 13 01:16:46 2015] [debug] 500 Internal Server Error (0.091016s, 10.987/s)
+[Fri Nov 13 01:17:04 2015] [debug] GET "/beacon/1"
+[Fri Nov 13 01:17:04 2015] [debug] Routing to controller "BFeed::Controller::Beacon" and action "get"
+[Fri Nov 13 01:17:04 2015] [error] DBIx::Class::Row::get_column(): No such column 'DBIx::Class::ResultSource::Table=HASH(0x2a10a70)' on BFeed::Model::Result::Beacon at lib/BFeed/Controller.pm line 137
+
+[Fri Nov 13 01:17:04 2015] [debug] Template "exception.development.html.ep" not found
+[Fri Nov 13 01:17:04 2015] [debug] Template "exception.html.ep" not found
+[Fri Nov 13 01:17:04 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Fri Nov 13 01:17:04 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Fri Nov 13 01:17:04 2015] [debug] 500 Internal Server Error (0.113870s, 8.782/s)
+[Fri Nov 13 01:17:38 2015] [debug] GET "/beacon/1"
+[Fri Nov 13 01:17:38 2015] [debug] Routing to controller "BFeed::Controller::Beacon" and action "get"
+[Fri Nov 13 01:17:38 2015] [error] DBIx::Class::Row::get_column(): No such column 'DBIx::Class::ResultSource::Table=HASH(0x2a13c88)' on BFeed::Model::Result::Beacon at lib/BFeed/Controller.pm line 139
+
+[Fri Nov 13 01:17:38 2015] [debug] Template "exception.development.html.ep" not found
+[Fri Nov 13 01:17:38 2015] [debug] Template "exception.html.ep" not found
+[Fri Nov 13 01:17:38 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Fri Nov 13 01:17:38 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Fri Nov 13 01:17:38 2015] [debug] 500 Internal Server Error (0.087695s, 11.403/s)
+[Fri Nov 13 01:18:44 2015] [debug] GET "/beacon/1"
+[Fri Nov 13 01:18:44 2015] [debug] Routing to controller "BFeed::Controller::Beacon" and action "get"
+[Fri Nov 13 01:18:44 2015] [debug] 200 OK (0.090805s, 11.013/s)
+[Fri Nov 13 01:19:02 2015] [debug] GET "/beacon/2"
+[Fri Nov 13 01:19:02 2015] [debug] Routing to controller "BFeed::Controller::Beacon" and action "get"
+[Fri Nov 13 01:19:02 2015] [debug] 200 OK (0.006684s, 149.611/s)
+[Fri Nov 13 01:19:03 2015] [debug] GET "/beacon/3"
+[Fri Nov 13 01:19:03 2015] [debug] Routing to controller "BFeed::Controller::Beacon" and action "get"
+[Fri Nov 13 01:19:03 2015] [debug] 200 OK (0.007101s, 140.825/s)
+[Fri Nov 13 01:19:05 2015] [debug] GET "/beacon/1"
+[Fri Nov 13 01:19:05 2015] [debug] Routing to controller "BFeed::Controller::Beacon" and action "get"
+[Fri Nov 13 01:19:05 2015] [debug] 200 OK (0.006863s, 145.709/s)
+[Fri Nov 13 01:19:07 2015] [debug] GET "/beacon/4"
+[Fri Nov 13 01:19:07 2015] [debug] Routing to controller "BFeed::Controller::Beacon" and action "get"
+[Fri Nov 13 01:19:07 2015] [debug] 200 OK (0.006583s, 151.906/s)
+[Fri Nov 13 01:19:08 2015] [debug] GET "/beacon"
+[Fri Nov 13 01:19:08 2015] [debug] Routing to controller "BFeed::Controller::Beacon" and action "list"
+[Fri Nov 13 01:19:08 2015] [debug] 200 OK (0.012554s, 79.656/s)
+[Fri Nov 13 01:19:10 2015] [debug] GET "/beacon"
+[Fri Nov 13 01:19:10 2015] [debug] Routing to controller "BFeed::Controller::Beacon" and action "list"
+[Fri Nov 13 01:19:10 2015] [debug] 200 OK (0.005626s, 177.746/s)
+[Fri Nov 13 01:19:22 2015] [debug] GET "/content"
+[Fri Nov 13 01:19:22 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "list"
+[Fri Nov 13 01:19:22 2015] [debug] 400 Bad Request (0.009679s, 103.316/s)
+[Fri Nov 13 01:19:25 2015] [debug] GET "/content/"
+[Fri Nov 13 01:19:25 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "list"
+[Fri Nov 13 01:19:25 2015] [debug] 400 Bad Request (0.007482s, 133.654/s)
+[Fri Nov 13 01:19:26 2015] [debug] GET "/content/1"
+[Fri Nov 13 01:19:26 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get"
+[Fri Nov 13 01:19:26 2015] [debug] 404 Not Found (0.007146s, 139.938/s)
+[Fri Nov 13 01:19:28 2015] [debug] GET "/content/2"
+[Fri Nov 13 01:19:28 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get"
+[Fri Nov 13 01:19:28 2015] [debug] 404 Not Found (0.008182s, 122.220/s)
+[Fri Nov 13 01:19:29 2015] [debug] GET "/content/3"
+[Fri Nov 13 01:19:29 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get"
+[Fri Nov 13 01:19:29 2015] [debug] 404 Not Found (0.003493s, 286.287/s)
+[Fri Nov 13 01:19:29 2015] [debug] GET "/content/4"
+[Fri Nov 13 01:19:29 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get"
+[Fri Nov 13 01:19:29 2015] [debug] 404 Not Found (0.004212s, 237.417/s)
+[Fri Nov 13 01:19:30 2015] [debug] GET "/content/5"
+[Fri Nov 13 01:19:30 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get"
+[Fri Nov 13 01:19:30 2015] [debug] 404 Not Found (0.006524s, 153.280/s)
+[Fri Nov 13 01:19:41 2015] [debug] GET "/user"
+[Fri Nov 13 01:19:41 2015] [debug] Routing to controller "BFeed::Controller::User" and action "list"
+[Fri Nov 13 01:19:41 2015] [debug] 200 OK (0.003674s, 272.183/s)
+[Fri Nov 13 01:19:52 2015] [debug] GET "/user"
+[Fri Nov 13 01:19:52 2015] [debug] Routing to controller "BFeed::Controller::User" and action "list"
+[Fri Nov 13 01:19:52 2015] [debug] 200 OK (0.002687s, 372.162/s)
+[Fri Nov 13 01:20:02 2015] [debug] GET "/user/1"
+[Fri Nov 13 01:20:02 2015] [debug] Routing to controller "BFeed::Controller::User" and action "get"
+[Fri Nov 13 01:20:02 2015] [debug] 200 OK (0.007025s, 142.349/s)
+[Fri Nov 13 01:20:04 2015] [debug] GET "/user/2"
+[Fri Nov 13 01:20:04 2015] [debug] Routing to controller "BFeed::Controller::User" and action "get"
+[Fri Nov 13 01:20:04 2015] [debug] 200 OK (0.006850s, 145.985/s)
+[Fri Nov 13 01:20:57 2015] [debug] GET "/user/2"
+[Fri Nov 13 01:20:57 2015] [debug] Routing to controller "BFeed::Controller::User" and action "get"
+[Fri Nov 13 01:20:57 2015] [debug] 200 OK (0.093122s, 10.739/s)
+[Fri Nov 13 01:21:03 2015] [debug] GET "/user"
+[Fri Nov 13 01:21:03 2015] [debug] Routing to controller "BFeed::Controller::User" and action "list"
+[Fri Nov 13 01:21:03 2015] [debug] 200 OK (0.011272s, 88.715/s)
+[Fri Nov 13 01:21:28 2015] [debug] GET "/user"
+[Fri Nov 13 01:21:28 2015] [debug] Routing to controller "BFeed::Controller::User" and action "list"
+[Fri Nov 13 01:21:28 2015] [debug] 200 OK (0.071090s, 14.067/s)
+[Fri Nov 13 01:21:32 2015] [debug] GET "/rule"
+[Fri Nov 13 01:21:32 2015] [debug] Routing to controller "BFeed::Controller::Rule" and action "list"
+[Fri Nov 13 01:21:32 2015] [error] Can't use an undefined value as an ARRAY reference at lib/BFeed/Controller.pm line 20.
+
+[Fri Nov 13 01:21:32 2015] [debug] Template "exception.development.html.ep" not found
+[Fri Nov 13 01:21:32 2015] [debug] Template "exception.html.ep" not found
+[Fri Nov 13 01:21:32 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Fri Nov 13 01:21:32 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Fri Nov 13 01:21:32 2015] [debug] 500 Internal Server Error (0.033346s, 29.989/s)
+[Fri Nov 13 01:21:39 2015] [debug] GET "/rule"
+[Fri Nov 13 01:21:39 2015] [debug] Routing to controller "BFeed::Controller::Rule" and action "list"
+[Fri Nov 13 01:21:39 2015] [error] Can't use an undefined value as an ARRAY reference at lib/BFeed/Controller.pm line 20.
+
+[Fri Nov 13 01:21:39 2015] [debug] Template "exception.development.html.ep" not found
+[Fri Nov 13 01:21:39 2015] [debug] Template "exception.html.ep" not found
+[Fri Nov 13 01:21:39 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Fri Nov 13 01:21:39 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Fri Nov 13 01:21:39 2015] [debug] 500 Internal Server Error (0.013342s, 74.951/s)
+[Fri Nov 13 01:21:41 2015] [debug] GET "/beacon"
+[Fri Nov 13 01:21:41 2015] [debug] Routing to controller "BFeed::Controller::Beacon" and action "list"
+[Fri Nov 13 01:21:41 2015] [debug] 200 OK (0.008234s, 121.448/s)
+[Fri Nov 13 01:21:52 2015] [debug] GET "/user"
+[Fri Nov 13 01:21:52 2015] [debug] Routing to controller "BFeed::Controller::User" and action "list"
+[Fri Nov 13 01:21:52 2015] [debug] 200 OK (0.006650s, 150.376/s)
+[Fri Nov 13 01:24:07 2015] [debug] GET "/user"
+[Fri Nov 13 01:24:07 2015] [error] syntax error at lib/BFeed/Controller.pm line 141, near "}"
+syntax error at lib/BFeed/Controller.pm line 142, near "}"
+Compilation failed in require at /home/maniek/perl5/perlbrew/perls/perl-5.20.0/lib/5.20.0/base.pm line 99.
+	...propagated at /home/maniek/perl5/perlbrew/perls/perl-5.20.0/lib/5.20.0/base.pm line 108.
+BEGIN failed--compilation aborted at lib/BFeed/Controller/User.pm line 5.
+Compilation failed in require at (eval 109) line 1.
+
+[Fri Nov 13 01:24:07 2015] [debug] Template "exception.development.html.ep" not found
+[Fri Nov 13 01:24:07 2015] [debug] Template "exception.html.ep" not found
+[Fri Nov 13 01:24:07 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Fri Nov 13 01:24:07 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Fri Nov 13 01:24:07 2015] [debug] 500 Internal Server Error (0.041137s, 24.309/s)
+[Fri Nov 13 01:24:11 2015] [debug] GET "/beacon"
+[Fri Nov 13 01:24:11 2015] [error] Attempt to reload BFeed/Controller.pm aborted.
+Compilation failed in require at /home/maniek/perl5/perlbrew/perls/perl-5.20.0/lib/5.20.0/base.pm line 99.
+	...propagated at /home/maniek/perl5/perlbrew/perls/perl-5.20.0/lib/5.20.0/base.pm line 108.
+BEGIN failed--compilation aborted at lib/BFeed/Controller/Beacon.pm line 5.
+Compilation failed in require at (eval 112) line 1.
+
+[Fri Nov 13 01:24:11 2015] [debug] Template "exception.development.html.ep" not found
+[Fri Nov 13 01:24:11 2015] [debug] Template "exception.html.ep" not found
+[Fri Nov 13 01:24:11 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Fri Nov 13 01:24:11 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Fri Nov 13 01:24:11 2015] [debug] 500 Internal Server Error (0.010090s, 99.108/s)
+[Fri Nov 13 01:24:16 2015] [debug] GET "/rule"
+[Fri Nov 13 01:24:16 2015] [error] Attempt to reload BFeed/Controller.pm aborted.
+Compilation failed in require at /home/maniek/perl5/perlbrew/perls/perl-5.20.0/lib/5.20.0/base.pm line 99.
+	...propagated at /home/maniek/perl5/perlbrew/perls/perl-5.20.0/lib/5.20.0/base.pm line 108.
+BEGIN failed--compilation aborted at lib/BFeed/Controller/Rule.pm line 5.
+Compilation failed in require at (eval 113) line 1.
+
+[Fri Nov 13 01:24:16 2015] [debug] Template "exception.development.html.ep" not found
+[Fri Nov 13 01:24:16 2015] [debug] Template "exception.html.ep" not found
+[Fri Nov 13 01:24:16 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Fri Nov 13 01:24:16 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Fri Nov 13 01:24:16 2015] [debug] 500 Internal Server Error (0.010350s, 96.618/s)
+[Fri Nov 13 01:24:22 2015] [debug] GET "/beacon"
+[Fri Nov 13 01:24:22 2015] [error] Attempt to reload BFeed/Controller/Beacon.pm aborted.
+Compilation failed in require at (eval 114) line 1.
+
+[Fri Nov 13 01:24:22 2015] [debug] Template "exception.development.html.ep" not found
+[Fri Nov 13 01:24:22 2015] [debug] Template "exception.html.ep" not found
+[Fri Nov 13 01:24:22 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Fri Nov 13 01:24:22 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Fri Nov 13 01:24:22 2015] [debug] 500 Internal Server Error (0.009691s, 103.189/s)
+[Fri Nov 13 01:24:29 2015] [debug] GET "/beacon"
+[Fri Nov 13 01:24:29 2015] [debug] Routing to controller "BFeed::Controller::Beacon" and action "list"
+[Fri Nov 13 01:24:29 2015] [debug] 200 OK (0.073080s, 13.684/s)
+[Fri Nov 13 01:24:49 2015] [debug] GET "/beaco"
+[Fri Nov 13 01:24:49 2015] [debug] Template "not_found.development.html.ep" not found
+[Fri Nov 13 01:24:49 2015] [debug] Template "not_found.html.ep" not found
+[Fri Nov 13 01:24:49 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Fri Nov 13 01:24:49 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Fri Nov 13 01:24:49 2015] [debug] 404 Not Found (0.041365s, 24.175/s)
+[Fri Nov 13 01:28:56 2015] [debug] GET "/beaco"
+[Fri Nov 13 01:28:56 2015] [debug] Template "not_found.development.html.ep" not found
+[Fri Nov 13 01:28:56 2015] [debug] Template "not_found.html.ep" not found
+[Fri Nov 13 01:28:56 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Fri Nov 13 01:28:56 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Fri Nov 13 01:28:56 2015] [debug] 404 Not Found (0.027484s, 36.385/s)
+[Fri Nov 13 01:28:57 2015] [debug] GET "/beacon"
+[Fri Nov 13 01:28:57 2015] [debug] Routing to controller "BFeed::Controller::Beacon" and action "list"
+[Fri Nov 13 01:28:57 2015] [debug] 200 OK (0.096523s, 10.360/s)
+[Fri Nov 13 01:29:05 2015] [debug] GET "/beacon/1"
+[Fri Nov 13 01:29:05 2015] [debug] Routing to controller "BFeed::Controller::Beacon" and action "get"
+[Fri Nov 13 01:29:05 2015] [debug] 200 OK (0.006961s, 143.658/s)
+[Fri Nov 13 01:29:06 2015] [debug] GET "/beacon/2"
+[Fri Nov 13 01:29:06 2015] [debug] Routing to controller "BFeed::Controller::Beacon" and action "get"
+[Fri Nov 13 01:29:06 2015] [debug] 200 OK (0.003323s, 300.933/s)
+[Fri Nov 13 01:29:07 2015] [debug] GET "/beacon/3"
+[Fri Nov 13 01:29:07 2015] [debug] Routing to controller "BFeed::Controller::Beacon" and action "get"
+[Fri Nov 13 01:29:07 2015] [debug] 200 OK (0.007864s, 127.162/s)
+[Fri Nov 13 01:29:08 2015] [debug] GET "/beacon/4"
+[Fri Nov 13 01:29:08 2015] [debug] Routing to controller "BFeed::Controller::Beacon" and action "get"
+[Fri Nov 13 01:29:08 2015] [debug] 200 OK (0.003396s, 294.464/s)
+[Fri Nov 13 01:29:09 2015] [debug] GET "/beacon/5"
+[Fri Nov 13 01:29:09 2015] [debug] Routing to controller "BFeed::Controller::Beacon" and action "get"
+[Fri Nov 13 01:29:09 2015] [debug] 404 Not Found (0.003543s, 282.247/s)
+[Fri Nov 13 01:29:15 2015] [debug] GET "/content/1"
+[Fri Nov 13 01:29:15 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get"
+[Fri Nov 13 01:29:15 2015] [debug] 404 Not Found (0.004299s, 232.612/s)
+[Fri Nov 13 01:29:17 2015] [debug] GET "/content/"
+[Fri Nov 13 01:29:17 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "list"
+[Fri Nov 13 01:29:17 2015] [debug] 200 OK (0.008345s, 119.832/s)
+[Fri Nov 13 01:29:20 2015] [debug] GET "/content/2"
+[Fri Nov 13 01:29:20 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get"
+[Fri Nov 13 01:29:20 2015] [debug] 404 Not Found (0.003494s, 286.205/s)
+[Fri Nov 13 01:29:22 2015] [debug] GET "/content/3"
+[Fri Nov 13 01:29:22 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get"
+[Fri Nov 13 01:29:22 2015] [debug] 404 Not Found (0.006110s, 163.666/s)
+[Fri Nov 13 01:29:23 2015] [debug] GET "/content/4"
+[Fri Nov 13 01:29:23 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get"
+[Fri Nov 13 01:29:23 2015] [debug] 404 Not Found (0.005529s, 180.865/s)
+[Fri Nov 13 01:29:24 2015] [debug] GET "/content/5"
+[Fri Nov 13 01:29:24 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get"
+[Fri Nov 13 01:29:24 2015] [debug] 404 Not Found (0.006732s, 148.544/s)
+[Fri Nov 13 01:29:26 2015] [debug] GET "/content/4"
+[Fri Nov 13 01:29:26 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "get"
+[Fri Nov 13 01:29:26 2015] [debug] 404 Not Found (0.007662s, 130.514/s)
