@@ -13,6 +13,8 @@ sub startup {
     my $conf = BFeed::Config->new;
     $self->secrets([$conf->secret]);
 
+    $self->plugin(AccessLog => {log => 'log/access.log'});
+
     $self->helper( 
        dbh => sub {  
             @_ == 2 ? 
@@ -20,8 +22,6 @@ sub startup {
                 :
             return BFeed::Model->connect( $conf->db_data() )
     });
-    # Documentation browser under "/perldoc"
-    #$self->plugin('PODRenderer');
 
     # Router
     my $req = $self->routes;
@@ -42,6 +42,7 @@ sub __register_services {
 
   # Content service 
   $route->get('/beacon/:short_id/content')->to('login#mobile_app')->to('content#content_for_beacon');
+  $route->any('/')->post("/user")->to("user#post"  )->name("add_user");
 }
 
 sub __register_authorized_services {
@@ -50,7 +51,6 @@ sub __register_authorized_services {
     my @services = qw/
         content
         beacon
-        user
         rule 
     /;
 
