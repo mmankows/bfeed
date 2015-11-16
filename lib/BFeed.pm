@@ -11,6 +11,15 @@ sub startup {
     my $self = shift;
 
     my $conf = BFeed::Config->new;
+    $self->hook(
+        before_dispatch => sub {
+        my $c = shift;
+        $c->res->headers->header('Access-Control-Allow-Origin' => '*');
+        $c->res->headers->header('Access-Control-Allow-Methods' => 'POST, PUT, DELETE, GET, OPTIONS');
+        $c->res->headers->header('Access-Control-Request-Methods' => '*');
+        $c->res->headers->header('Access-Control-Allow-Headers' => 'Origin, X-Requested-With, Content-Type, Accept, Authorization');
+        }
+    );
     $self->secrets([$conf->secret]);
 
     $self->plugin(AccessLog => {log => 'log/access.log'});
