@@ -35,7 +35,7 @@ sub db_name {
 
 sub secret {
     my ($self) = @_;
-    return join "", map { chr int rand(255) } 1...20;
+    return join "", map { chr int rand(255) } 1..20;
 }
 
 sub db_data {
@@ -46,11 +46,6 @@ sub db_data {
         $self->db_user, 
         $self->db_pass
     );
-}
-
-sub kim_jest_klimek {
-    my ($self) = @_;
-    return $self->{config}{database}{klimek_to};
 }
 
 1;
