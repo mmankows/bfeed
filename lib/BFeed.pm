@@ -47,11 +47,23 @@ sub startup {
 }
 
 sub __register_services {
-  my ($route) = @_;
+    my ($route) = @_;
 
-  # Content service 
-  $route->get('/beacon/:short_id/content')->to('login#mobile_app')->to('content#content_for_beacon');
-  $route->any('/')->post("/user")->to("user#post"  )->name("add_user");
+    # Content service 
+    $route->get('/beacon/:short_id/content')->to('login#mobile_app')->to('content#content_for_beacon');
+    $route->any('/')->post("/user")->to("user#post"  )->name("add_user");
+    $route->options('*'=> sub {
+        my $c = shift;
+
+        $c->res->headers->header('Access-Control-Allow-Origin'=> 'http://localhost:7000');
+        $c->res->headers->header('Access-Control-Allow-Credentials' => 'true');
+        $c->res->headers->header('Access-Control-Allow-Methods' => 'GET, OPTIONS, POST, DELETE, PUT');
+        $c->res->headers->header('Access-Control-Allow-Headers' => 'Content-Type, X-CSRF-Token');
+        $c->res->headers->header('Access-Control-Max-Age' => '1728000');
+
+        $c->respond_to(any => { data => '', status => 200 });
+  });
+
 }
 
 sub __register_authorized_services {
