@@ -11,7 +11,7 @@ sub list {
     my $status = undef; 
     my $dbh = $self->dbh;
     
-    my $user_id    = $self->session('user_id') || 1;
+    my $user_id    = $self->session('user_id');
     my $controller = Mojo::Util::camelize( $self->stash('controller') );
 
     eval {

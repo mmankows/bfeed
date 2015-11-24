@@ -2268,3 +2268,1452 @@ Compilation failed in require at (eval 109) line 1.
 [Fri Nov 13 20:15:08 2015] [debug] GET "/beacon/beacon2/content"
 [Fri Nov 13 20:15:08 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "content_for_beacon"
 [Fri Nov 13 20:15:08 2015] [debug] 200 OK (0.075197s, 13.298/s)
+[Sun Nov 15 21:56:14 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Sun Nov 15 21:56:21 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Sun Nov 15 21:56:47 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Sun Nov 15 22:01:36 2015] [debug] GET "/beacon/ed5f8f79f2142aa596ccbd1753f1b209/content"
+[Sun Nov 15 22:01:36 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "content_for_beacon"
+[Sun Nov 15 22:01:36 2015] [debug] 200 OK (0.212979s, 4.695/s)
+[Sun Nov 15 22:11:53 2015] [debug] GET "/beacon/ed5f8f79f2142aa596ccbd1753f1b209/content"
+[Sun Nov 15 22:11:53 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "content_for_beacon"
+[Sun Nov 15 22:11:53 2015] [debug] 200 OK (0.125696s, 7.956/s)
+[Sun Nov 15 22:13:14 2015] [debug] GET "/beacon/ed5f8f79f2142aa596ccbd1753f1b209/content"
+[Sun Nov 15 22:13:14 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "content_for_beacon"
+[Sun Nov 15 22:13:14 2015] [debug] 200 OK (0.093873s, 10.653/s)
+[Sun Nov 15 22:22:17 2015] [debug] GET "/beacon/ed5f8f79f2142aa596ccbd1753f1b209/content"
+[Sun Nov 15 22:22:17 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "content_for_beacon"
+[Sun Nov 15 22:22:17 2015] [debug] 200 OK (0.123010s, 8.129/s)
+[Sun Nov 15 23:35:12 2015] [debug] GET "/beacon/d96e0731be8d0f59f3ad85bf58602e71/content"
+[Sun Nov 15 23:35:12 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "content_for_beacon"
+[Sun Nov 15 23:35:12 2015] [debug] 200 OK (0.063498s, 15.749/s)
+[Sun Nov 15 23:39:13 2015] [debug] GET "/beacon/d96e0731be8d0f59f3ad85bf58602e71/content"
+[Sun Nov 15 23:39:13 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "content_for_beacon"
+[Sun Nov 15 23:39:13 2015] [debug] 200 OK (0.053836s, 18.575/s)
+[Sun Nov 15 23:39:21 2015] [debug] GET "/beacon/d96e0731be8d0f59f3ad85bf58602e71/content"
+[Sun Nov 15 23:39:21 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "content_for_beacon"
+[Sun Nov 15 23:39:21 2015] [debug] 200 OK (0.061162s, 16.350/s)
+[Sun Nov 15 23:54:25 2015] [debug] GET "/beacon/d96e0731be8d0f59f3ad85bf58602e71/content"
+[Sun Nov 15 23:54:25 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "content_for_beacon"
+[Sun Nov 15 23:54:25 2015] [debug] 200 OK (0.053813s, 18.583/s)
+[Sun Nov 15 23:57:13 2015] [debug] GET "/beacon/d96e0731be8d0f59f3ad85bf58602e71/content"
+[Sun Nov 15 23:57:13 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "content_for_beacon"
+[Sun Nov 15 23:57:13 2015] [debug] 200 OK (0.052597s, 19.012/s)
+[Sun Nov 15 23:57:26 2015] [debug] GET "/beacon/d96e0731be8d0f59f3ad85bf58602e71/content"
+[Sun Nov 15 23:57:26 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "content_for_beacon"
+[Sun Nov 15 23:57:26 2015] [debug] 200 OK (0.072172s, 13.856/s)
+[Sun Nov 15 23:57:38 2015] [debug] GET "/beacon/d96e0731be8d0f59f3ad85bf58602e71/content"
+[Sun Nov 15 23:57:38 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "content_for_beacon"
+[Sun Nov 15 23:57:38 2015] [debug] 200 OK (0.055413s, 18.046/s)
+[Sun Nov 15 23:57:47 2015] [debug] GET "/beacon/d96e0731be8d0f59f3ad85bf58602e71/content"
+[Sun Nov 15 23:57:47 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "content_for_beacon"
+[Sun Nov 15 23:57:47 2015] [debug] 200 OK (0.061087s, 16.370/s)
+[Sun Nov 15 23:58:00 2015] [debug] GET "/beacon/d96e0731be8d0f59f3ad85bf58602e71/content"
+[Sun Nov 15 23:58:00 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "content_for_beacon"
+[Sun Nov 15 23:58:00 2015] [debug] 200 OK (0.054622s, 18.308/s)
+[Sun Nov 15 23:58:10 2015] [debug] GET "/beacon/d96e0731be8d0f59f3ad85bf58602e71/content"
+[Sun Nov 15 23:58:10 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "content_for_beacon"
+[Sun Nov 15 23:58:10 2015] [debug] 200 OK (0.069402s, 14.409/s)
+[Mon Nov 16 00:02:40 2015] [debug] GET "/beacon/d96e0731be8d0f59f3ad85bf58602e71/content"
+[Mon Nov 16 00:02:40 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "content_for_beacon"
+[Mon Nov 16 00:02:40 2015] [debug] 200 OK (0.055136s, 18.137/s)
+[Mon Nov 16 00:02:50 2015] [debug] GET "/beacon/d96e0731be8d0f59f3ad85bf58602e71/content"
+[Mon Nov 16 00:02:50 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "content_for_beacon"
+[Mon Nov 16 00:02:50 2015] [debug] 200 OK (0.077728s, 12.865/s)
+[Mon Nov 16 00:12:39 2015] [debug] GET "/beacon/d96e0731be8d0f59f3ad85bf58602e71/content"
+[Mon Nov 16 00:12:39 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "content_for_beacon"
+[Mon Nov 16 00:12:39 2015] [debug] 200 OK (0.051371s, 19.466/s)
+[Mon Nov 16 00:12:50 2015] [debug] GET "/beacon/d96e0731be8d0f59f3ad85bf58602e71/content"
+[Mon Nov 16 00:12:50 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "content_for_beacon"
+[Mon Nov 16 00:12:50 2015] [debug] 200 OK (0.061886s, 16.159/s)
+[Mon Nov 16 00:12:52 2015] [debug] GET "/beacon/d96e0731be8d0f59f3ad85bf58602e71/content"
+[Mon Nov 16 00:12:52 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "content_for_beacon"
+[Mon Nov 16 00:12:52 2015] [debug] 200 OK (0.059013s, 16.945/s)
+[Mon Nov 16 00:14:31 2015] [debug] GET "/beacon/d96e0731be8d0f59f3ad85bf58602e71/content"
+[Mon Nov 16 00:14:31 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "content_for_beacon"
+[Mon Nov 16 00:14:31 2015] [debug] 200 OK (0.063885s, 15.653/s)
+[Mon Nov 16 00:14:41 2015] [debug] GET "/beacon/d96e0731be8d0f59f3ad85bf58602e71/content"
+[Mon Nov 16 00:14:41 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "content_for_beacon"
+[Mon Nov 16 00:14:42 2015] [debug] 200 OK (0.064012s, 15.622/s)
+[Mon Nov 16 00:14:42 2015] [debug] GET "/beacon/d96e0731be8d0f59f3ad85bf58602e71/content"
+[Mon Nov 16 00:14:42 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "content_for_beacon"
+[Mon Nov 16 00:14:42 2015] [debug] 200 OK (0.068410s, 14.618/s)
+[Mon Nov 16 00:18:17 2015] [debug] GET "/beacon/d96e0731be8d0f59f3ad85bf58602e71/content"
+[Mon Nov 16 00:18:17 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "content_for_beacon"
+[Mon Nov 16 00:18:18 2015] [debug] 200 OK (0.064663s, 15.465/s)
+[Mon Nov 16 00:18:51 2015] [debug] GET "/beacon/d96e0731be8d0f59f3ad85bf58602e71/content"
+[Mon Nov 16 00:18:51 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "content_for_beacon"
+[Mon Nov 16 00:18:51 2015] [debug] 200 OK (0.067549s, 14.804/s)
+[Mon Nov 16 00:19:15 2015] [debug] GET "/beacon/d96e0731be8d0f59f3ad85bf58602e71/content"
+[Mon Nov 16 00:19:15 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "content_for_beacon"
+[Mon Nov 16 00:19:15 2015] [debug] 200 OK (0.060862s, 16.431/s)
+[Mon Nov 16 00:27:16 2015] [debug] GET "/beacon/10019e4fb4bee652f37f4eee5c62d923/content"
+[Mon Nov 16 00:27:16 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "content_for_beacon"
+[Mon Nov 16 00:27:16 2015] [debug] 404 Not Found (0.006492s, 154.036/s)
+[Mon Nov 16 21:03:14 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Mon Nov 16 21:03:22 2015] [debug] GET "/options"
+[Mon Nov 16 21:03:22 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Nov 16 21:03:22 2015] [debug] Template "not_found.html.ep" not found
+[Mon Nov 16 21:03:22 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Mon Nov 16 21:03:22 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Mon Nov 16 21:03:22 2015] [debug] 404 Not Found (0.039657s, 25.216/s)
+[Mon Nov 16 23:57:10 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Mon Nov 16 23:57:16 2015] [debug] GET "/"
+[Mon Nov 16 23:57:16 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "index"
+[Mon Nov 16 23:57:16 2015] [debug] Rendering template "login/index.html.ep"
+[Mon Nov 16 23:57:16 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Nov 16 23:57:16 2015] [debug] 200 OK (0.301759s, 3.314/s)
+[Mon Nov 16 23:59:11 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Mon Nov 16 23:59:14 2015] [debug] GET "/"
+[Mon Nov 16 23:59:14 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Nov 16 23:59:14 2015] [debug] Template "not_found.html.ep" not found
+[Mon Nov 16 23:59:14 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Mon Nov 16 23:59:14 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Mon Nov 16 23:59:14 2015] [debug] 404 Not Found (0.033409s, 29.932/s)
+[Mon Nov 16 23:59:36 2015] [debug] GET "/content/"
+[Mon Nov 16 23:59:36 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Mon Nov 16 23:59:36 2015] [debug] Template "login/logged_in.html.ep" not found
+[Mon Nov 16 23:59:36 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Nov 16 23:59:36 2015] [debug] Template "not_found.html.ep" not found
+[Mon Nov 16 23:59:36 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Mon Nov 16 23:59:36 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Mon Nov 16 23:59:36 2015] [debug] 404 Not Found (0.035954s, 27.813/s)
+[Mon Nov 16 23:59:39 2015] [debug] GET "/content"
+[Mon Nov 16 23:59:39 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Mon Nov 16 23:59:39 2015] [debug] Template "login/logged_in.html.ep" not found
+[Mon Nov 16 23:59:39 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Nov 16 23:59:39 2015] [debug] Template "not_found.html.ep" not found
+[Mon Nov 16 23:59:39 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Mon Nov 16 23:59:39 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Mon Nov 16 23:59:40 2015] [debug] 404 Not Found (0.010082s, 99.187/s)
+[Tue Nov 24 17:05:57 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 17:05:58 2015] [debug] GET "/"
+[Tue Nov 24 17:05:58 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 17:05:58 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 17:05:58 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Tue Nov 24 17:05:58 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Tue Nov 24 17:05:58 2015] [debug] 404 Not Found (0.052292s, 19.123/s)
+[Tue Nov 24 17:06:17 2015] [debug] POST "/"
+[Tue Nov 24 17:06:17 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 17:06:17 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 17:06:17 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Tue Nov 24 17:06:17 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Tue Nov 24 17:06:17 2015] [debug] 404 Not Found (0.010006s, 99.940/s)
+[Tue Nov 24 17:06:22 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 17:06:32 2015] [debug] POST "/"
+[Tue Nov 24 17:06:32 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 17:06:32 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 17:06:32 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Tue Nov 24 17:06:32 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Tue Nov 24 17:06:32 2015] [debug] 404 Not Found (0.038264s, 26.134/s)
+[Tue Nov 24 17:06:55 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 17:06:58 2015] [debug] POST "/"
+[Tue Nov 24 17:06:58 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 17:06:58 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 17:06:58 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Tue Nov 24 17:06:58 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Tue Nov 24 17:06:58 2015] [debug] 404 Not Found (0.025110s, 39.825/s)
+[Tue Nov 24 17:07:13 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 17:11:16 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 17:11:24 2015] [debug] POST "/"
+[Tue Nov 24 17:11:24 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 17:11:24 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 17:11:24 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Tue Nov 24 17:11:24 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Tue Nov 24 17:11:24 2015] [debug] 404 Not Found (0.040480s, 24.704/s)
+[Tue Nov 24 17:11:32 2015] [debug] POST "/"
+[Tue Nov 24 17:11:32 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 17:11:32 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 17:11:32 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Tue Nov 24 17:11:32 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Tue Nov 24 17:11:32 2015] [debug] 404 Not Found (0.005617s, 178.031/s)
+[Tue Nov 24 17:12:10 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 17:12:19 2015] [debug] GET "/user"
+[Tue Nov 24 17:12:19 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 17:12:19 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 17:12:19 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Tue Nov 24 17:12:19 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Tue Nov 24 17:12:19 2015] [debug] 404 Not Found (0.023943s, 41.766/s)
+[Tue Nov 24 17:12:33 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 17:12:36 2015] [debug] GET "/user"
+[Tue Nov 24 17:12:36 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 17:12:36 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 17:12:36 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Tue Nov 24 17:12:36 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Tue Nov 24 17:12:36 2015] [debug] 404 Not Found (0.025385s, 39.393/s)
+[Tue Nov 24 17:12:37 2015] [debug] GET "/user"
+[Tue Nov 24 17:12:37 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 17:12:37 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 17:12:37 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Tue Nov 24 17:12:37 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Tue Nov 24 17:12:37 2015] [debug] 404 Not Found (0.013617s, 73.438/s)
+[Tue Nov 24 17:12:43 2015] [debug] GET "/"
+[Tue Nov 24 17:12:43 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 17:12:43 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 17:12:43 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Tue Nov 24 17:12:43 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Tue Nov 24 17:12:43 2015] [debug] 404 Not Found (0.009679s, 103.316/s)
+[Tue Nov 24 17:12:46 2015] [debug] GET "/user"
+[Tue Nov 24 17:12:46 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 17:12:46 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 17:12:46 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Tue Nov 24 17:12:46 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Tue Nov 24 17:12:46 2015] [debug] 404 Not Found (0.009545s, 104.767/s)
+[Tue Nov 24 17:12:49 2015] [debug] GET "/beacon"
+[Tue Nov 24 17:12:49 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 17:12:49 2015] [debug] Template "login/logged_in.html.ep" not found
+[Tue Nov 24 17:12:49 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 17:12:49 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 17:12:49 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Tue Nov 24 17:12:49 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Tue Nov 24 17:12:49 2015] [debug] 404 Not Found (0.033429s, 29.914/s)
+[Tue Nov 24 17:13:05 2015] [debug] GET "/user"
+[Tue Nov 24 17:13:05 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 17:13:05 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 17:13:05 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Tue Nov 24 17:13:05 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Tue Nov 24 17:13:05 2015] [debug] 404 Not Found (0.008881s, 112.600/s)
+[Tue Nov 24 17:13:31 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 17:13:40 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 17:13:47 2015] [debug] GET "/beacon"
+[Tue Nov 24 17:13:47 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 17:13:47 2015] [debug] Template "login/logged_in.html.ep" not found
+[Tue Nov 24 17:13:47 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 17:13:47 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 17:13:47 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Tue Nov 24 17:13:47 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Tue Nov 24 17:13:47 2015] [debug] 404 Not Found (0.033813s, 29.574/s)
+[Tue Nov 24 17:13:49 2015] [debug] GET "/"
+[Tue Nov 24 17:13:49 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 17:13:49 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 17:13:49 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Tue Nov 24 17:13:49 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Tue Nov 24 17:13:49 2015] [debug] 404 Not Found (0.026212s, 38.150/s)
+[Tue Nov 24 17:13:54 2015] [debug] GET "/content"
+[Tue Nov 24 17:13:54 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 17:13:54 2015] [debug] Template "login/logged_in.html.ep" not found
+[Tue Nov 24 17:13:54 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 17:13:54 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 17:13:54 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Tue Nov 24 17:13:54 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Tue Nov 24 17:13:54 2015] [debug] 404 Not Found (0.012592s, 79.416/s)
+[Tue Nov 24 17:14:18 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 17:15:04 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 17:15:09 2015] [debug] GET "/content"
+[Tue Nov 24 17:15:09 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 17:15:09 2015] [debug] Template "login/logged_in.html.ep" not found
+[Tue Nov 24 17:15:09 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 17:15:09 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 17:15:09 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Tue Nov 24 17:15:09 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Tue Nov 24 17:15:09 2015] [debug] 404 Not Found (0.027759s, 36.024/s)
+[Tue Nov 24 17:15:54 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 17:16:12 2015] [debug] GET "/content"
+[Tue Nov 24 17:16:12 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 17:16:12 2015] [debug] Template "login/logged_in.html.ep" not found
+[Tue Nov 24 17:16:12 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 17:16:12 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 17:16:12 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Tue Nov 24 17:16:12 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Tue Nov 24 17:16:12 2015] [debug] 404 Not Found (0.042468s, 23.547/s)
+[Tue Nov 24 17:16:15 2015] [debug] GET "/"
+[Tue Nov 24 17:16:15 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 17:16:15 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 17:16:15 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Tue Nov 24 17:16:15 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Tue Nov 24 17:16:15 2015] [debug] 404 Not Found (0.025061s, 39.903/s)
+[Tue Nov 24 17:16:23 2015] [debug] GET "/content"
+[Tue Nov 24 17:16:23 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 17:16:23 2015] [debug] Template "login/logged_in.html.ep" not found
+[Tue Nov 24 17:16:23 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 17:16:23 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 17:16:23 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Tue Nov 24 17:16:23 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Tue Nov 24 17:16:23 2015] [debug] 404 Not Found (0.006480s, 154.321/s)
+[Tue Nov 24 17:17:00 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 17:17:00 2015] [debug] GET "/content"
+[Tue Nov 24 17:17:00 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "list"
+[Tue Nov 24 17:17:00 2015] [debug] 200 OK (0.460050s, 2.174/s)
+[Tue Nov 24 17:17:00 2015] [debug] GET "/content"
+[Tue Nov 24 17:17:00 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "list"
+[Tue Nov 24 17:17:00 2015] [debug] 200 OK (0.002794s, 357.910/s)
+[Tue Nov 24 17:17:02 2015] [debug] GET "/content"
+[Tue Nov 24 17:17:02 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "list"
+[Tue Nov 24 17:17:02 2015] [debug] 200 OK (0.002743s, 364.564/s)
+[Tue Nov 24 17:17:05 2015] [debug] GET "/beacon"
+[Tue Nov 24 17:17:05 2015] [debug] Routing to controller "BFeed::Controller::Beacon" and action "list"
+[Tue Nov 24 17:17:05 2015] [debug] 200 OK (0.022935s, 43.601/s)
+[Tue Nov 24 17:17:09 2015] [debug] GET "/user"
+[Tue Nov 24 17:17:09 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 17:17:09 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 17:17:09 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Tue Nov 24 17:17:09 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Tue Nov 24 17:17:09 2015] [debug] 404 Not Found (0.029067s, 34.403/s)
+[Tue Nov 24 17:17:13 2015] [debug] GET "/login"
+[Tue Nov 24 17:17:13 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 17:17:13 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 17:17:13 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Tue Nov 24 17:17:13 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Tue Nov 24 17:17:13 2015] [debug] 404 Not Found (0.009654s, 103.584/s)
+[Tue Nov 24 17:19:01 2015] [debug] OPTIONS "/api/"
+[Tue Nov 24 17:19:01 2015] [debug] Routing to a callback
+[Tue Nov 24 17:19:01 2015] [debug] 200 OK (0.000658s, 1519.757/s)
+[Tue Nov 24 17:19:01 2015] [debug] POST "/api/"
+[Tue Nov 24 17:19:01 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 17:19:01 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 17:19:01 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Tue Nov 24 17:19:01 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Tue Nov 24 17:19:01 2015] [debug] 404 Not Found (0.005565s, 179.695/s)
+[Tue Nov 24 17:19:18 2015] [debug] POST "/api/"
+[Tue Nov 24 17:19:18 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 17:19:18 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 17:19:18 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Tue Nov 24 17:19:18 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Tue Nov 24 17:19:18 2015] [debug] 404 Not Found (0.010386s, 96.283/s)
+[Tue Nov 24 17:20:07 2015] [debug] OPTIONS "/"
+[Tue Nov 24 17:20:07 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 17:20:07 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 17:20:07 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Tue Nov 24 17:20:07 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Tue Nov 24 17:20:07 2015] [debug] 404 Not Found (0.006394s, 156.397/s)
+[Tue Nov 24 17:20:13 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 17:20:38 2015] [debug] OPTIONS "/"
+[Tue Nov 24 17:20:38 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 17:20:38 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 17:20:38 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Tue Nov 24 17:20:38 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Tue Nov 24 17:20:38 2015] [debug] 404 Not Found (0.025596s, 39.069/s)
+[Tue Nov 24 17:20:42 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 17:20:50 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 17:20:54 2015] [debug] GET "/login"
+[Tue Nov 24 17:20:54 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 17:20:54 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 17:20:54 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Tue Nov 24 17:20:54 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Tue Nov 24 17:20:54 2015] [debug] 404 Not Found (0.031064s, 32.192/s)
+[Tue Nov 24 17:20:58 2015] [debug] GET "/auth"
+[Tue Nov 24 17:20:58 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 17:20:58 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 17:20:58 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Tue Nov 24 17:20:58 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Tue Nov 24 17:20:58 2015] [debug] 404 Not Found (0.009191s, 108.802/s)
+[Tue Nov 24 17:20:58 2015] [debug] OPTIONS "/"
+[Tue Nov 24 17:20:58 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 17:20:58 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 17:20:58 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Tue Nov 24 17:20:58 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Tue Nov 24 17:20:58 2015] [debug] 404 Not Found (0.009239s, 108.237/s)
+[Tue Nov 24 17:21:01 2015] [debug] GET "/content"
+[Tue Nov 24 17:21:01 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 17:21:01 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 17:21:01 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Tue Nov 24 17:21:01 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Tue Nov 24 17:21:01 2015] [debug] 404 Not Found (0.009824s, 101.792/s)
+[Tue Nov 24 17:21:04 2015] [debug] GET "/%22"
+[Tue Nov 24 17:21:04 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 17:21:04 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 17:21:04 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Tue Nov 24 17:21:04 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Tue Nov 24 17:21:04 2015] [debug] 404 Not Found (0.005401s, 185.151/s)
+[Tue Nov 24 17:21:04 2015] [debug] GET "/api/content"
+[Tue Nov 24 17:21:04 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 17:21:04 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 17:21:04 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Tue Nov 24 17:21:04 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Tue Nov 24 17:21:04 2015] [debug] 404 Not Found (0.009595s, 104.221/s)
+[Tue Nov 24 17:21:06 2015] [debug] GET "/"
+[Tue Nov 24 17:21:06 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 17:21:06 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 17:21:06 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Tue Nov 24 17:21:06 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Tue Nov 24 17:21:06 2015] [debug] 404 Not Found (0.009548s, 104.734/s)
+[Tue Nov 24 17:21:15 2015] [debug] GET "/"
+[Tue Nov 24 17:21:15 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 17:21:15 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 17:21:15 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Tue Nov 24 17:21:15 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Tue Nov 24 17:21:15 2015] [debug] 404 Not Found (0.006109s, 163.693/s)
+[Tue Nov 24 17:21:18 2015] [debug] POST "/"
+[Tue Nov 24 17:21:18 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 17:21:18 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 17:21:18 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Tue Nov 24 17:21:18 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Tue Nov 24 17:21:18 2015] [debug] 404 Not Found (0.005503s, 181.719/s)
+[Tue Nov 24 17:21:23 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 17:21:31 2015] [debug] GET "/api/content"
+[Tue Nov 24 17:21:31 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 17:21:31 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 17:21:31 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Tue Nov 24 17:21:31 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Tue Nov 24 17:21:31 2015] [debug] 404 Not Found (0.023694s, 42.205/s)
+[Tue Nov 24 17:21:33 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 17:21:41 2015] [debug] GET "/api/api/content"
+[Tue Nov 24 17:21:41 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 17:21:41 2015] [debug] Template "login/logged_in.html.ep" not found
+[Tue Nov 24 17:21:41 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 17:21:41 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 17:21:41 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Tue Nov 24 17:21:41 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Tue Nov 24 17:21:41 2015] [debug] 404 Not Found (0.026597s, 37.598/s)
+[Tue Nov 24 17:21:52 2015] [debug] GET "/+/api/content"
+[Tue Nov 24 17:21:52 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 17:21:52 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 17:21:52 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Tue Nov 24 17:21:52 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Tue Nov 24 17:21:52 2015] [debug] 404 Not Found (0.023125s, 43.243/s)
+[Tue Nov 24 17:21:57 2015] [debug] GET "/api/content"
+[Tue Nov 24 17:21:57 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 17:21:57 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 17:21:57 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Tue Nov 24 17:21:57 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Tue Nov 24 17:21:57 2015] [debug] 404 Not Found (0.010103s, 98.981/s)
+[Tue Nov 24 17:21:57 2015] [debug] GET "/api/api/content"
+[Tue Nov 24 17:21:57 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 17:21:57 2015] [debug] Template "login/logged_in.html.ep" not found
+[Tue Nov 24 17:21:57 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 17:21:57 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 17:21:57 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Tue Nov 24 17:21:57 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Tue Nov 24 17:21:57 2015] [debug] 404 Not Found (0.007023s, 142.389/s)
+[Tue Nov 24 17:22:08 2015] [debug] GET "/api"
+[Tue Nov 24 17:22:08 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 17:22:08 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 17:22:08 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Tue Nov 24 17:22:08 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Tue Nov 24 17:22:08 2015] [debug] 404 Not Found (0.010111s, 98.902/s)
+[Tue Nov 24 17:43:30 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 17:44:28 2015] [debug] GET "/"
+[Tue Nov 24 17:44:28 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 17:44:28 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 17:44:28 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Tue Nov 24 17:44:28 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Tue Nov 24 17:44:28 2015] [debug] 404 Not Found (0.024002s, 41.663/s)
+[Tue Nov 24 17:44:31 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 17:44:36 2015] [debug] GET "/api/content"
+[Tue Nov 24 17:44:36 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 17:44:36 2015] [debug] Template "login/logged_in.html.ep" not found
+[Tue Nov 24 17:44:36 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 17:44:36 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 17:44:36 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Tue Nov 24 17:44:36 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Tue Nov 24 17:44:36 2015] [debug] 404 Not Found (0.033009s, 30.295/s)
+[Tue Nov 24 17:44:39 2015] [debug] GET "/api/content"
+[Tue Nov 24 17:44:39 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 17:44:39 2015] [debug] Template "login/logged_in.html.ep" not found
+[Tue Nov 24 17:44:39 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 17:44:39 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 17:44:39 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Tue Nov 24 17:44:39 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Tue Nov 24 17:44:39 2015] [debug] 404 Not Found (0.006162s, 162.285/s)
+[Tue Nov 24 17:44:44 2015] [debug] GET "/auth"
+[Tue Nov 24 17:44:44 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 17:44:44 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 17:44:44 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Tue Nov 24 17:44:45 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Tue Nov 24 17:44:45 2015] [debug] 404 Not Found (0.027861s, 35.892/s)
+[Tue Nov 24 17:45:19 2015] [debug] POST "/auth"
+[Tue Nov 24 17:45:19 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 17:45:19 2015] [debug] 404 Not Found (0.076397s, 13.090/s)
+[Tue Nov 24 17:45:38 2015] [debug] GET "/auth"
+[Tue Nov 24 17:45:38 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 17:45:38 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 17:45:38 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Tue Nov 24 17:45:38 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Tue Nov 24 17:45:38 2015] [debug] 404 Not Found (0.009429s, 106.056/s)
+[Tue Nov 24 17:45:50 2015] [debug] GET "/api/content"
+[Tue Nov 24 17:45:50 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 17:45:50 2015] [debug] Template "login/logged_in.html.ep" not found
+[Tue Nov 24 17:45:50 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 17:45:50 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 17:45:50 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Tue Nov 24 17:45:50 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Tue Nov 24 17:45:50 2015] [debug] 404 Not Found (0.006406s, 156.104/s)
+[Tue Nov 24 17:46:02 2015] [debug] GET "/api/auth"
+[Tue Nov 24 17:46:02 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 17:46:02 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 17:46:02 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Tue Nov 24 17:46:02 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Tue Nov 24 17:46:02 2015] [debug] 404 Not Found (0.010263s, 97.437/s)
+[Tue Nov 24 17:46:32 2015] [debug] OPTIONS "/"
+[Tue Nov 24 17:46:32 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 17:46:32 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 17:46:32 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Tue Nov 24 17:46:32 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Tue Nov 24 17:46:32 2015] [debug] 404 Not Found (0.012208s, 81.913/s)
+[Tue Nov 24 17:47:02 2015] [debug] OPTIONS "/"
+[Tue Nov 24 17:47:02 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 17:47:02 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 17:47:02 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Tue Nov 24 17:47:02 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Tue Nov 24 17:47:02 2015] [debug] 404 Not Found (0.007203s, 138.831/s)
+[Tue Nov 24 17:47:59 2015] [debug] POST "/auth"
+[Tue Nov 24 17:47:59 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 17:47:59 2015] [debug] 404 Not Found (0.003588s, 278.707/s)
+[Tue Nov 24 17:48:00 2015] [debug] POST "/auth"
+[Tue Nov 24 17:48:00 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 17:48:00 2015] [debug] 404 Not Found (0.002908s, 343.879/s)
+[Tue Nov 24 17:48:07 2015] [debug] POST "/auth"
+[Tue Nov 24 17:48:07 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 17:48:07 2015] [debug] 404 Not Found (0.003978s, 251.383/s)
+[Tue Nov 24 17:48:13 2015] [debug] OPTIONS "/"
+[Tue Nov 24 17:48:13 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 17:48:13 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 17:48:13 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Tue Nov 24 17:48:13 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Tue Nov 24 17:48:13 2015] [debug] 404 Not Found (0.010102s, 98.990/s)
+[Tue Nov 24 17:48:14 2015] [debug] GET "/user"
+[Tue Nov 24 17:48:14 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 17:48:14 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 17:48:14 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Tue Nov 24 17:48:14 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Tue Nov 24 17:48:14 2015] [debug] 404 Not Found (0.009679s, 103.316/s)
+[Tue Nov 24 17:48:21 2015] [debug] OPTIONS "/"
+[Tue Nov 24 17:48:21 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 17:48:21 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 17:48:21 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Tue Nov 24 17:48:21 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Tue Nov 24 17:48:21 2015] [debug] 404 Not Found (0.007978s, 125.345/s)
+[Tue Nov 24 17:48:32 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 17:48:46 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 17:48:56 2015] [debug] OPTIONS "/"
+[Tue Nov 24 17:48:56 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 17:48:56 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 17:48:56 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Tue Nov 24 17:48:56 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Tue Nov 24 17:48:56 2015] [debug] 404 Not Found (0.033235s, 30.089/s)
+[Tue Nov 24 17:49:04 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 17:49:05 2015] [debug] GET "/user"
+[Tue Nov 24 17:49:05 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 17:49:05 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 17:49:05 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Tue Nov 24 17:49:05 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Tue Nov 24 17:49:05 2015] [debug] 404 Not Found (0.032715s, 30.567/s)
+[Tue Nov 24 17:49:06 2015] [debug] GET "/user"
+[Tue Nov 24 17:49:06 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 17:49:06 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 17:49:06 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Tue Nov 24 17:49:06 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Tue Nov 24 17:49:06 2015] [debug] 404 Not Found (0.007437s, 134.463/s)
+[Tue Nov 24 17:49:41 2015] [debug] OPTIONS "/auth"
+[Tue Nov 24 17:49:41 2015] [debug] Routing to a callback
+[Tue Nov 24 17:49:41 2015] [debug] 200 OK (0.001025s, 975.610/s)
+[Tue Nov 24 17:49:41 2015] [debug] POST "/auth"
+[Tue Nov 24 17:49:41 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 17:49:41 2015] [debug] 404 Not Found (0.072579s, 13.778/s)
+[Tue Nov 24 17:50:07 2015] [debug] POST "/auth"
+[Tue Nov 24 17:50:07 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 17:50:07 2015] [debug] 404 Not Found (0.003048s, 328.084/s)
+[Tue Nov 24 17:50:16 2015] [debug] POST "/auth"
+[Tue Nov 24 17:50:16 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 17:50:16 2015] [debug] 404 Not Found (0.003578s, 279.486/s)
+[Tue Nov 24 17:50:38 2015] [debug] POST "/auth"
+[Tue Nov 24 17:50:38 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 17:50:38 2015] [debug] 404 Not Found (0.004870s, 205.339/s)
+[Tue Nov 24 17:50:41 2015] [debug] POST "/auth"
+[Tue Nov 24 17:50:41 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 17:50:41 2015] [debug] 404 Not Found (0.002752s, 363.372/s)
+[Tue Nov 24 17:50:57 2015] [debug] POST "/auth"
+[Tue Nov 24 17:50:57 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 17:50:57 2015] [debug] 404 Not Found (0.002866s, 348.918/s)
+[Tue Nov 24 17:50:59 2015] [debug] POST "/auth"
+[Tue Nov 24 17:50:59 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 17:50:59 2015] [debug] 404 Not Found (0.003308s, 302.297/s)
+[Tue Nov 24 17:51:01 2015] [debug] POST "/auth"
+[Tue Nov 24 17:51:01 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 17:51:01 2015] [debug] 404 Not Found (0.003241s, 308.547/s)
+[Tue Nov 24 17:51:33 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 17:51:53 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 17:51:55 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 17:52:06 2015] [debug] GET "/beacon"
+[Tue Nov 24 17:52:06 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 17:52:06 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 17:52:06 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Tue Nov 24 17:52:06 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Tue Nov 24 17:52:06 2015] [debug] 404 Not Found (0.030664s, 32.612/s)
+[Tue Nov 24 17:52:10 2015] [debug] GET "/api/beacon"
+[Tue Nov 24 17:52:10 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 17:52:10 2015] [debug] Template "login/logged_in.html.ep" not found
+[Tue Nov 24 17:52:10 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 17:52:10 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 17:52:10 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Tue Nov 24 17:52:10 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Tue Nov 24 17:52:10 2015] [debug] 404 Not Found (0.029238s, 34.202/s)
+[Tue Nov 24 17:52:18 2015] [debug] GET "/api/beacon"
+[Tue Nov 24 17:52:18 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 17:52:18 2015] [debug] Template "login/logged_in.html.ep" not found
+[Tue Nov 24 17:52:18 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 17:52:18 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 17:52:18 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Tue Nov 24 17:52:18 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Tue Nov 24 17:52:18 2015] [debug] 404 Not Found (0.010943s, 91.383/s)
+[Tue Nov 24 17:52:23 2015] [debug] GET "/auth"
+[Tue Nov 24 17:52:23 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 17:52:23 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 17:52:23 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Tue Nov 24 17:52:23 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Tue Nov 24 17:52:23 2015] [debug] 404 Not Found (0.009376s, 106.655/s)
+[Tue Nov 24 17:53:42 2015] [debug] POST "/auth"
+[Tue Nov 24 17:53:42 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 17:53:42 2015] [debug] 404 Not Found (0.081768s, 12.230/s)
+[Tue Nov 24 17:53:53 2015] [debug] POST "/auth"
+[Tue Nov 24 17:53:53 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 17:53:53 2015] [debug] 404 Not Found (0.004736s, 211.149/s)
+[Tue Nov 24 17:53:56 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 17:54:00 2015] [debug] POST "/auth"
+[Tue Nov 24 17:54:00 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 17:54:00 2015] [debug] 404 Not Found (0.109254s, 9.153/s)
+[Tue Nov 24 17:54:03 2015] [debug] POST "/auth"
+[Tue Nov 24 17:54:03 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 17:54:03 2015] [debug] 401 Unauthorized (0.005191s, 192.641/s)
+[Tue Nov 24 17:54:08 2015] [debug] POST "/auth"
+[Tue Nov 24 17:54:08 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 17:54:08 2015] [debug] 404 Not Found (0.005169s, 193.461/s)
+[Tue Nov 24 17:54:13 2015] [debug] POST "/auth"
+[Tue Nov 24 17:54:13 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 17:54:13 2015] [debug] 401 Unauthorized (0.002816s, 355.114/s)
+[Tue Nov 24 17:54:16 2015] [debug] POST "/auth"
+[Tue Nov 24 17:54:16 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 17:54:16 2015] [debug] 404 Not Found (0.005373s, 186.116/s)
+[Tue Nov 24 17:54:29 2015] [debug] POST "/auth"
+[Tue Nov 24 17:54:29 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 17:54:29 2015] [debug] 404 Not Found (0.004704s, 212.585/s)
+[Tue Nov 24 17:54:33 2015] [debug] POST "/auth"
+[Tue Nov 24 17:54:33 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 17:54:33 2015] [debug] 404 Not Found (0.003730s, 268.097/s)
+[Tue Nov 24 17:54:49 2015] [debug] POST "/auth"
+[Tue Nov 24 17:54:49 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 17:54:49 2015] [debug] 404 Not Found (0.004446s, 224.921/s)
+[Tue Nov 24 17:55:00 2015] [debug] POST "/auth"
+[Tue Nov 24 17:55:00 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 17:55:00 2015] [debug] 404 Not Found (0.003959s, 252.589/s)
+[Tue Nov 24 17:55:38 2015] [debug] POST "/auth"
+[Tue Nov 24 17:55:38 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 17:55:38 2015] [debug] 404 Not Found (0.005164s, 193.648/s)
+[Tue Nov 24 17:55:41 2015] [debug] POST "/auth"
+[Tue Nov 24 17:55:41 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 17:55:41 2015] [debug] 404 Not Found (0.002590s, 386.100/s)
+[Tue Nov 24 17:55:49 2015] [debug] POST "/auth"
+[Tue Nov 24 17:55:49 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 17:55:49 2015] [debug] 404 Not Found (0.003788s, 263.992/s)
+[Tue Nov 24 17:55:57 2015] [debug] POST "/auth"
+[Tue Nov 24 17:55:57 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 17:55:57 2015] [debug] 404 Not Found (0.003265s, 306.279/s)
+[Tue Nov 24 17:56:16 2015] [debug] POST "/auth"
+[Tue Nov 24 17:56:16 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 17:56:16 2015] [debug] 401 Unauthorized (0.003434s, 291.206/s)
+[Tue Nov 24 17:57:00 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 17:57:06 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 17:57:11 2015] [debug] POST "/auth"
+[Tue Nov 24 17:57:11 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 17:57:11 2015] [debug] 401 Unauthorized (0.109184s, 9.159/s)
+[Tue Nov 24 17:57:14 2015] [debug] POST "/auth"
+[Tue Nov 24 17:57:14 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 17:57:14 2015] [debug] Template "login/auth.html.ep" not found
+[Tue Nov 24 17:57:14 2015] [debug] Nothing has been rendered, expecting delayed response
+[Tue Nov 24 17:57:17 2015] [debug] POST "/auth"
+[Tue Nov 24 17:57:17 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 17:57:17 2015] [debug] Template "login/auth.html.ep" not found
+[Tue Nov 24 17:57:17 2015] [debug] Nothing has been rendered, expecting delayed response
+[Tue Nov 24 17:57:29 2015] [debug] Inactivity timeout
+[Tue Nov 24 17:57:30 2015] [debug] POST "/auth"
+[Tue Nov 24 17:57:30 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 17:57:30 2015] [debug] Template "login/auth.html.ep" not found
+[Tue Nov 24 17:57:30 2015] [debug] Nothing has been rendered, expecting delayed response
+[Tue Nov 24 17:57:31 2015] [debug] GET "/auth"
+[Tue Nov 24 17:57:31 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 17:57:31 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 17:57:31 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Tue Nov 24 17:57:31 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Tue Nov 24 17:57:31 2015] [debug] 404 Not Found (0.027256s, 36.689/s)
+[Tue Nov 24 17:57:32 2015] [debug] Inactivity timeout
+[Tue Nov 24 17:57:36 2015] [debug] GET "/"
+[Tue Nov 24 17:57:36 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 17:57:36 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 17:57:36 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Tue Nov 24 17:57:36 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Tue Nov 24 17:57:36 2015] [debug] 404 Not Found (0.005934s, 168.520/s)
+[Tue Nov 24 17:57:43 2015] [debug] GET "/ja/pier"
+[Tue Nov 24 17:57:43 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 17:57:43 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 17:57:43 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Tue Nov 24 17:57:43 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Tue Nov 24 17:57:43 2015] [debug] 404 Not Found (0.008931s, 111.970/s)
+[Tue Nov 24 17:57:45 2015] [debug] Inactivity timeout
+[Tue Nov 24 17:57:47 2015] [debug] GET "/api"
+[Tue Nov 24 17:57:47 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 17:57:47 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 17:57:47 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Tue Nov 24 17:57:47 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Tue Nov 24 17:57:47 2015] [debug] 404 Not Found (0.006931s, 144.279/s)
+[Tue Nov 24 17:57:55 2015] [debug] GET "/api"
+[Tue Nov 24 17:57:55 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 17:57:55 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 17:57:55 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Tue Nov 24 17:57:55 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Tue Nov 24 17:57:55 2015] [debug] 404 Not Found (0.009852s, 101.502/s)
+[Tue Nov 24 17:58:00 2015] [debug] GET "/api/beacon"
+[Tue Nov 24 17:58:00 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 17:58:00 2015] [debug] Template "login/logged_in.html.ep" not found
+[Tue Nov 24 17:58:00 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 17:58:00 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 17:58:00 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Tue Nov 24 17:58:00 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Tue Nov 24 17:58:00 2015] [debug] 404 Not Found (0.026670s, 37.495/s)
+[Tue Nov 24 17:58:04 2015] [debug] GET "/api/content"
+[Tue Nov 24 17:58:04 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 17:58:04 2015] [debug] Template "login/logged_in.html.ep" not found
+[Tue Nov 24 17:58:04 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 17:58:04 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 17:58:04 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Tue Nov 24 17:58:04 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Tue Nov 24 17:58:04 2015] [debug] 404 Not Found (0.007540s, 132.626/s)
+[Tue Nov 24 17:58:07 2015] [debug] GET "/auth"
+[Tue Nov 24 17:58:07 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 17:58:07 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 17:58:07 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Tue Nov 24 17:58:07 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Tue Nov 24 17:58:07 2015] [debug] 404 Not Found (0.009500s, 105.263/s)
+[Tue Nov 24 17:59:22 2015] [debug] POST "/auth"
+[Tue Nov 24 17:59:22 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 17:59:22 2015] [error] Can't use an undefined value as a HASH reference at lib/BFeed/Controller/Login.pm line 7.
+
+[Tue Nov 24 17:59:22 2015] [debug] Template "exception.development.html.ep" not found
+[Tue Nov 24 17:59:22 2015] [debug] Template "exception.html.ep" not found
+[Tue Nov 24 17:59:22 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Tue Nov 24 17:59:22 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Tue Nov 24 17:59:22 2015] [debug] 500 Internal Server Error (0.009514s, 105.108/s)
+[Tue Nov 24 18:00:36 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 18:00:47 2015] [debug] OPTIONS "/auth"
+[Tue Nov 24 18:00:47 2015] [debug] Routing to a callback
+[Tue Nov 24 18:00:47 2015] [debug] 200 OK (0.001384s, 722.543/s)
+[Tue Nov 24 18:00:47 2015] [debug] POST "/auth"
+[Tue Nov 24 18:00:47 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:00:47 2015] [debug] 404 Not Found (0.076131s, 13.135/s)
+[Tue Nov 24 18:00:48 2015] [debug] POST "/auth"
+[Tue Nov 24 18:00:48 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:00:48 2015] [debug] 404 Not Found (0.002762s, 362.056/s)
+[Tue Nov 24 18:00:51 2015] [debug] POST "/auth"
+[Tue Nov 24 18:00:51 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:00:51 2015] [debug] 404 Not Found (0.003518s, 284.252/s)
+[Tue Nov 24 18:00:56 2015] [debug] POST "/auth"
+[Tue Nov 24 18:00:56 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:00:56 2015] [debug] 404 Not Found (0.004205s, 237.812/s)
+[Tue Nov 24 18:00:57 2015] [debug] POST "/auth"
+[Tue Nov 24 18:00:57 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:00:57 2015] [debug] 404 Not Found (0.005124s, 195.160/s)
+[Tue Nov 24 18:00:58 2015] [debug] POST "/auth"
+[Tue Nov 24 18:00:58 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:00:58 2015] [debug] 404 Not Found (0.003641s, 274.650/s)
+[Tue Nov 24 18:01:05 2015] [debug] POST "/auth"
+[Tue Nov 24 18:01:05 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:01:05 2015] [error] Can't use an undefined value as a HASH reference at lib/BFeed/Controller/Login.pm line 7.
+
+[Tue Nov 24 18:01:05 2015] [debug] Template "exception.development.html.ep" not found
+[Tue Nov 24 18:01:05 2015] [debug] Template "exception.html.ep" not found
+[Tue Nov 24 18:01:05 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Tue Nov 24 18:01:05 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Tue Nov 24 18:01:05 2015] [debug] 500 Internal Server Error (0.033091s, 30.220/s)
+[Tue Nov 24 18:01:54 2015] [debug] POST "/auth"
+[Tue Nov 24 18:01:54 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:01:54 2015] [debug] 404 Not Found (0.004998s, 200.080/s)
+[Tue Nov 24 18:01:58 2015] [debug] POST "/auth"
+[Tue Nov 24 18:01:58 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:01:58 2015] [debug] 404 Not Found (0.004717s, 211.999/s)
+[Tue Nov 24 18:02:05 2015] [debug] POST "/auth"
+[Tue Nov 24 18:02:05 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:02:05 2015] [debug] 404 Not Found (0.006056s, 165.125/s)
+[Tue Nov 24 18:02:09 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 18:02:10 2015] [debug] POST "/auth"
+[Tue Nov 24 18:02:10 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:02:10 2015] [debug] 404 Not Found (0.081057s, 12.337/s)
+[Tue Nov 24 18:02:19 2015] [debug] POST "/auth"
+[Tue Nov 24 18:02:19 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:02:19 2015] [debug] 404 Not Found (0.004356s, 229.568/s)
+[Tue Nov 24 18:02:22 2015] [debug] POST "/auth"
+[Tue Nov 24 18:02:22 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:02:22 2015] [debug] 404 Not Found (0.003606s, 277.316/s)
+[Tue Nov 24 18:04:50 2015] [debug] POST "/auth"
+[Tue Nov 24 18:04:50 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:04:50 2015] [debug] 404 Not Found (0.002668s, 374.813/s)
+[Tue Nov 24 18:04:52 2015] [debug] POST "/auth"
+[Tue Nov 24 18:04:52 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:04:52 2015] [debug] 404 Not Found (0.004359s, 229.410/s)
+[Tue Nov 24 18:04:54 2015] [debug] POST "/auth"
+[Tue Nov 24 18:04:54 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:04:54 2015] [debug] 401 Unauthorized (0.003318s, 301.386/s)
+[Tue Nov 24 18:05:07 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 18:05:18 2015] [debug] POST "/auth"
+[Tue Nov 24 18:05:18 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:05:18 2015] [debug] 404 Not Found (0.079968s, 12.505/s)
+[Tue Nov 24 18:05:21 2015] [debug] POST "/auth"
+[Tue Nov 24 18:05:21 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:05:21 2015] [debug] 401 Unauthorized (0.003287s, 304.229/s)
+[Tue Nov 24 18:05:29 2015] [debug] POST "/auth"
+[Tue Nov 24 18:05:29 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:05:29 2015] [debug] 404 Not Found (0.002802s, 356.888/s)
+[Tue Nov 24 18:05:32 2015] [debug] POST "/auth"
+[Tue Nov 24 18:05:32 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:05:32 2015] [debug] 401 Unauthorized (0.003683s, 271.518/s)
+[Tue Nov 24 18:05:36 2015] [debug] POST "/auth"
+[Tue Nov 24 18:05:36 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:05:36 2015] [debug] Template "login/auth.html.ep" not found
+[Tue Nov 24 18:05:36 2015] [debug] Nothing has been rendered, expecting delayed response
+[Tue Nov 24 18:05:48 2015] [debug] GET "/api"
+[Tue Nov 24 18:05:48 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 18:05:48 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 18:05:48 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Tue Nov 24 18:05:48 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Tue Nov 24 18:05:48 2015] [debug] 404 Not Found (0.031557s, 31.689/s)
+[Tue Nov 24 18:05:50 2015] [debug] GET "/api/beacon"
+[Tue Nov 24 18:05:50 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 18:05:50 2015] [debug] Template "login/logged_in.html.ep" not found
+[Tue Nov 24 18:05:50 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 18:05:50 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 18:05:50 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Tue Nov 24 18:05:51 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Tue Nov 24 18:05:51 2015] [debug] 404 Not Found (0.028275s, 35.367/s)
+[Tue Nov 24 18:05:51 2015] [debug] Inactivity timeout
+[Tue Nov 24 18:05:51 2015] [debug] POST "/auth"
+[Tue Nov 24 18:05:51 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:05:51 2015] [debug] Template "login/auth.html.ep" not found
+[Tue Nov 24 18:05:51 2015] [debug] Nothing has been rendered, expecting delayed response
+[Tue Nov 24 18:06:08 2015] [debug] OPTIONS "/auth"
+[Tue Nov 24 18:06:08 2015] [debug] Routing to a callback
+[Tue Nov 24 18:06:08 2015] [debug] 200 OK (0.001052s, 950.570/s)
+[Tue Nov 24 18:06:08 2015] [debug] POST "/auth"
+[Tue Nov 24 18:06:08 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:06:08 2015] [debug] 404 Not Found (0.003346s, 298.864/s)
+[Tue Nov 24 18:06:10 2015] [debug] POST "/auth"
+[Tue Nov 24 18:06:10 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:06:10 2015] [debug] 404 Not Found (0.002594s, 385.505/s)
+[Tue Nov 24 18:06:20 2015] [debug] POST "/auth"
+[Tue Nov 24 18:06:20 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:06:20 2015] [debug] Template "login/auth.html.ep" not found
+[Tue Nov 24 18:06:20 2015] [debug] Nothing has been rendered, expecting delayed response
+[Tue Nov 24 18:06:35 2015] [debug] Inactivity timeout
+[Tue Nov 24 18:06:36 2015] [debug] POST "/auth"
+[Tue Nov 24 18:06:36 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:06:36 2015] [debug] Template "login/auth.html.ep" not found
+[Tue Nov 24 18:06:36 2015] [debug] Nothing has been rendered, expecting delayed response
+[Tue Nov 24 18:06:37 2015] [debug] POST "/auth"
+[Tue Nov 24 18:06:37 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:06:37 2015] [debug] Template "login/auth.html.ep" not found
+[Tue Nov 24 18:06:37 2015] [debug] Nothing has been rendered, expecting delayed response
+[Tue Nov 24 18:06:51 2015] [debug] Inactivity timeout
+[Tue Nov 24 18:06:52 2015] [debug] Inactivity timeout
+[Tue Nov 24 18:07:17 2015] [debug] OPTIONS "/auth"
+[Tue Nov 24 18:07:17 2015] [debug] Routing to a callback
+[Tue Nov 24 18:07:17 2015] [debug] 200 OK (0.000779s, 1283.697/s)
+[Tue Nov 24 18:07:17 2015] [debug] POST "/auth"
+[Tue Nov 24 18:07:17 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:07:17 2015] [debug] Template "login/auth.html.ep" not found
+[Tue Nov 24 18:07:17 2015] [debug] Nothing has been rendered, expecting delayed response
+[Tue Nov 24 18:07:19 2015] [debug] GET "/auth"
+[Tue Nov 24 18:07:19 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 18:07:19 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 18:07:19 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Tue Nov 24 18:07:19 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Tue Nov 24 18:07:19 2015] [debug] 404 Not Found (0.010493s, 95.302/s)
+[Tue Nov 24 18:07:23 2015] [debug] GET "/autha"
+[Tue Nov 24 18:07:23 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 18:07:23 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 18:07:23 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Tue Nov 24 18:07:23 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Tue Nov 24 18:07:23 2015] [debug] 404 Not Found (0.006298s, 158.781/s)
+[Tue Nov 24 18:07:25 2015] [debug] GET "/auth"
+[Tue Nov 24 18:07:25 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 18:07:25 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 18:07:25 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Tue Nov 24 18:07:25 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Tue Nov 24 18:07:25 2015] [debug] 404 Not Found (0.011981s, 83.465/s)
+[Tue Nov 24 18:07:32 2015] [debug] Inactivity timeout
+[Tue Nov 24 18:07:32 2015] [debug] POST "/auth"
+[Tue Nov 24 18:07:32 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:07:32 2015] [debug] Template "login/auth.html.ep" not found
+[Tue Nov 24 18:07:32 2015] [debug] Nothing has been rendered, expecting delayed response
+[Tue Nov 24 18:07:47 2015] [debug] Inactivity timeout
+[Tue Nov 24 18:08:10 2015] [debug] POST "/auth"
+[Tue Nov 24 18:08:10 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:08:10 2015] [debug] 404 Not Found (0.002735s, 365.631/s)
+[Tue Nov 24 18:08:23 2015] [debug] POST "/auth"
+[Tue Nov 24 18:08:23 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:08:23 2015] [debug] 404 Not Found (0.004354s, 229.674/s)
+[Tue Nov 24 18:09:34 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 18:09:34 2015] [debug] POST "/auth"
+[Tue Nov 24 18:09:34 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:09:34 2015] [debug] 404 Not Found (0.070703s, 14.144/s)
+[Tue Nov 24 18:09:34 2015] [debug] POST "/auth"
+[Tue Nov 24 18:09:34 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:09:35 2015] [debug] 404 Not Found (0.002755s, 362.976/s)
+[Tue Nov 24 18:09:35 2015] [debug] POST "/auth"
+[Tue Nov 24 18:09:35 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:09:35 2015] [debug] 404 Not Found (0.002397s, 417.188/s)
+[Tue Nov 24 18:09:35 2015] [debug] POST "/auth"
+[Tue Nov 24 18:09:35 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:09:35 2015] [debug] 404 Not Found (0.003234s, 309.215/s)
+[Tue Nov 24 18:09:35 2015] [debug] POST "/auth"
+[Tue Nov 24 18:09:35 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:09:35 2015] [debug] 404 Not Found (0.002334s, 428.449/s)
+[Tue Nov 24 18:09:35 2015] [debug] GET "/"
+[Tue Nov 24 18:09:35 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 18:09:35 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 18:09:35 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Tue Nov 24 18:09:35 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Tue Nov 24 18:09:35 2015] [debug] 404 Not Found (0.023020s, 43.440/s)
+[Tue Nov 24 18:09:38 2015] [debug] POST "/auth"
+[Tue Nov 24 18:09:38 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:09:38 2015] [debug] 404 Not Found (0.002955s, 338.409/s)
+[Tue Nov 24 18:10:01 2015] [debug] POST "/auth"
+[Tue Nov 24 18:10:01 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:10:01 2015] [debug] Template "login/auth.html.ep" not found
+[Tue Nov 24 18:10:01 2015] [debug] Nothing has been rendered, expecting delayed response
+[Tue Nov 24 18:10:11 2015] [debug] POST "/auth"
+[Tue Nov 24 18:10:11 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:10:11 2015] [debug] Template "login/auth.html.ep" not found
+[Tue Nov 24 18:10:11 2015] [debug] Nothing has been rendered, expecting delayed response
+[Tue Nov 24 18:10:23 2015] [debug] POST "/auth"
+[Tue Nov 24 18:10:23 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:10:23 2015] [debug] Template "login/auth.html.ep" not found
+[Tue Nov 24 18:10:23 2015] [debug] Nothing has been rendered, expecting delayed response
+[Tue Nov 24 18:10:40 2015] [debug] POST "/auth"
+[Tue Nov 24 18:10:40 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:10:40 2015] [debug] Template "login/auth.html.ep" not found
+[Tue Nov 24 18:10:40 2015] [debug] Nothing has been rendered, expecting delayed response
+[Tue Nov 24 18:11:32 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 18:11:34 2015] [debug] POST "/auth"
+[Tue Nov 24 18:11:34 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:11:34 2015] [debug] 200 OK (0.071622s, 13.962/s)
+[Tue Nov 24 18:11:45 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 18:11:45 2015] [debug] POST "/auth"
+[Tue Nov 24 18:11:45 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:11:45 2015] [debug] 200 OK (0.071642s, 13.958/s)
+[Tue Nov 24 18:11:53 2015] [debug] POST "/auth"
+[Tue Nov 24 18:11:53 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:11:53 2015] [debug] 200 OK (0.005075s, 197.044/s)
+[Tue Nov 24 18:12:09 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 18:12:10 2015] [debug] POST "/auth"
+[Tue Nov 24 18:12:10 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:12:10 2015] [debug] 200 OK (0.074423s, 13.437/s)
+[Tue Nov 24 18:12:18 2015] [debug] POST "/auth"
+[Tue Nov 24 18:12:18 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:12:18 2015] [debug] 200 OK (0.004907s, 203.791/s)
+[Tue Nov 24 18:12:19 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 18:12:23 2015] [debug] POST "/auth"
+[Tue Nov 24 18:12:23 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:12:23 2015] [debug] 200 OK (0.074923s, 13.347/s)
+[Tue Nov 24 18:12:27 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 18:12:36 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 18:12:36 2015] [debug] POST "/auth"
+[Tue Nov 24 18:12:36 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:12:36 2015] [debug] Template "login/auth.html.ep" not found
+[Tue Nov 24 18:12:36 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 18:12:36 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 18:12:36 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Tue Nov 24 18:12:36 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Tue Nov 24 18:12:36 2015] [debug] 404 Not Found (0.099999s, 10.000/s)
+[Tue Nov 24 18:12:49 2015] [debug] POST "/auth"
+[Tue Nov 24 18:12:49 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:12:49 2015] [debug] Template "login/auth.html.ep" not found
+[Tue Nov 24 18:12:49 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 18:12:49 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 18:12:49 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Tue Nov 24 18:12:49 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Tue Nov 24 18:12:49 2015] [debug] 404 Not Found (0.014479s, 69.066/s)
+[Tue Nov 24 18:13:01 2015] [debug] POST "/auth"
+[Tue Nov 24 18:13:01 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:13:01 2015] [debug] Template "login/auth.html.ep" not found
+[Tue Nov 24 18:13:01 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 18:13:01 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 18:13:01 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Tue Nov 24 18:13:01 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Tue Nov 24 18:13:01 2015] [debug] 404 Not Found (0.011009s, 90.835/s)
+[Tue Nov 24 18:13:05 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 18:13:05 2015] [debug] POST "/auth"
+[Tue Nov 24 18:13:05 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:13:05 2015] [debug] 200 OK (0.068249s, 14.652/s)
+[Tue Nov 24 18:13:08 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 18:13:10 2015] [debug] OPTIONS "/auth"
+[Tue Nov 24 18:13:10 2015] [debug] Routing to a callback
+[Tue Nov 24 18:13:10 2015] [debug] 200 OK (0.002102s, 475.737/s)
+[Tue Nov 24 18:13:10 2015] [debug] POST "/auth"
+[Tue Nov 24 18:13:10 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:13:10 2015] [debug] 200 OK (0.070935s, 14.097/s)
+[Tue Nov 24 18:13:54 2015] [debug] POST "/auth"
+[Tue Nov 24 18:13:54 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:13:54 2015] [debug] 200 OK (0.005012s, 199.521/s)
+[Tue Nov 24 18:14:02 2015] [debug] POST "/auth"
+[Tue Nov 24 18:14:02 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:14:02 2015] [debug] 200 OK (0.003510s, 284.900/s)
+[Tue Nov 24 18:15:58 2015] [debug] POST "/auth"
+[Tue Nov 24 18:15:58 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:15:58 2015] [debug] 200 OK (0.003021s, 331.016/s)
+[Tue Nov 24 18:16:22 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 18:17:02 2015] [debug] POST "/auth"
+[Tue Nov 24 18:17:02 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:17:02 2015] [debug] 200 OK (0.076108s, 13.139/s)
+[Tue Nov 24 18:17:48 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 18:20:09 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 18:20:20 2015] [debug] GET "/auth"
+[Tue Nov 24 18:20:20 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 18:20:20 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 18:20:20 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Tue Nov 24 18:20:20 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Tue Nov 24 18:20:20 2015] [debug] 404 Not Found (0.030242s, 33.067/s)
+[Tue Nov 24 18:20:28 2015] [debug] GET "/beacon"
+[Tue Nov 24 18:20:28 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 18:20:28 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 18:20:28 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Tue Nov 24 18:20:28 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Tue Nov 24 18:20:28 2015] [debug] 404 Not Found (0.008903s, 112.322/s)
+[Tue Nov 24 18:20:32 2015] [debug] GET "/api/beacon"
+[Tue Nov 24 18:20:32 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 18:20:32 2015] [debug] Template "login/logged_in.html.ep" not found
+[Tue Nov 24 18:20:32 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 18:20:32 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 18:20:32 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Tue Nov 24 18:20:32 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Tue Nov 24 18:20:32 2015] [debug] 404 Not Found (0.039622s, 25.239/s)
+[Tue Nov 24 18:20:47 2015] [debug] POST "/auth"
+[Tue Nov 24 18:20:47 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:20:47 2015] [debug] 200 OK (0.067289s, 14.861/s)
+[Tue Nov 24 18:20:54 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 18:21:24 2015] [debug] POST "/auth"
+[Tue Nov 24 18:21:24 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:21:24 2015] [debug] 404 Not Found (0.072539s, 13.786/s)
+[Tue Nov 24 18:21:28 2015] [debug] POST "/auth"
+[Tue Nov 24 18:21:28 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:21:28 2015] [debug] 200 OK (0.004139s, 241.604/s)
+[Tue Nov 24 18:21:33 2015] [debug] GET "/api/beacon/1/content"
+[Tue Nov 24 18:21:33 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "content_for_beacon"
+[Tue Nov 24 18:21:33 2015] [debug] 404 Not Found (0.007700s, 129.870/s)
+[Tue Nov 24 18:21:47 2015] [debug] POST "/auth"
+[Tue Nov 24 18:21:47 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:21:47 2015] [debug] 200 OK (0.002954s, 338.524/s)
+[Tue Nov 24 18:21:48 2015] [debug] GET "/api/content"
+[Tue Nov 24 18:21:48 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 18:21:48 2015] [debug] Template "login/logged_in.html.ep" not found
+[Tue Nov 24 18:21:48 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 18:21:48 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 18:21:48 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Tue Nov 24 18:21:48 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Tue Nov 24 18:21:48 2015] [debug] 404 Not Found (0.029625s, 33.755/s)
+[Tue Nov 24 18:22:00 2015] [debug] POST "/auth"
+[Tue Nov 24 18:22:00 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:22:00 2015] [debug] 200 OK (0.003042s, 328.731/s)
+[Tue Nov 24 18:22:54 2015] [debug] POST "/auth"
+[Tue Nov 24 18:22:54 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:22:54 2015] [debug] 200 OK (0.004120s, 242.718/s)
+[Tue Nov 24 18:23:04 2015] [debug] POST "/auth"
+[Tue Nov 24 18:23:04 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:23:04 2015] [debug] 200 OK (0.004051s, 246.853/s)
+[Tue Nov 24 18:24:32 2015] [debug] POST "/auth"
+[Tue Nov 24 18:24:32 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:24:32 2015] [debug] 200 OK (0.004235s, 236.128/s)
+[Tue Nov 24 18:27:16 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 18:28:13 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 18:28:26 2015] [debug] POST "/auth"
+[Tue Nov 24 18:28:26 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:28:26 2015] [debug] 404 Not Found (0.102487s, 9.757/s)
+[Tue Nov 24 18:28:30 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 18:29:10 2015] [debug] POST "/auth"
+[Tue Nov 24 18:29:10 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:29:10 2015] [debug] 200 OK (0.068080s, 14.689/s)
+[Tue Nov 24 18:29:18 2015] [debug] POST "/auth"
+[Tue Nov 24 18:29:18 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:29:18 2015] [debug] 200 OK (0.003728s, 268.240/s)
+[Tue Nov 24 18:29:25 2015] [debug] POST "/auth"
+[Tue Nov 24 18:29:25 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:29:25 2015] [debug] 404 Not Found (0.005212s, 191.865/s)
+[Tue Nov 24 18:29:30 2015] [debug] POST "/auth"
+[Tue Nov 24 18:29:30 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:29:30 2015] [debug] 404 Not Found (0.005237s, 190.949/s)
+[Tue Nov 24 18:29:44 2015] [debug] POST "/auth"
+[Tue Nov 24 18:29:44 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:29:44 2015] [debug] 404 Not Found (0.004451s, 224.669/s)
+[Tue Nov 24 18:29:57 2015] [debug] POST "/auth"
+[Tue Nov 24 18:29:57 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:29:57 2015] [debug] 200 OK (0.004172s, 239.693/s)
+[Tue Nov 24 18:30:08 2015] [debug] POST "/auth"
+[Tue Nov 24 18:30:08 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:30:08 2015] [debug] 200 OK (0.003252s, 307.503/s)
+[Tue Nov 24 18:30:08 2015] [debug] POST "/user"
+[Tue Nov 24 18:30:08 2015] [debug] Routing to controller "BFeed::Controller::User" and action "post"
+[Tue Nov 24 18:30:08 2015] [debug] 400 Bad Request (0.038983s, 25.652/s)
+[Tue Nov 24 18:30:21 2015] [debug] POST "/api"
+[Tue Nov 24 18:30:21 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 18:30:21 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 18:30:21 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Tue Nov 24 18:30:21 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Tue Nov 24 18:30:21 2015] [debug] 404 Not Found (0.027563s, 36.281/s)
+[Tue Nov 24 18:30:25 2015] [debug] POST "/api/beacon"
+[Tue Nov 24 18:30:25 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 18:30:25 2015] [debug] Template "login/logged_in.html.ep" not found
+[Tue Nov 24 18:30:25 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 18:30:25 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 18:30:25 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Tue Nov 24 18:30:25 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Tue Nov 24 18:30:25 2015] [debug] 404 Not Found (0.028552s, 35.024/s)
+[Tue Nov 24 18:30:40 2015] [debug] POST "/auth"
+[Tue Nov 24 18:30:40 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:30:40 2015] [debug] 200 OK (0.002964s, 337.382/s)
+[Tue Nov 24 18:30:47 2015] [debug] GET "/api/beacon"
+[Tue Nov 24 18:30:47 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 18:30:47 2015] [debug] Template "login/logged_in.html.ep" not found
+[Tue Nov 24 18:30:47 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 18:30:47 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 18:30:47 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Tue Nov 24 18:30:47 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Tue Nov 24 18:30:47 2015] [debug] 404 Not Found (0.006842s, 146.156/s)
+[Tue Nov 24 18:30:48 2015] [debug] POST "/auth"
+[Tue Nov 24 18:30:48 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:30:48 2015] [debug] 200 OK (0.003016s, 331.565/s)
+[Tue Nov 24 18:30:56 2015] [debug] GET "/api/content"
+[Tue Nov 24 18:30:56 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 18:30:56 2015] [debug] Template "login/logged_in.html.ep" not found
+[Tue Nov 24 18:30:56 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 18:30:56 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 18:30:56 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Tue Nov 24 18:30:56 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Tue Nov 24 18:30:56 2015] [debug] 404 Not Found (0.008736s, 114.469/s)
+[Tue Nov 24 18:31:20 2015] [debug] POST "/auth"
+[Tue Nov 24 18:31:20 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:31:20 2015] [debug] 200 OK (0.003506s, 285.225/s)
+[Tue Nov 24 18:31:29 2015] [debug] POST "/auth"
+[Tue Nov 24 18:31:29 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:31:29 2015] [debug] 200 OK (0.002716s, 368.189/s)
+[Tue Nov 24 18:32:45 2015] [debug] POST "/auth"
+[Tue Nov 24 18:32:45 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:32:45 2015] [debug] 200 OK (0.004061s, 246.245/s)
+[Tue Nov 24 18:33:54 2015] [debug] GET "/api/content"
+[Tue Nov 24 18:33:54 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 18:33:54 2015] [debug] Template "login/logged_in.html.ep" not found
+[Tue Nov 24 18:33:54 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 18:33:54 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 18:33:54 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Tue Nov 24 18:33:54 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Tue Nov 24 18:33:54 2015] [debug] 404 Not Found (0.012294s, 81.340/s)
+[Tue Nov 24 18:34:54 2015] [debug] POST "/auth"
+[Tue Nov 24 18:34:54 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:34:54 2015] [debug] 200 OK (0.003740s, 267.380/s)
+[Tue Nov 24 18:34:55 2015] [debug] POST "/auth"
+[Tue Nov 24 18:34:55 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:34:55 2015] [debug] 200 OK (0.005312s, 188.253/s)
+[Tue Nov 24 18:35:29 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 18:39:14 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 18:39:50 2015] [debug] POST "/auth"
+[Tue Nov 24 18:39:50 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:39:50 2015] [debug] 200 OK (0.075632s, 13.222/s)
+[Tue Nov 24 18:39:58 2015] [debug] POST "/auth"
+[Tue Nov 24 18:39:58 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:39:58 2015] [debug] 200 OK (0.005084s, 196.696/s)
+[Tue Nov 24 18:42:04 2015] [debug] POST "/auth"
+[Tue Nov 24 18:42:04 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:42:04 2015] [debug] 200 OK (0.004322s, 231.374/s)
+[Tue Nov 24 18:43:47 2015] [debug] POST "/auth"
+[Tue Nov 24 18:43:47 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:43:47 2015] [debug] 200 OK (0.002614s, 382.555/s)
+[Tue Nov 24 18:43:59 2015] [debug] POST "/auth"
+[Tue Nov 24 18:43:59 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:43:59 2015] [debug] 200 OK (0.003888s, 257.202/s)
+[Tue Nov 24 18:46:09 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 18:46:33 2015] [debug] POST "/auth"
+[Tue Nov 24 18:46:33 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:46:33 2015] [debug] 200 OK (0.074345s, 13.451/s)
+[Tue Nov 24 18:46:50 2015] [debug] OPTIONS "/auth"
+[Tue Nov 24 18:46:50 2015] [debug] Routing to a callback
+[Tue Nov 24 18:46:50 2015] [debug] 200 OK (0.000687s, 1455.604/s)
+[Tue Nov 24 18:47:10 2015] [debug] OPTIONS "/auth"
+[Tue Nov 24 18:47:10 2015] [debug] Routing to a callback
+[Tue Nov 24 18:47:10 2015] [debug] 200 OK (0.000900s, 1111.111/s)
+[Tue Nov 24 18:47:15 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 18:47:24 2015] [debug] POST "/auth"
+[Tue Nov 24 18:47:24 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:47:24 2015] [debug] 200 OK (0.086247s, 11.595/s)
+[Tue Nov 24 18:47:29 2015] [debug] OPTIONS "/auth"
+[Tue Nov 24 18:47:29 2015] [debug] Routing to a callback
+[Tue Nov 24 18:47:29 2015] [debug] 200 OK (0.000713s, 1402.525/s)
+[Tue Nov 24 18:47:29 2015] [debug] POST "/auth"
+[Tue Nov 24 18:47:29 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:47:29 2015] [debug] 200 OK (0.003068s, 325.945/s)
+[Tue Nov 24 18:48:00 2015] [debug] POST "/auth"
+[Tue Nov 24 18:48:00 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:48:00 2015] [debug] 200 OK (0.003657s, 273.448/s)
+[Tue Nov 24 18:48:03 2015] [debug] POST "/auth"
+[Tue Nov 24 18:48:03 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:48:03 2015] [debug] 200 OK (0.003677s, 271.961/s)
+[Tue Nov 24 18:48:05 2015] [debug] POST "/auth"
+[Tue Nov 24 18:48:05 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:48:05 2015] [debug] 200 OK (0.003513s, 284.657/s)
+[Tue Nov 24 18:49:01 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 18:49:36 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 18:49:37 2015] [debug] POST "/auth"
+[Tue Nov 24 18:49:37 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:49:37 2015] [debug] 200 OK (0.071249s, 14.035/s)
+[Tue Nov 24 18:49:41 2015] [debug] POST "/auth"
+[Tue Nov 24 18:49:41 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:49:41 2015] [debug] 200 OK (0.003420s, 292.398/s)
+[Tue Nov 24 18:49:42 2015] [debug] POST "/auth"
+[Tue Nov 24 18:49:42 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:49:42 2015] [debug] 200 OK (0.003532s, 283.126/s)
+[Tue Nov 24 18:50:23 2015] [debug] POST "/api/beacon"
+[Tue Nov 24 18:50:23 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 18:50:23 2015] [debug] Routing to controller "BFeed::Controller::Beacon" and action "post"
+[Tue Nov 24 18:50:23 2015] [error] Can't use an undefined value as a HASH reference at lib/BFeed/Controller/Beacon.pm line 11.
+
+[Tue Nov 24 18:50:23 2015] [debug] Template "exception.development.html.ep" not found
+[Tue Nov 24 18:50:23 2015] [debug] Template "exception.html.ep" not found
+[Tue Nov 24 18:50:23 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Tue Nov 24 18:50:23 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Tue Nov 24 18:50:23 2015] [debug] 500 Internal Server Error (0.034321s, 29.137/s)
+[Tue Nov 24 18:50:56 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 18:51:32 2015] [debug] GET "/api/beacon"
+[Tue Nov 24 18:51:32 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 18:51:32 2015] [debug] Routing to controller "BFeed::Controller::Beacon" and action "list"
+[Tue Nov 24 18:51:32 2015] [debug] 200 OK (0.072197s, 13.851/s)
+[Tue Nov 24 18:51:44 2015] [debug] GET "/api/user"
+[Tue Nov 24 18:51:44 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 18:51:44 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 18:51:44 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Tue Nov 24 18:51:44 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Tue Nov 24 18:51:44 2015] [debug] 404 Not Found (0.026908s, 37.164/s)
+[Tue Nov 24 18:51:47 2015] [debug] GET "/api/content"
+[Tue Nov 24 18:51:47 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 18:51:47 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "list"
+[Tue Nov 24 18:51:47 2015] [debug] 200 OK (0.004808s, 207.987/s)
+[Tue Nov 24 18:51:55 2015] [debug] GET "/api/content"
+[Tue Nov 24 18:51:55 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 18:51:55 2015] [debug] Cookie "mojolicious" has a bad signature
+[Tue Nov 24 18:51:55 2015] [debug] Template "login/logged_in.html.ep" not found
+[Tue Nov 24 18:51:55 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 18:51:55 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 18:51:55 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Tue Nov 24 18:51:55 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Tue Nov 24 18:51:55 2015] [debug] Cookie "mojolicious" has a bad signature
+[Tue Nov 24 18:51:55 2015] [debug] Cookie "mojolicious" has a bad signature
+[Tue Nov 24 18:51:55 2015] [debug] 404 Not Found (0.028547s, 35.030/s)
+[Tue Nov 24 18:52:20 2015] [debug] GET "/api/content"
+[Tue Nov 24 18:52:20 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 18:52:20 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "list"
+[Tue Nov 24 18:52:20 2015] [debug] 200 OK (0.003300s, 303.030/s)
+[Tue Nov 24 18:53:00 2015] [debug] POST "/auth"
+[Tue Nov 24 18:53:00 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:53:00 2015] [debug] 200 OK (0.006438s, 155.328/s)
+[Tue Nov 24 18:53:17 2015] [debug] POST "/auth"
+[Tue Nov 24 18:53:17 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:53:17 2015] [debug] 200 OK (0.003575s, 279.720/s)
+[Tue Nov 24 18:53:38 2015] [debug] POST "/auth"
+[Tue Nov 24 18:53:38 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:53:38 2015] [debug] 200 OK (0.004310s, 232.019/s)
+[Tue Nov 24 18:54:23 2015] [debug] POST "/auth"
+[Tue Nov 24 18:54:23 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:54:23 2015] [debug] 200 OK (0.002646s, 377.929/s)
+[Tue Nov 24 18:54:42 2015] [debug] POST "/auth"
+[Tue Nov 24 18:54:42 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:54:42 2015] [debug] 200 OK (0.004193s, 238.493/s)
+[Tue Nov 24 18:55:03 2015] [debug] POST "/auth"
+[Tue Nov 24 18:55:03 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:55:03 2015] [debug] 200 OK (0.002806s, 356.379/s)
+[Tue Nov 24 18:56:21 2015] [debug] GET "/api/content"
+[Tue Nov 24 18:56:21 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 18:56:21 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "list"
+[Tue Nov 24 18:56:21 2015] [debug] 200 OK (0.003935s, 254.130/s)
+[Tue Nov 24 18:56:22 2015] [debug] GET "/api/content"
+[Tue Nov 24 18:56:22 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 18:56:22 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "list"
+[Tue Nov 24 18:56:22 2015] [debug] 200 OK (0.002935s, 340.716/s)
+[Tue Nov 24 18:57:55 2015] [debug] POST "/auth"
+[Tue Nov 24 18:57:55 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 18:57:55 2015] [debug] 200 OK (0.004268s, 234.302/s)
+[Tue Nov 24 19:00:01 2015] [debug] OPTIONS "/auth"
+[Tue Nov 24 19:00:01 2015] [debug] Routing to a callback
+[Tue Nov 24 19:00:01 2015] [debug] 200 OK (0.000597s, 1675.042/s)
+[Tue Nov 24 19:00:13 2015] [debug] OPTIONS "/auth"
+[Tue Nov 24 19:00:13 2015] [debug] Routing to a callback
+[Tue Nov 24 19:00:13 2015] [debug] 200 OK (0.000420s, 2380.952/s)
+[Tue Nov 24 19:01:48 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 19:01:55 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 19:02:06 2015] [debug] OPTIONS "/auth"
+[Tue Nov 24 19:02:06 2015] [debug] Routing to a callback
+[Tue Nov 24 19:02:06 2015] [debug] 200 OK (0.001735s, 576.369/s)
+[Tue Nov 24 19:02:13 2015] [debug] OPTIONS "/auth"
+[Tue Nov 24 19:02:13 2015] [debug] Routing to a callback
+[Tue Nov 24 19:02:13 2015] [debug] 200 OK (0.000633s, 1579.779/s)
+[Tue Nov 24 19:02:41 2015] [debug] OPTIONS "/auth"
+[Tue Nov 24 19:02:41 2015] [debug] Routing to a callback
+[Tue Nov 24 19:02:41 2015] [debug] 200 OK (0.000869s, 1150.748/s)
+[Tue Nov 24 19:02:54 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 19:03:01 2015] [debug] GET "/api/content"
+[Tue Nov 24 19:03:01 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 19:03:01 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "list"
+[Tue Nov 24 19:03:01 2015] [debug] 200 OK (0.087682s, 11.405/s)
+[Tue Nov 24 19:03:05 2015] [debug] GET "/api/content"
+[Tue Nov 24 19:03:05 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 19:03:05 2015] [debug] Cookie "mojolicious" has a bad signature
+[Tue Nov 24 19:03:05 2015] [debug] 401 Unauthorized (0.000497s, 2012.072/s)
+[Tue Nov 24 19:03:07 2015] [debug] OPTIONS "/auth"
+[Tue Nov 24 19:03:07 2015] [debug] Routing to a callback
+[Tue Nov 24 19:03:07 2015] [debug] 200 OK (0.001306s, 765.697/s)
+[Tue Nov 24 19:03:07 2015] [debug] POST "/auth"
+[Tue Nov 24 19:03:07 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 19:03:07 2015] [debug] 200 OK (0.003649s, 274.048/s)
+[Tue Nov 24 19:03:23 2015] [debug] GET "/api/content"
+[Tue Nov 24 19:03:23 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 19:03:23 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "list"
+[Tue Nov 24 19:03:23 2015] [debug] 200 OK (0.003386s, 295.334/s)
+[Tue Nov 24 19:03:27 2015] [debug] GET "/api/content"
+[Tue Nov 24 19:03:27 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 19:03:27 2015] [debug] Cookie "mojolicious" has a bad signature
+[Tue Nov 24 19:03:27 2015] [debug] 401 Unauthorized (0.000779s, 1283.697/s)
+[Tue Nov 24 19:04:46 2015] [debug] POST "/auth"
+[Tue Nov 24 19:04:46 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 19:04:46 2015] [debug] 200 OK (0.004065s, 246.002/s)
+[Tue Nov 24 19:04:47 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 19:06:52 2015] [debug] OPTIONS "/auth"
+[Tue Nov 24 19:06:52 2015] [debug] Routing to a callback
+[Tue Nov 24 19:06:52 2015] [debug] 200 OK (0.001034s, 967.118/s)
+[Tue Nov 24 19:08:47 2015] [debug] OPTIONS "/auth"
+[Tue Nov 24 19:08:47 2015] [debug] Routing to a callback
+[Tue Nov 24 19:08:47 2015] [debug] 200 OK (0.000553s, 1808.318/s)
+[Tue Nov 24 19:09:22 2015] [debug] POST "/auth"
+[Tue Nov 24 19:09:22 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 19:09:22 2015] [debug] 200 OK (0.083648s, 11.955/s)
+[Tue Nov 24 19:09:40 2015] [debug] OPTIONS "/auth"
+[Tue Nov 24 19:09:40 2015] [debug] Routing to a callback
+[Tue Nov 24 19:09:40 2015] [debug] 200 OK (0.000408s, 2450.980/s)
+[Tue Nov 24 19:09:48 2015] [debug] OPTIONS "/auth"
+[Tue Nov 24 19:09:48 2015] [debug] Routing to a callback
+[Tue Nov 24 19:09:48 2015] [debug] 200 OK (0.000417s, 2398.082/s)
+[Tue Nov 24 19:09:51 2015] [debug] OPTIONS "/auth"
+[Tue Nov 24 19:09:51 2015] [debug] Routing to a callback
+[Tue Nov 24 19:09:51 2015] [debug] 200 OK (0.000496s, 2016.129/s)
+[Tue Nov 24 19:11:11 2015] [debug] OPTIONS "/auth"
+[Tue Nov 24 19:11:11 2015] [debug] Routing to a callback
+[Tue Nov 24 19:11:11 2015] [debug] 200 OK (0.000928s, 1077.586/s)
+[Tue Nov 24 19:12:45 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 19:12:54 2015] [debug] GET "/api/content"
+[Tue Nov 24 19:12:54 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 19:12:54 2015] [debug] Cookie "mojolicious" has a bad signature
+[Tue Nov 24 19:12:54 2015] [debug] 401 Unauthorized (0.003460s, 289.017/s)
+[Tue Nov 24 19:13:26 2015] [debug] POST "/auth"
+[Tue Nov 24 19:13:26 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 19:13:26 2015] [debug] 200 OK (0.072462s, 13.800/s)
+[Tue Nov 24 19:14:14 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 19:16:23 2015] [debug] OPTIONS "/auth"
+[Tue Nov 24 19:16:23 2015] [debug] Routing to a callback
+[Tue Nov 24 19:16:23 2015] [debug] 200 OK (0.001982s, 504.541/s)
+[Tue Nov 24 19:19:21 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 19:19:54 2015] [debug] OPTIONS "/auth"
+[Tue Nov 24 19:19:54 2015] [debug] Routing to a callback
+[Tue Nov 24 19:19:54 2015] [debug] 200 OK (0.002097s, 476.872/s)
+[Tue Nov 24 19:19:54 2015] [debug] POST "/auth"
+[Tue Nov 24 19:19:54 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 19:19:54 2015] [debug] 200 OK (0.088548s, 11.293/s)
+[Tue Nov 24 19:20:27 2015] [debug] POST "/auth"
+[Tue Nov 24 19:20:27 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 19:20:27 2015] [debug] 200 OK (0.005690s, 175.747/s)
+[Tue Nov 24 19:21:48 2015] [debug] OPTIONS "/auth"
+[Tue Nov 24 19:21:48 2015] [debug] Routing to a callback
+[Tue Nov 24 19:21:48 2015] [debug] 200 OK (0.000415s, 2409.639/s)
+[Tue Nov 24 19:21:55 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 19:22:14 2015] [debug] OPTIONS "/auth"
+[Tue Nov 24 19:22:14 2015] [debug] Routing to a callback
+[Tue Nov 24 19:22:14 2015] [debug] 200 OK (0.001235s, 809.717/s)
+[Tue Nov 24 19:22:42 2015] [debug] OPTIONS "/auth"
+[Tue Nov 24 19:22:42 2015] [debug] Routing to a callback
+[Tue Nov 24 19:22:42 2015] [debug] 200 OK (0.000413s, 2421.308/s)
+[Tue Nov 24 19:22:42 2015] [debug] POST "/auth"
+[Tue Nov 24 19:22:42 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 19:22:42 2015] [debug] 404 Not Found (0.065075s, 15.367/s)
+[Tue Nov 24 19:22:48 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 19:22:59 2015] [debug] POST "/auth"
+[Tue Nov 24 19:22:59 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 19:22:59 2015] [debug] 200 OK (0.067222s, 14.876/s)
+[Tue Nov 24 19:25:37 2015] [debug] OPTIONS "/auth"
+[Tue Nov 24 19:25:37 2015] [debug] Routing to a callback
+[Tue Nov 24 19:25:37 2015] [debug] 200 OK (0.001103s, 906.618/s)
+[Tue Nov 24 19:26:08 2015] [debug] OPTIONS "/auth"
+[Tue Nov 24 19:26:08 2015] [debug] Routing to a callback
+[Tue Nov 24 19:26:08 2015] [debug] 200 OK (0.000846s, 1182.033/s)
+[Tue Nov 24 19:26:08 2015] [debug] POST "/auth"
+[Tue Nov 24 19:26:08 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 19:26:08 2015] [debug] 404 Not Found (0.004978s, 200.884/s)
+[Tue Nov 24 19:26:28 2015] [debug] POST "/auth"
+[Tue Nov 24 19:26:28 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 19:26:28 2015] [debug] 200 OK (0.004345s, 230.150/s)
+[Tue Nov 24 19:26:39 2015] [debug] OPTIONS "/auth"
+[Tue Nov 24 19:26:39 2015] [debug] Routing to a callback
+[Tue Nov 24 19:26:39 2015] [debug] 200 OK (0.000816s, 1225.490/s)
+[Tue Nov 24 19:26:58 2015] [debug] OPTIONS "/auth"
+[Tue Nov 24 19:26:58 2015] [debug] Routing to a callback
+[Tue Nov 24 19:26:58 2015] [debug] 200 OK (0.000803s, 1245.330/s)
+[Tue Nov 24 19:26:58 2015] [debug] POST "/auth"
+[Tue Nov 24 19:26:58 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 19:26:58 2015] [debug] 200 OK (0.002804s, 356.633/s)
+[Tue Nov 24 19:27:31 2015] [debug] POST "/auth"
+[Tue Nov 24 19:27:31 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 19:27:31 2015] [debug] 200 OK (0.005827s, 171.615/s)
+[Tue Nov 24 19:27:36 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 19:27:54 2015] [debug] OPTIONS "/auth"
+[Tue Nov 24 19:27:54 2015] [debug] Routing to a callback
+[Tue Nov 24 19:27:54 2015] [debug] Nothing has been rendered, expecting delayed response
+[Tue Nov 24 19:28:02 2015] [debug] OPTIONS "/auth"
+[Tue Nov 24 19:28:02 2015] [debug] Routing to a callback
+[Tue Nov 24 19:28:02 2015] [debug] Nothing has been rendered, expecting delayed response
+[Tue Nov 24 19:28:09 2015] [debug] Inactivity timeout
+[Tue Nov 24 19:28:09 2015] [debug] POST "/auth"
+[Tue Nov 24 19:28:09 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 19:28:09 2015] [debug] 200 OK (0.085935s, 11.637/s)
+[Tue Nov 24 19:28:13 2015] [debug] OPTIONS "/auth"
+[Tue Nov 24 19:28:13 2015] [debug] Routing to a callback
+[Tue Nov 24 19:28:13 2015] [debug] Nothing has been rendered, expecting delayed response
+[Tue Nov 24 19:28:14 2015] [debug] OPTIONS "/auth"
+[Tue Nov 24 19:28:14 2015] [debug] Routing to a callback
+[Tue Nov 24 19:28:14 2015] [debug] Nothing has been rendered, expecting delayed response
+[Tue Nov 24 19:28:17 2015] [debug] Inactivity timeout
+[Tue Nov 24 19:28:28 2015] [debug] Inactivity timeout
+[Tue Nov 24 19:28:29 2015] [debug] Inactivity timeout
+[Tue Nov 24 19:28:48 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 19:28:48 2015] [debug] OPTIONS "/auth"
+[Tue Nov 24 19:28:48 2015] [debug] Routing to a callback
+[Tue Nov 24 19:28:48 2015] [debug] 200 OK (0.000976s, 1024.590/s)
+[Tue Nov 24 19:30:23 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 19:33:08 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 19:35:24 2015] [debug] OPTIONS "/auth"
+[Tue Nov 24 19:35:24 2015] [debug] Routing to a callback
+[Tue Nov 24 19:35:24 2015] [debug] 200 OK (0.000959s, 1042.753/s)
+[Tue Nov 24 19:36:01 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 19:36:02 2015] [debug] OPTIONS "/auth"
+[Tue Nov 24 19:36:02 2015] [debug] Routing to a callback
+[Tue Nov 24 19:36:02 2015] [debug] 200 OK (0.000989s, 1011.122/s)
+[Tue Nov 24 19:36:15 2015] [debug] OPTIONS "/auth"
+[Tue Nov 24 19:36:15 2015] [debug] Routing to a callback
+[Tue Nov 24 19:36:15 2015] [debug] 200 OK (0.000480s, 2083.333/s)
+[Tue Nov 24 19:36:59 2015] [debug] OPTIONS "/auth"
+[Tue Nov 24 19:36:59 2015] [debug] Routing to a callback
+[Tue Nov 24 19:36:59 2015] [debug] 200 OK (0.000443s, 2257.336/s)
+[Tue Nov 24 19:36:59 2015] [debug] POST "/auth"
+[Tue Nov 24 19:36:59 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 19:36:59 2015] [debug] 200 OK (0.070031s, 14.279/s)
+[Tue Nov 24 19:37:04 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 19:37:08 2015] [debug] OPTIONS "/auth"
+[Tue Nov 24 19:37:08 2015] [debug] Routing to a callback
+[Tue Nov 24 19:37:08 2015] [debug] 200 OK (0.001583s, 631.712/s)
+[Tue Nov 24 19:37:13 2015] [debug] OPTIONS "/auth"
+[Tue Nov 24 19:37:13 2015] [debug] Routing to a callback
+[Tue Nov 24 19:37:13 2015] [debug] 200 OK (0.002115s, 472.813/s)
+[Tue Nov 24 19:37:27 2015] [debug] OPTIONS "/auth"
+[Tue Nov 24 19:37:27 2015] [debug] Routing to a callback
+[Tue Nov 24 19:37:27 2015] [debug] 200 OK (0.000399s, 2506.266/s)
+[Tue Nov 24 19:40:43 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 19:40:45 2015] [debug] OPTIONS "/auth"
+[Tue Nov 24 19:40:45 2015] [debug] Routing to a callback
+[Tue Nov 24 19:40:45 2015] [debug] 200 OK (0.001353s, 739.098/s)
+[Tue Nov 24 19:40:45 2015] [debug] POST "/auth"
+[Tue Nov 24 19:40:45 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 19:40:45 2015] [debug] 200 OK (0.073279s, 13.646/s)
+[Tue Nov 24 19:40:47 2015] [debug] OPTIONS "/auth"
+[Tue Nov 24 19:40:47 2015] [debug] Routing to a callback
+[Tue Nov 24 19:40:47 2015] [debug] 200 OK (0.001163s, 859.845/s)
+[Tue Nov 24 19:41:02 2015] [debug] OPTIONS "/auth"
+[Tue Nov 24 19:41:02 2015] [debug] Routing to a callback
+[Tue Nov 24 19:41:02 2015] [debug] 200 OK (0.000813s, 1230.012/s)
+[Tue Nov 24 19:44:02 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010

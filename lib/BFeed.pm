@@ -15,10 +15,13 @@ sub startup {
         before_dispatch => sub {
         my $c = shift;
         $c->res->headers->header('Access-Control-Allow-Origin' => '*');
+#        $c->res->headers->header('Access-Control-Allow-Credentials' => 'true');
         $c->res->headers->header('Access-Control-Allow-Methods' => 'POST, PUT, DELETE, GET, OPTIONS');
-        $c->res->headers->header('Access-Control-Request-Methods' => '*');
-        $c->res->headers->header('Access-Control-Allow-Headers' => 'Origin, X-Requested-With, Content-Type, Accept, Authorization');
-        }
+#        $c->res->headers->header('Access-Control-Request-Methods' => '*');
+        $c->res->headers->header('Access-Control-Allow-Headers' => 'Origin, Cookie, X-Requested-With, Content-Type, Accept, Authorization');
+#        $c->res->headers->header('Authorization' => $c->res->headers->header('Set-Cookie'));
+        },
+        
     );
     $self->secrets([$conf->secret]);
 
@@ -34,15 +37,10 @@ sub startup {
 
     # Router
     my $req = $self->routes;
-
-    # Login service
-    $req->any('/')->to('login#index')->name('index');
-    # Logged user
-    #  my $auth = $req->under('/')->to('login#logged_in');
-    #  $auth->get('/protected')->to('login#protected');
-    my $auth = $req;
-
     __register_services( $req );
+
+    # Logged user
+    my $auth = $req->under('/api')->to('login#logged_in');
     __register_authorized_services( $auth );
 }
 
@@ -50,16 +48,17 @@ sub __register_services {
     my ($route) = @_;
 
     # Content service 
-    $route->get('/beacon/:short_id/content')->to('login#mobile_app')->to('content#content_for_beacon');
-    $route->any('/')->post("/user")->to("user#post"  )->name("add_user");
+    $route->post('/auth')->to('login#auth');
+    $route->get( '/api/beacon/:short_id/content')->to('login#mobile_app')->to('content#content_for_beacon');
+    $route->post('/user')->to('user#post')->name('add_user');
     $route->options('*'=> sub {
         my $c = shift;
+        $c->res->headers->header('Access-Control-Allow-Origin' => '*');
+#        $c->res->headers->header('Access-Control-Allow-Credentials' => 'true');
+        $c->res->headers->header('Access-Control-Allow-Methods' => 'POST, PUT, DELETE, GET, OPTIONS');
+#        $c->res->headers->header('Access-Control-Request-Methods' => '*');
+        $c->res->headers->header('Access-Control-Allow-Headers' => 'Origin, Cookie, X-Requested-With, Content-Type, Accept, Authorization');
 
-        $c->res->headers->header('Access-Control-Allow-Origin'=> 'http://localhost:7000');
-        $c->res->headers->header('Access-Control-Allow-Credentials' => 'true');
-        $c->res->headers->header('Access-Control-Allow-Methods' => 'GET, OPTIONS, POST, DELETE, PUT');
-        $c->res->headers->header('Access-Control-Allow-Headers' => 'Content-Type, X-CSRF-Token');
-        $c->res->headers->header('Access-Control-Max-Age' => '1728000');
 
         $c->respond_to(any => { data => '', status => 200 });
   });
