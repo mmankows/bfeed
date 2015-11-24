@@ -2,7 +2,7 @@
 use lib 'lib';
 use BFeed::Config;
 $cfg = BFeed::Config->new();
-($user, $pwd) = $cfg->db_user, $cfg->db_pass;
+($user, $pwd) = ('dupa', 'dupa')
 warn "Setting up database & data...\n";
 warn "User: $user  Pass: $pwd\n";
 $pwd = $pwd ? "-p$pwd" : '';

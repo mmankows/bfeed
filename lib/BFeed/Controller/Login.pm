@@ -32,7 +32,7 @@ sub auth {
     } else {
         $self->session(
             user => $user,
-            exipres => 3600,
+            expiration => 360000,
             user_id => $user->user_id,
         );
         return $self->render(

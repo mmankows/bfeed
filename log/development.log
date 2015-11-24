@@ -3717,3 +3717,748 @@ Compilation failed in require at (eval 109) line 1.
 [Tue Nov 24 19:41:02 2015] [debug] Routing to a callback
 [Tue Nov 24 19:41:02 2015] [debug] 200 OK (0.000813s, 1230.012/s)
 [Tue Nov 24 19:44:02 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 19:44:52 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 19:45:16 2015] [debug] OPTIONS "/auth"
+[Tue Nov 24 19:45:16 2015] [debug] Routing to a callback
+[Tue Nov 24 19:45:16 2015] [debug] 200 OK (0.001652s, 605.327/s)
+[Tue Nov 24 19:45:28 2015] [debug] OPTIONS "/auth"
+[Tue Nov 24 19:45:28 2015] [debug] Routing to a callback
+[Tue Nov 24 19:45:28 2015] [debug] 200 OK (0.000989s, 1011.122/s)
+[Tue Nov 24 19:45:46 2015] [debug] OPTIONS "/auth"
+[Tue Nov 24 19:45:46 2015] [debug] Routing to a callback
+[Tue Nov 24 19:45:46 2015] [debug] 200 OK (0.000669s, 1494.768/s)
+[Tue Nov 24 19:45:46 2015] [debug] POST "/auth"
+[Tue Nov 24 19:45:46 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 19:45:47 2015] [error] DBIx::Class::Storage::DBI::catch {...} (): DBI Connection failed: DBI connect('dbname=bfeed_data','root',...) failed: Access denied for user 'root'@'localhost' (using password: NO) at /usr/local/share/perl/5.18.2/DBIx/Class/Storage/DBI.pm line 1489. at lib/BFeed/Controller/Login.pm line 14
+
+[Tue Nov 24 19:45:47 2015] [debug] Template "exception.development.html.ep" not found
+[Tue Nov 24 19:45:47 2015] [debug] Template "exception.html.ep" not found
+[Tue Nov 24 19:45:47 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Tue Nov 24 19:45:47 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Tue Nov 24 19:45:47 2015] [debug] 500 Internal Server Error (0.167080s, 5.985/s)
+[Tue Nov 24 19:45:50 2015] [debug] OPTIONS "/auth"
+[Tue Nov 24 19:45:50 2015] [debug] Routing to a callback
+[Tue Nov 24 19:45:50 2015] [debug] 200 OK (0.001177s, 849.618/s)
+[Tue Nov 24 19:45:50 2015] [debug] POST "/auth"
+[Tue Nov 24 19:45:50 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 19:45:50 2015] [error] DBIx::Class::Storage::DBI::catch {...} (): DBI Connection failed: DBI connect('dbname=bfeed_data','root',...) failed: Access denied for user 'root'@'localhost' (using password: NO) at /usr/local/share/perl/5.18.2/DBIx/Class/Storage/DBI.pm line 1489. at lib/BFeed/Controller/Login.pm line 14
+
+[Tue Nov 24 19:45:50 2015] [debug] Template "exception.development.html.ep" not found
+[Tue Nov 24 19:45:50 2015] [debug] Template "exception.html.ep" not found
+[Tue Nov 24 19:45:50 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Tue Nov 24 19:45:50 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Tue Nov 24 19:45:50 2015] [debug] 500 Internal Server Error (0.027185s, 36.785/s)
+[Tue Nov 24 19:46:05 2015] [debug] OPTIONS "/auth"
+[Tue Nov 24 19:46:05 2015] [debug] Routing to a callback
+[Tue Nov 24 19:46:05 2015] [debug] 200 OK (0.001108s, 902.527/s)
+[Tue Nov 24 19:46:05 2015] [debug] POST "/auth"
+[Tue Nov 24 19:46:05 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 19:46:05 2015] [error] DBIx::Class::Storage::DBI::catch {...} (): DBI Connection failed: DBI connect('dbname=bfeed_data','root',...) failed: Access denied for user 'root'@'localhost' (using password: NO) at /usr/local/share/perl/5.18.2/DBIx/Class/Storage/DBI.pm line 1489. at lib/BFeed/Controller/Login.pm line 14
+
+[Tue Nov 24 19:46:05 2015] [debug] Template "exception.development.html.ep" not found
+[Tue Nov 24 19:46:05 2015] [debug] Template "exception.html.ep" not found
+[Tue Nov 24 19:46:05 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Tue Nov 24 19:46:05 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Tue Nov 24 19:46:05 2015] [debug] 500 Internal Server Error (0.040633s, 24.611/s)
+[Tue Nov 24 19:49:18 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 19:49:24 2015] [debug] OPTIONS "/auth"
+[Tue Nov 24 19:49:24 2015] [debug] Routing to a callback
+[Tue Nov 24 19:49:24 2015] [debug] 200 OK (0.001546s, 646.831/s)
+[Tue Nov 24 19:49:24 2015] [debug] POST "/auth"
+[Tue Nov 24 19:49:24 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 19:49:24 2015] [debug] 404 Not Found (0.156824s, 6.377/s)
+[Tue Nov 24 19:49:24 2015] [debug] OPTIONS "/auth"
+[Tue Nov 24 19:49:24 2015] [debug] Routing to a callback
+[Tue Nov 24 19:49:24 2015] [debug] 200 OK (0.001002s, 998.004/s)
+[Tue Nov 24 19:49:24 2015] [debug] POST "/auth"
+[Tue Nov 24 19:49:24 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 19:49:24 2015] [debug] 404 Not Found (0.005830s, 171.527/s)
+[Tue Nov 24 19:51:02 2015] [debug] OPTIONS "/auth"
+[Tue Nov 24 19:51:02 2015] [debug] Routing to a callback
+[Tue Nov 24 19:51:02 2015] [debug] 200 OK (0.000614s, 1628.664/s)
+[Tue Nov 24 19:51:02 2015] [debug] POST "/auth"
+[Tue Nov 24 19:51:02 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 19:51:02 2015] [debug] 401 Unauthorized (0.005843s, 171.145/s)
+[Tue Nov 24 19:51:05 2015] [debug] OPTIONS "/auth"
+[Tue Nov 24 19:51:05 2015] [debug] Routing to a callback
+[Tue Nov 24 19:51:05 2015] [debug] 200 OK (0.000689s, 1451.379/s)
+[Tue Nov 24 19:51:05 2015] [debug] POST "/auth"
+[Tue Nov 24 19:51:05 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 19:51:05 2015] [debug] 200 OK (0.004604s, 217.202/s)
+[Tue Nov 24 19:52:33 2015] [debug] OPTIONS "/auth"
+[Tue Nov 24 19:52:33 2015] [debug] Routing to a callback
+[Tue Nov 24 19:52:33 2015] [debug] 200 OK (0.000616s, 1623.377/s)
+[Tue Nov 24 19:52:33 2015] [debug] POST "/auth"
+[Tue Nov 24 19:52:33 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 19:52:33 2015] [debug] 200 OK (0.004302s, 232.450/s)
+[Tue Nov 24 19:52:44 2015] [debug] OPTIONS "/auth"
+[Tue Nov 24 19:52:44 2015] [debug] Routing to a callback
+[Tue Nov 24 19:52:44 2015] [debug] 200 OK (0.001105s, 904.977/s)
+[Tue Nov 24 19:54:39 2015] [debug] OPTIONS "/auth"
+[Tue Nov 24 19:54:39 2015] [debug] Routing to a callback
+[Tue Nov 24 19:54:39 2015] [debug] 200 OK (0.001085s, 921.659/s)
+[Tue Nov 24 19:54:39 2015] [debug] POST "/auth"
+[Tue Nov 24 19:54:40 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 19:54:40 2015] [debug] 404 Not Found (0.004115s, 243.013/s)
+[Tue Nov 24 19:54:43 2015] [debug] OPTIONS "/auth"
+[Tue Nov 24 19:54:43 2015] [debug] Routing to a callback
+[Tue Nov 24 19:54:43 2015] [debug] 200 OK (0.000657s, 1522.070/s)
+[Tue Nov 24 19:54:43 2015] [debug] POST "/auth"
+[Tue Nov 24 19:54:43 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 19:54:43 2015] [debug] 200 OK (0.004568s, 218.914/s)
+[Tue Nov 24 19:58:01 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 19:58:33 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 19:58:39 2015] [debug] OPTIONS "/auth"
+[Tue Nov 24 19:58:39 2015] [debug] Routing to a callback
+[Tue Nov 24 19:58:39 2015] [debug] 200 OK (0.001795s, 557.103/s)
+[Tue Nov 24 19:58:40 2015] [debug] POST "/auth"
+[Tue Nov 24 19:58:40 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 19:58:40 2015] [debug] 200 OK (0.087222s, 11.465/s)
+[Tue Nov 24 19:59:04 2015] [debug] OPTIONS "/auth"
+[Tue Nov 24 19:59:04 2015] [debug] Routing to a callback
+[Tue Nov 24 19:59:04 2015] [debug] 200 OK (0.001327s, 753.580/s)
+[Tue Nov 24 19:59:04 2015] [debug] POST "/auth"
+[Tue Nov 24 19:59:04 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 19:59:04 2015] [debug] 200 OK (0.003851s, 259.673/s)
+[Tue Nov 24 19:59:07 2015] [debug] OPTIONS "/auth"
+[Tue Nov 24 19:59:07 2015] [debug] Routing to a callback
+[Tue Nov 24 19:59:07 2015] [debug] 200 OK (0.001360s, 735.294/s)
+[Tue Nov 24 20:07:23 2015] [debug] GET "/content"
+[Tue Nov 24 20:07:23 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 20:07:23 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 20:07:23 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Tue Nov 24 20:07:23 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Tue Nov 24 20:07:23 2015] [debug] 404 Not Found (0.045641s, 21.910/s)
+[Tue Nov 24 20:07:24 2015] [debug] GET "/beacon"
+[Tue Nov 24 20:07:24 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 20:07:24 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 20:07:24 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Tue Nov 24 20:07:24 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Tue Nov 24 20:07:24 2015] [debug] 404 Not Found (0.013660s, 73.206/s)
+[Tue Nov 24 20:07:24 2015] [debug] GET "/content"
+[Tue Nov 24 20:07:24 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 20:07:24 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 20:07:24 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Tue Nov 24 20:07:24 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Tue Nov 24 20:07:24 2015] [debug] 404 Not Found (0.014321s, 69.828/s)
+[Tue Nov 24 20:07:33 2015] [debug] OPTIONS "/auth"
+[Tue Nov 24 20:07:33 2015] [debug] Routing to a callback
+[Tue Nov 24 20:07:33 2015] [debug] 200 OK (0.001820s, 549.451/s)
+[Tue Nov 24 20:10:42 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 20:10:49 2015] [debug] OPTIONS "/auth"
+[Tue Nov 24 20:10:49 2015] [debug] Routing to a callback
+[Tue Nov 24 20:10:49 2015] [debug] 200 OK (0.001897s, 527.148/s)
+[Tue Nov 24 20:10:49 2015] [debug] POST "/auth"
+[Tue Nov 24 20:10:49 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 20:10:49 2015] [debug] 404 Not Found (0.085668s, 11.673/s)
+[Tue Nov 24 20:11:01 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 20:11:05 2015] [debug] OPTIONS "/auth"
+[Tue Nov 24 20:11:05 2015] [debug] Routing to a callback
+[Tue Nov 24 20:11:05 2015] [debug] 200 OK (0.001360s, 735.294/s)
+[Tue Nov 24 20:11:05 2015] [debug] POST "/auth"
+[Tue Nov 24 20:11:05 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 20:11:05 2015] [debug] 404 Not Found (0.089966s, 11.115/s)
+[Tue Nov 24 20:11:10 2015] [debug] OPTIONS "/auth"
+[Tue Nov 24 20:11:10 2015] [debug] Routing to a callback
+[Tue Nov 24 20:11:10 2015] [debug] 200 OK (0.000924s, 1082.251/s)
+[Tue Nov 24 20:11:10 2015] [debug] POST "/auth"
+[Tue Nov 24 20:11:10 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 20:11:10 2015] [debug] 200 OK (0.006992s, 143.021/s)
+[Tue Nov 24 20:11:23 2015] [debug] OPTIONS "/auth"
+[Tue Nov 24 20:11:23 2015] [debug] Routing to a callback
+[Tue Nov 24 20:11:23 2015] [debug] 200 OK (0.000801s, 1248.439/s)
+[Tue Nov 24 20:11:23 2015] [debug] POST "/auth"
+[Tue Nov 24 20:11:23 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 20:11:23 2015] [debug] 200 OK (0.008701s, 114.929/s)
+[Tue Nov 24 20:13:13 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 20:13:22 2015] [debug] OPTIONS "/auth"
+[Tue Nov 24 20:13:22 2015] [debug] Routing to a callback
+[Tue Nov 24 20:13:23 2015] [debug] 200 OK (0.004274s, 233.973/s)
+[Tue Nov 24 20:14:09 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 20:14:09 2015] [debug] OPTIONS "/auth"
+[Tue Nov 24 20:14:09 2015] [debug] Routing to a callback
+[Tue Nov 24 20:14:09 2015] [debug] 200 OK (0.001190s, 840.336/s)
+[Tue Nov 24 20:14:09 2015] [debug] POST "/auth"
+[Tue Nov 24 20:14:09 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 20:14:09 2015] [debug] 200 OK (0.089653s, 11.154/s)
+[Tue Nov 24 20:14:28 2015] [debug] OPTIONS "/auth"
+[Tue Nov 24 20:14:28 2015] [debug] Routing to a callback
+[Tue Nov 24 20:14:28 2015] [debug] 200 OK (0.000612s, 1633.987/s)
+[Tue Nov 24 20:14:28 2015] [debug] POST "/auth"
+[Tue Nov 24 20:14:28 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 20:14:28 2015] [debug] 404 Not Found (0.006770s, 147.710/s)
+[Tue Nov 24 20:14:31 2015] [debug] POST "/auth"
+[Tue Nov 24 20:14:31 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 20:14:31 2015] [debug] 200 OK (0.007998s, 125.031/s)
+[Tue Nov 24 20:15:04 2015] [debug] GET "/beacon"
+[Tue Nov 24 20:15:04 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 20:15:04 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 20:15:04 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Tue Nov 24 20:15:04 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Tue Nov 24 20:15:05 2015] [debug] 404 Not Found (0.040093s, 24.942/s)
+[Tue Nov 24 20:15:05 2015] [debug] GET "/content"
+[Tue Nov 24 20:15:05 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 20:15:05 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 20:15:05 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Tue Nov 24 20:15:05 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Tue Nov 24 20:15:05 2015] [debug] 404 Not Found (0.010915s, 91.617/s)
+[Tue Nov 24 20:15:51 2015] [debug] GET "/beacon"
+[Tue Nov 24 20:15:51 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 20:15:51 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 20:15:51 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Tue Nov 24 20:15:51 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Tue Nov 24 20:15:51 2015] [debug] 404 Not Found (0.009222s, 108.436/s)
+[Tue Nov 24 20:15:51 2015] [debug] GET "/content"
+[Tue Nov 24 20:15:51 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 20:15:51 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 20:15:51 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Tue Nov 24 20:15:51 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Tue Nov 24 20:15:51 2015] [debug] 404 Not Found (0.008845s, 113.058/s)
+[Tue Nov 24 20:16:16 2015] [debug] GET "/api/beacon"
+[Tue Nov 24 20:16:16 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 20:16:16 2015] [debug] 401 Unauthorized (0.001946s, 513.875/s)
+[Tue Nov 24 20:16:16 2015] [debug] GET "/api/content"
+[Tue Nov 24 20:16:16 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 20:16:16 2015] [debug] 401 Unauthorized (0.001004s, 996.016/s)
+[Tue Nov 24 20:16:28 2015] [debug] GET "/api/beacon"
+[Tue Nov 24 20:16:28 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 20:16:28 2015] [debug] 401 Unauthorized (0.000490s, 2040.816/s)
+[Tue Nov 24 20:16:28 2015] [debug] GET "/api/content"
+[Tue Nov 24 20:16:28 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 20:16:28 2015] [debug] 401 Unauthorized (0.000675s, 1481.481/s)
+[Tue Nov 24 20:16:37 2015] [debug] OPTIONS "/auth"
+[Tue Nov 24 20:16:37 2015] [debug] Routing to a callback
+[Tue Nov 24 20:16:37 2015] [debug] 200 OK (0.000571s, 1751.313/s)
+[Tue Nov 24 20:16:37 2015] [debug] POST "/auth"
+[Tue Nov 24 20:16:37 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 20:16:37 2015] [debug] 200 OK (0.006952s, 143.843/s)
+[Tue Nov 24 20:18:33 2015] [debug] GET "/content"
+[Tue Nov 24 20:18:33 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 20:18:33 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 20:18:33 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Tue Nov 24 20:18:33 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Tue Nov 24 20:18:33 2015] [debug] 404 Not Found (0.019689s, 50.790/s)
+[Tue Nov 24 20:18:59 2015] [debug] GET "/content"
+[Tue Nov 24 20:18:59 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 20:18:59 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 20:18:59 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Tue Nov 24 20:18:59 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Tue Nov 24 20:18:59 2015] [debug] 404 Not Found (0.016484s, 60.665/s)
+[Tue Nov 24 20:19:04 2015] [debug] GET "/content"
+[Tue Nov 24 20:19:04 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 20:19:04 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 20:19:04 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Tue Nov 24 20:19:04 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Tue Nov 24 20:19:04 2015] [debug] 404 Not Found (0.008743s, 114.377/s)
+[Tue Nov 24 20:20:35 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 20:23:31 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 20:23:36 2015] [debug] GET "/content"
+[Tue Nov 24 20:23:36 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 20:23:36 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 20:23:36 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Tue Nov 24 20:23:36 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Tue Nov 24 20:23:36 2015] [debug] 404 Not Found (0.030713s, 32.560/s)
+[Tue Nov 24 20:23:49 2015] [debug] OPTIONS "/auth"
+[Tue Nov 24 20:23:49 2015] [debug] Routing to a callback
+[Tue Nov 24 20:23:49 2015] [debug] 200 OK (0.001272s, 786.164/s)
+[Tue Nov 24 20:23:49 2015] [debug] POST "/auth"
+[Tue Nov 24 20:23:49 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 20:23:49 2015] [debug] 200 OK (0.096232s, 10.392/s)
+[Tue Nov 24 20:25:39 2015] [warn] Mojolicious::Plugin::AccessLog::VERSION = 0.010
+[Tue Nov 24 20:26:07 2015] [debug] OPTIONS "/auth"
+[Tue Nov 24 20:26:07 2015] [debug] Routing to a callback
+[Tue Nov 24 20:26:07 2015] [debug] 200 OK (0.004406s, 226.963/s)
+[Tue Nov 24 20:26:07 2015] [debug] POST "/auth"
+[Tue Nov 24 20:26:07 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 20:26:07 2015] [debug] 200 OK (0.127797s, 7.825/s)
+[Tue Nov 24 20:26:20 2015] [debug] GET "/content"
+[Tue Nov 24 20:26:20 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 20:26:20 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 20:26:20 2015] [debug] Rendering template "mojo/debug.html.ep"
+[Tue Nov 24 20:26:20 2015] [debug] Rendering template "mojo/menubar.html.ep"
+[Tue Nov 24 20:26:20 2015] [debug] 404 Not Found (0.054229s, 18.440/s)
+[Tue Nov 24 20:29:49 2015] [debug] GET "/api/beacon"
+[Tue Nov 24 20:29:49 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 20:29:49 2015] [debug] 401 Unauthorized (0.002635s, 379.507/s)
+[Tue Nov 24 20:29:49 2015] [debug] GET "/api/content"
+[Tue Nov 24 20:29:49 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 20:29:49 2015] [debug] 401 Unauthorized (0.001387s, 720.981/s)
+[Tue Nov 24 20:31:34 2015] [debug] GET "/api/beacon"
+[Tue Nov 24 20:31:34 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 20:31:34 2015] [debug] 401 Unauthorized (0.000939s, 1064.963/s)
+[Tue Nov 24 20:31:34 2015] [debug] GET "/api/content"
+[Tue Nov 24 20:31:34 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 20:31:34 2015] [debug] 401 Unauthorized (0.000877s, 1140.251/s)
+[Tue Nov 24 20:31:44 2015] [debug] GET "/api/beacon"
+[Tue Nov 24 20:31:44 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 20:31:44 2015] [debug] Routing to controller "BFeed::Controller::Beacon" and action "list"
+[Tue Nov 24 20:31:44 2015] [debug] 200 OK (0.009411s, 106.259/s)
+[Tue Nov 24 20:31:44 2015] [debug] GET "/api/content"
+[Tue Nov 24 20:31:44 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 20:31:44 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "list"
+[Tue Nov 24 20:31:44 2015] [debug] 200 OK (0.006241s, 160.231/s)
+[Tue Nov 24 20:32:32 2015] [debug] OPTIONS "/api/beacon/3"
+[Tue Nov 24 20:32:32 2015] [debug] Routing to a callback
+[Tue Nov 24 20:32:32 2015] [debug] 200 OK (0.001162s, 860.585/s)
+[Tue Nov 24 20:32:32 2015] [debug] PUT "/api/beacon/3"
+[Tue Nov 24 20:32:32 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 20:32:32 2015] [debug] Routing to controller "BFeed::Controller::Beacon" and action "put"
+[Tue Nov 24 20:32:32 2015] [debug] 200 OK (0.022333s, 44.777/s)
+[Tue Nov 24 20:32:34 2015] [debug] GET "/api/beacon"
+[Tue Nov 24 20:32:34 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 20:32:34 2015] [debug] Routing to controller "BFeed::Controller::Beacon" and action "list"
+[Tue Nov 24 20:32:34 2015] [debug] 200 OK (0.006475s, 154.440/s)
+[Tue Nov 24 20:32:34 2015] [debug] GET "/api/content"
+[Tue Nov 24 20:32:34 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 20:32:34 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "list"
+[Tue Nov 24 20:32:34 2015] [debug] 200 OK (0.005357s, 186.672/s)
+[Tue Nov 24 20:32:36 2015] [debug] DELETE "/api/beacon/3"
+[Tue Nov 24 20:32:36 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 20:32:36 2015] [debug] Routing to controller "BFeed::Controller::Beacon" and action "delete"
+[Tue Nov 24 20:32:36 2015] [debug] 200 OK (0.015280s, 65.445/s)
+[Tue Nov 24 20:32:36 2015] [debug] GET "/api/beacon"
+[Tue Nov 24 20:32:36 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 20:32:36 2015] [debug] Routing to controller "BFeed::Controller::Beacon" and action "list"
+[Tue Nov 24 20:32:36 2015] [debug] 200 OK (0.005802s, 172.354/s)
+[Tue Nov 24 20:32:38 2015] [debug] GET "/api/beacon"
+[Tue Nov 24 20:32:38 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 20:32:38 2015] [debug] Routing to controller "BFeed::Controller::Beacon" and action "list"
+[Tue Nov 24 20:32:38 2015] [debug] 200 OK (0.007089s, 141.064/s)
+[Tue Nov 24 20:32:38 2015] [debug] GET "/api/content"
+[Tue Nov 24 20:32:38 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 20:32:38 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "list"
+[Tue Nov 24 20:32:38 2015] [debug] 200 OK (0.012025s, 83.160/s)
+[Tue Nov 24 20:32:47 2015] [debug] OPTIONS "/api/beacon"
+[Tue Nov 24 20:32:47 2015] [debug] Routing to a callback
+[Tue Nov 24 20:32:47 2015] [debug] 200 OK (0.001242s, 805.153/s)
+[Tue Nov 24 20:32:47 2015] [debug] POST "/api/beacon"
+[Tue Nov 24 20:32:47 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 20:32:47 2015] [debug] Routing to controller "BFeed::Controller::Beacon" and action "post"
+[Tue Nov 24 20:32:47 2015] [debug] 200 OK (0.018595s, 53.778/s)
+[Tue Nov 24 20:32:50 2015] [debug] GET "/api/beacon"
+[Tue Nov 24 20:32:50 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 20:32:50 2015] [debug] Routing to controller "BFeed::Controller::Beacon" and action "list"
+[Tue Nov 24 20:32:50 2015] [debug] 200 OK (0.007521s, 132.961/s)
+[Tue Nov 24 20:32:50 2015] [debug] GET "/api/content"
+[Tue Nov 24 20:32:50 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 20:32:50 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "list"
+[Tue Nov 24 20:32:50 2015] [debug] 200 OK (0.006812s, 146.800/s)
+[Tue Nov 24 20:32:51 2015] [debug] GET "/api/beacon"
+[Tue Nov 24 20:32:51 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 20:32:51 2015] [debug] Routing to controller "BFeed::Controller::Beacon" and action "list"
+[Tue Nov 24 20:32:51 2015] [debug] 200 OK (0.004981s, 200.763/s)
+[Tue Nov 24 20:32:51 2015] [debug] GET "/api/content"
+[Tue Nov 24 20:32:51 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 20:32:51 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "list"
+[Tue Nov 24 20:32:51 2015] [debug] 200 OK (0.004906s, 203.832/s)
+[Tue Nov 24 20:33:05 2015] [debug] OPTIONS "/api/beacon"
+[Tue Nov 24 20:33:05 2015] [debug] Routing to a callback
+[Tue Nov 24 20:33:05 2015] [debug] 200 OK (0.000985s, 1015.228/s)
+[Tue Nov 24 20:33:05 2015] [debug] POST "/api/beacon"
+[Tue Nov 24 20:33:05 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 20:33:05 2015] [debug] Routing to controller "BFeed::Controller::Beacon" and action "post"
+[Tue Nov 24 20:33:05 2015] [debug] 200 OK (0.015209s, 65.751/s)
+[Tue Nov 24 20:33:10 2015] [debug] GET "/api/beacon"
+[Tue Nov 24 20:33:10 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 20:33:10 2015] [debug] Routing to controller "BFeed::Controller::Beacon" and action "list"
+[Tue Nov 24 20:33:10 2015] [debug] 200 OK (0.006457s, 154.871/s)
+[Tue Nov 24 20:33:10 2015] [debug] GET "/api/content"
+[Tue Nov 24 20:33:10 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 20:33:10 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "list"
+[Tue Nov 24 20:33:10 2015] [debug] 200 OK (0.004769s, 209.688/s)
+[Tue Nov 24 20:33:19 2015] [debug] OPTIONS "/api/beacon"
+[Tue Nov 24 20:33:19 2015] [debug] Routing to a callback
+[Tue Nov 24 20:33:19 2015] [debug] 200 OK (0.001002s, 998.004/s)
+[Tue Nov 24 20:33:19 2015] [debug] POST "/api/beacon"
+[Tue Nov 24 20:33:19 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 20:33:19 2015] [debug] Routing to controller "BFeed::Controller::Beacon" and action "post"
+[Tue Nov 24 20:33:19 2015] [debug] 200 OK (0.016966s, 58.941/s)
+[Tue Nov 24 20:33:27 2015] [debug] GET "/api/beacon"
+[Tue Nov 24 20:33:27 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 20:33:27 2015] [debug] Routing to controller "BFeed::Controller::Beacon" and action "list"
+[Tue Nov 24 20:33:27 2015] [debug] 200 OK (0.005614s, 178.126/s)
+[Tue Nov 24 20:33:27 2015] [debug] GET "/api/content"
+[Tue Nov 24 20:33:27 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 20:33:27 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "list"
+[Tue Nov 24 20:33:27 2015] [debug] 200 OK (0.004577s, 218.484/s)
+[Tue Nov 24 20:34:09 2015] [debug] GET "/api/beacon"
+[Tue Nov 24 20:34:09 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 20:34:09 2015] [debug] Routing to controller "BFeed::Controller::Beacon" and action "list"
+[Tue Nov 24 20:34:09 2015] [debug] 200 OK (0.005896s, 169.607/s)
+[Tue Nov 24 20:34:09 2015] [debug] GET "/api/content"
+[Tue Nov 24 20:34:09 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 20:34:09 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "list"
+[Tue Nov 24 20:34:09 2015] [debug] 200 OK (0.005326s, 187.758/s)
+[Tue Nov 24 20:36:28 2015] [debug] GET "/api/rule"
+[Tue Nov 24 20:36:28 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 20:36:28 2015] [debug] Routing to controller "BFeed::Controller::Rule" and action "list"
+[Tue Nov 24 20:36:28 2015] [debug] 200 OK (0.005883s, 169.981/s)
+[Tue Nov 24 20:36:34 2015] [debug] OPTIONS "/api/rule"
+[Tue Nov 24 20:36:34 2015] [debug] Routing to a callback
+[Tue Nov 24 20:36:34 2015] [debug] 200 OK (0.001805s, 554.017/s)
+[Tue Nov 24 20:36:34 2015] [debug] POST "/api/rule"
+[Tue Nov 24 20:36:34 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 20:36:34 2015] [debug] Routing to controller "BFeed::Controller::Rule" and action "post"
+[Tue Nov 24 20:36:34 2015] [debug] 400 Bad Request (0.026419s, 37.852/s)
+[Tue Nov 24 20:37:49 2015] [debug] GET "/content"
+[Tue Nov 24 20:37:49 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 20:37:49 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 20:37:49 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Tue Nov 24 20:37:50 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Tue Nov 24 20:37:50 2015] [debug] 404 Not Found (0.016342s, 61.192/s)
+[Tue Nov 24 20:37:55 2015] [debug] GET "/api/beacon"
+[Tue Nov 24 20:37:55 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 20:37:55 2015] [debug] Routing to controller "BFeed::Controller::Beacon" and action "list"
+[Tue Nov 24 20:37:55 2015] [debug] 200 OK (0.008673s, 115.300/s)
+[Tue Nov 24 20:37:55 2015] [debug] GET "/api/content"
+[Tue Nov 24 20:37:55 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 20:37:55 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "list"
+[Tue Nov 24 20:37:55 2015] [debug] 200 OK (0.006547s, 152.742/s)
+[Tue Nov 24 20:39:20 2015] [debug] GET "/content"
+[Tue Nov 24 20:39:20 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 20:39:20 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 20:39:20 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Tue Nov 24 20:39:20 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Tue Nov 24 20:39:20 2015] [debug] 404 Not Found (0.015566s, 64.243/s)
+[Tue Nov 24 20:39:22 2015] [debug] GET "/api/beacon"
+[Tue Nov 24 20:39:22 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 20:39:22 2015] [debug] Routing to controller "BFeed::Controller::Beacon" and action "list"
+[Tue Nov 24 20:39:22 2015] [debug] 200 OK (0.007328s, 136.463/s)
+[Tue Nov 24 20:39:22 2015] [debug] GET "/api/content"
+[Tue Nov 24 20:39:22 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 20:39:22 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "list"
+[Tue Nov 24 20:39:22 2015] [debug] 200 OK (0.005806s, 172.236/s)
+[Tue Nov 24 20:39:25 2015] [debug] GET "/content"
+[Tue Nov 24 20:39:25 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 20:39:25 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 20:39:25 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Tue Nov 24 20:39:25 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Tue Nov 24 20:39:25 2015] [debug] 404 Not Found (0.012326s, 81.129/s)
+[Tue Nov 24 20:40:31 2015] [debug] GET "/content"
+[Tue Nov 24 20:40:31 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 20:40:31 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 20:40:31 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Tue Nov 24 20:40:31 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Tue Nov 24 20:40:31 2015] [debug] 404 Not Found (0.012342s, 81.024/s)
+[Tue Nov 24 20:41:06 2015] [debug] GET "/api/beacon"
+[Tue Nov 24 20:41:06 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 20:41:06 2015] [debug] Routing to controller "BFeed::Controller::Beacon" and action "list"
+[Tue Nov 24 20:41:06 2015] [debug] 200 OK (0.006684s, 149.611/s)
+[Tue Nov 24 20:41:06 2015] [debug] GET "/api/content"
+[Tue Nov 24 20:41:06 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 20:41:06 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "list"
+[Tue Nov 24 20:41:06 2015] [debug] 200 OK (0.005037s, 198.531/s)
+[Tue Nov 24 20:41:09 2015] [debug] GET "/api/beacon"
+[Tue Nov 24 20:41:09 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 20:41:09 2015] [debug] Routing to controller "BFeed::Controller::Beacon" and action "list"
+[Tue Nov 24 20:41:09 2015] [debug] 200 OK (0.007777s, 128.584/s)
+[Tue Nov 24 20:41:09 2015] [debug] GET "/api/content"
+[Tue Nov 24 20:41:09 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 20:41:09 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "list"
+[Tue Nov 24 20:41:09 2015] [debug] 200 OK (0.006770s, 147.710/s)
+[Tue Nov 24 20:41:51 2015] [debug] GET "/api/beacon"
+[Tue Nov 24 20:41:51 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 20:41:51 2015] [debug] Routing to controller "BFeed::Controller::Beacon" and action "list"
+[Tue Nov 24 20:41:51 2015] [debug] 200 OK (0.006932s, 144.259/s)
+[Tue Nov 24 20:41:51 2015] [debug] GET "/api/content"
+[Tue Nov 24 20:41:51 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 20:41:51 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "list"
+[Tue Nov 24 20:41:51 2015] [debug] 200 OK (0.006813s, 146.778/s)
+[Tue Nov 24 20:41:59 2015] [debug] GET "/api/beacon"
+[Tue Nov 24 20:41:59 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 20:41:59 2015] [debug] Routing to controller "BFeed::Controller::Beacon" and action "list"
+[Tue Nov 24 20:41:59 2015] [debug] 200 OK (0.006935s, 144.196/s)
+[Tue Nov 24 20:41:59 2015] [debug] GET "/api/content"
+[Tue Nov 24 20:41:59 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 20:41:59 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "list"
+[Tue Nov 24 20:41:59 2015] [debug] 200 OK (0.004843s, 206.484/s)
+[Tue Nov 24 20:47:52 2015] [debug] GET "/api/beacon"
+[Tue Nov 24 20:47:52 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 20:47:52 2015] [debug] Routing to controller "BFeed::Controller::Beacon" and action "list"
+[Tue Nov 24 20:47:52 2015] [debug] 200 OK (0.004906s, 203.832/s)
+[Tue Nov 24 20:47:52 2015] [debug] GET "/api/content"
+[Tue Nov 24 20:47:52 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 20:47:52 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "list"
+[Tue Nov 24 20:47:52 2015] [debug] 200 OK (0.004383s, 228.154/s)
+[Tue Nov 24 20:47:53 2015] [debug] GET "/content"
+[Tue Nov 24 20:47:53 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 20:47:53 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 20:47:53 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Tue Nov 24 20:47:53 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Tue Nov 24 20:47:53 2015] [debug] 404 Not Found (0.012675s, 78.895/s)
+[Tue Nov 24 20:48:01 2015] [debug] GET "/content"
+[Tue Nov 24 20:48:01 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 20:48:01 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 20:48:01 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Tue Nov 24 20:48:01 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Tue Nov 24 20:48:01 2015] [debug] 404 Not Found (0.013417s, 74.532/s)
+[Tue Nov 24 20:48:03 2015] [debug] GET "/api/beacon"
+[Tue Nov 24 20:48:03 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 20:48:03 2015] [debug] 401 Unauthorized (0.000732s, 1366.120/s)
+[Tue Nov 24 20:48:03 2015] [debug] GET "/api/content"
+[Tue Nov 24 20:48:03 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 20:48:03 2015] [debug] 401 Unauthorized (0.000707s, 1414.427/s)
+[Tue Nov 24 20:48:05 2015] [debug] GET "/api/beacon"
+[Tue Nov 24 20:48:05 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 20:48:05 2015] [debug] 401 Unauthorized (0.000975s, 1025.641/s)
+[Tue Nov 24 20:48:05 2015] [debug] GET "/api/content"
+[Tue Nov 24 20:48:05 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 20:48:05 2015] [debug] 401 Unauthorized (0.000924s, 1082.251/s)
+[Tue Nov 24 20:48:29 2015] [debug] GET "/api/content"
+[Tue Nov 24 20:48:29 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 20:48:29 2015] [debug] 401 Unauthorized (0.000926s, 1079.914/s)
+[Tue Nov 24 20:48:29 2015] [debug] GET "/api/beacon"
+[Tue Nov 24 20:48:29 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 20:48:29 2015] [debug] 401 Unauthorized (0.000947s, 1055.966/s)
+[Tue Nov 24 20:55:38 2015] [debug] GET "/api/beacon"
+[Tue Nov 24 20:55:38 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 20:55:38 2015] [debug] 401 Unauthorized (0.000519s, 1926.782/s)
+[Tue Nov 24 20:55:38 2015] [debug] GET "/api/content"
+[Tue Nov 24 20:55:38 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 20:55:38 2015] [debug] 401 Unauthorized (0.000514s, 1945.525/s)
+[Tue Nov 24 20:55:48 2015] [debug] GET "/api/beacon"
+[Tue Nov 24 20:55:48 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 20:55:48 2015] [debug] 401 Unauthorized (0.000623s, 1605.136/s)
+[Tue Nov 24 20:55:48 2015] [debug] GET "/api/content"
+[Tue Nov 24 20:55:48 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 20:55:48 2015] [debug] 401 Unauthorized (0.000620s, 1612.903/s)
+[Tue Nov 24 20:56:07 2015] [debug] GET "/api/beacon"
+[Tue Nov 24 20:56:07 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 20:56:07 2015] [debug] 401 Unauthorized (0.000457s, 2188.184/s)
+[Tue Nov 24 20:56:07 2015] [debug] GET "/api/content"
+[Tue Nov 24 20:56:07 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 20:56:07 2015] [debug] 401 Unauthorized (0.000451s, 2217.295/s)
+[Tue Nov 24 20:56:24 2015] [debug] GET "/api/beacon"
+[Tue Nov 24 20:56:24 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 20:56:24 2015] [debug] 401 Unauthorized (0.000527s, 1897.533/s)
+[Tue Nov 24 20:56:24 2015] [debug] GET "/api/content"
+[Tue Nov 24 20:56:24 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 20:56:24 2015] [debug] 401 Unauthorized (0.000524s, 1908.397/s)
+[Tue Nov 24 20:56:28 2015] [debug] GET "/api/beacon"
+[Tue Nov 24 20:56:28 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 20:56:28 2015] [debug] 401 Unauthorized (0.000487s, 2053.388/s)
+[Tue Nov 24 20:56:28 2015] [debug] GET "/api/content"
+[Tue Nov 24 20:56:28 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 20:56:28 2015] [debug] 401 Unauthorized (0.000489s, 2044.990/s)
+[Tue Nov 24 20:56:57 2015] [debug] GET "/api/content"
+[Tue Nov 24 20:56:57 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 20:56:57 2015] [debug] 401 Unauthorized (0.000739s, 1353.180/s)
+[Tue Nov 24 20:56:57 2015] [debug] GET "/api/beacon"
+[Tue Nov 24 20:56:57 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 20:56:57 2015] [debug] 401 Unauthorized (0.000801s, 1248.439/s)
+[Tue Nov 24 20:57:52 2015] [debug] GET "/api/content"
+[Tue Nov 24 20:57:52 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 20:57:52 2015] [debug] 401 Unauthorized (0.000723s, 1383.126/s)
+[Tue Nov 24 20:57:52 2015] [debug] GET "/api/beacon"
+[Tue Nov 24 20:57:52 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 20:57:52 2015] [debug] 401 Unauthorized (0.000698s, 1432.665/s)
+[Tue Nov 24 20:58:29 2015] [debug] GET "/api/beacon"
+[Tue Nov 24 20:58:29 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 20:58:29 2015] [debug] 401 Unauthorized (0.000571s, 1751.313/s)
+[Tue Nov 24 20:58:29 2015] [debug] GET "/api/content"
+[Tue Nov 24 20:58:29 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 20:58:29 2015] [debug] 401 Unauthorized (0.000737s, 1356.852/s)
+[Tue Nov 24 20:58:37 2015] [debug] GET "/api/beacon"
+[Tue Nov 24 20:58:37 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 20:58:37 2015] [debug] 401 Unauthorized (0.000969s, 1031.992/s)
+[Tue Nov 24 20:58:37 2015] [debug] GET "/api/content"
+[Tue Nov 24 20:58:37 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 20:58:37 2015] [debug] 401 Unauthorized (0.000891s, 1122.334/s)
+[Tue Nov 24 20:59:19 2015] [debug] GET "/api/beacon"
+[Tue Nov 24 20:59:19 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 20:59:19 2015] [debug] 401 Unauthorized (0.000987s, 1013.171/s)
+[Tue Nov 24 20:59:19 2015] [debug] GET "/api/content"
+[Tue Nov 24 20:59:19 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 20:59:19 2015] [debug] 401 Unauthorized (0.000932s, 1072.961/s)
+[Tue Nov 24 20:59:29 2015] [debug] GET "/api/beacon"
+[Tue Nov 24 20:59:29 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 20:59:29 2015] [debug] 401 Unauthorized (0.000904s, 1106.195/s)
+[Tue Nov 24 20:59:29 2015] [debug] GET "/api/content"
+[Tue Nov 24 20:59:29 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 20:59:29 2015] [debug] 401 Unauthorized (0.000943s, 1060.445/s)
+[Tue Nov 24 20:59:38 2015] [debug] GET "/api/beacon"
+[Tue Nov 24 20:59:38 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 20:59:38 2015] [debug] 401 Unauthorized (0.001000s, 1000.000/s)
+[Tue Nov 24 20:59:38 2015] [debug] GET "/api/content"
+[Tue Nov 24 20:59:38 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 20:59:38 2015] [debug] 401 Unauthorized (0.000670s, 1492.537/s)
+[Tue Nov 24 20:59:44 2015] [debug] GET "/api/beacon"
+[Tue Nov 24 20:59:44 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 20:59:44 2015] [debug] 401 Unauthorized (0.000658s, 1519.757/s)
+[Tue Nov 24 20:59:44 2015] [debug] GET "/api/content"
+[Tue Nov 24 20:59:44 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 20:59:44 2015] [debug] 401 Unauthorized (0.000595s, 1680.672/s)
+[Tue Nov 24 21:00:16 2015] [debug] GET "/api/beacon"
+[Tue Nov 24 21:00:16 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 21:00:16 2015] [debug] 401 Unauthorized (0.000854s, 1170.960/s)
+[Tue Nov 24 21:00:16 2015] [debug] GET "/api/content"
+[Tue Nov 24 21:00:16 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 21:00:16 2015] [debug] 401 Unauthorized (0.000639s, 1564.945/s)
+[Tue Nov 24 21:00:28 2015] [debug] GET "/content"
+[Tue Nov 24 21:00:28 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 21:00:28 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 21:00:28 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Tue Nov 24 21:00:28 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Tue Nov 24 21:00:28 2015] [debug] 404 Not Found (0.017050s, 58.651/s)
+[Tue Nov 24 21:00:30 2015] [debug] GET "/api/beacon"
+[Tue Nov 24 21:00:30 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 21:00:30 2015] [debug] 401 Unauthorized (0.001119s, 893.655/s)
+[Tue Nov 24 21:00:30 2015] [debug] GET "/api/content"
+[Tue Nov 24 21:00:30 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 21:00:30 2015] [debug] 401 Unauthorized (0.000873s, 1145.475/s)
+[Tue Nov 24 21:01:43 2015] [debug] GET "/content"
+[Tue Nov 24 21:01:43 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 21:01:43 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 21:01:43 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Tue Nov 24 21:01:43 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Tue Nov 24 21:01:43 2015] [debug] 404 Not Found (0.019216s, 52.040/s)
+[Tue Nov 24 21:02:27 2015] [debug] GET "/content"
+[Tue Nov 24 21:02:27 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 21:02:27 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 21:02:27 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Tue Nov 24 21:02:27 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Tue Nov 24 21:02:27 2015] [debug] 404 Not Found (0.018346s, 54.508/s)
+[Tue Nov 24 21:02:33 2015] [debug] OPTIONS "/auth"
+[Tue Nov 24 21:02:33 2015] [debug] Routing to a callback
+[Tue Nov 24 21:02:33 2015] [debug] 200 OK (0.001345s, 743.494/s)
+[Tue Nov 24 21:02:33 2015] [debug] POST "/auth"
+[Tue Nov 24 21:02:33 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 21:02:33 2015] [debug] 200 OK (0.005275s, 189.573/s)
+[Tue Nov 24 21:04:34 2015] [debug] OPTIONS "/auth"
+[Tue Nov 24 21:04:34 2015] [debug] Routing to a callback
+[Tue Nov 24 21:04:34 2015] [debug] 200 OK (0.000711s, 1406.470/s)
+[Tue Nov 24 21:04:34 2015] [debug] POST "/auth"
+[Tue Nov 24 21:04:34 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 21:04:34 2015] [debug] 200 OK (0.006933s, 144.238/s)
+[Tue Nov 24 21:04:55 2015] [debug] OPTIONS "/auth"
+[Tue Nov 24 21:04:55 2015] [debug] Routing to a callback
+[Tue Nov 24 21:04:55 2015] [debug] 200 OK (0.000814s, 1228.501/s)
+[Tue Nov 24 21:04:55 2015] [debug] POST "/auth"
+[Tue Nov 24 21:04:55 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 21:04:55 2015] [debug] 200 OK (0.007088s, 141.084/s)
+[Tue Nov 24 21:05:00 2015] [debug] GET "/api/beacon"
+[Tue Nov 24 21:05:00 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 21:05:00 2015] [debug] Routing to controller "BFeed::Controller::Beacon" and action "list"
+[Tue Nov 24 21:05:00 2015] [debug] 200 OK (0.006184s, 161.708/s)
+[Tue Nov 24 21:05:00 2015] [debug] GET "/api/content"
+[Tue Nov 24 21:05:00 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 21:05:00 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "list"
+[Tue Nov 24 21:05:00 2015] [debug] 200 OK (0.004138s, 241.663/s)
+[Tue Nov 24 21:05:02 2015] [debug] GET "/content"
+[Tue Nov 24 21:05:02 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 21:05:02 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 21:05:02 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Tue Nov 24 21:05:02 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Tue Nov 24 21:05:02 2015] [debug] 404 Not Found (0.009985s, 100.150/s)
+[Tue Nov 24 21:06:42 2015] [debug] OPTIONS "/auth"
+[Tue Nov 24 21:06:42 2015] [debug] Routing to a callback
+[Tue Nov 24 21:06:42 2015] [debug] 200 OK (0.000934s, 1070.664/s)
+[Tue Nov 24 21:06:42 2015] [debug] POST "/auth"
+[Tue Nov 24 21:06:42 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "auth"
+[Tue Nov 24 21:06:42 2015] [debug] 200 OK (0.008766s, 114.077/s)
+[Tue Nov 24 21:06:53 2015] [debug] GET "/api/beacon"
+[Tue Nov 24 21:06:53 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 21:06:53 2015] [debug] Routing to controller "BFeed::Controller::Beacon" and action "list"
+[Tue Nov 24 21:06:53 2015] [debug] 200 OK (0.006489s, 154.107/s)
+[Tue Nov 24 21:06:53 2015] [debug] GET "/api/content"
+[Tue Nov 24 21:06:53 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 21:06:53 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "list"
+[Tue Nov 24 21:06:53 2015] [debug] 200 OK (0.007494s, 133.440/s)
+[Tue Nov 24 21:06:55 2015] [debug] GET "/content"
+[Tue Nov 24 21:06:55 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 21:06:55 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 21:06:55 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Tue Nov 24 21:06:55 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Tue Nov 24 21:06:55 2015] [debug] 404 Not Found (0.019153s, 52.211/s)
+[Tue Nov 24 21:06:56 2015] [debug] GET "/api/beacon"
+[Tue Nov 24 21:06:56 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 21:06:56 2015] [debug] Routing to controller "BFeed::Controller::Beacon" and action "list"
+[Tue Nov 24 21:06:56 2015] [debug] 200 OK (0.006685s, 149.589/s)
+[Tue Nov 24 21:06:56 2015] [debug] GET "/api/content"
+[Tue Nov 24 21:06:56 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 21:06:56 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "list"
+[Tue Nov 24 21:06:56 2015] [debug] 200 OK (0.005752s, 173.853/s)
+[Tue Nov 24 21:06:57 2015] [debug] GET "/content"
+[Tue Nov 24 21:06:57 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 21:06:57 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 21:06:57 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Tue Nov 24 21:06:57 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Tue Nov 24 21:06:57 2015] [debug] 404 Not Found (0.016126s, 62.012/s)
+[Tue Nov 24 21:07:19 2015] [debug] GET "/content"
+[Tue Nov 24 21:07:19 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 21:07:19 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 21:07:19 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Tue Nov 24 21:07:19 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Tue Nov 24 21:07:19 2015] [debug] 404 Not Found (0.018577s, 53.830/s)
+[Tue Nov 24 21:07:20 2015] [debug] GET "/api/beacon"
+[Tue Nov 24 21:07:20 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 21:07:20 2015] [debug] Routing to controller "BFeed::Controller::Beacon" and action "list"
+[Tue Nov 24 21:07:20 2015] [debug] 200 OK (0.007800s, 128.205/s)
+[Tue Nov 24 21:07:20 2015] [debug] GET "/api/content"
+[Tue Nov 24 21:07:20 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 21:07:20 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "list"
+[Tue Nov 24 21:07:20 2015] [debug] 200 OK (0.006354s, 157.381/s)
+[Tue Nov 24 21:07:21 2015] [debug] GET "/content"
+[Tue Nov 24 21:07:21 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 21:07:21 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 21:07:21 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Tue Nov 24 21:07:21 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Tue Nov 24 21:07:21 2015] [debug] 404 Not Found (0.015971s, 62.613/s)
+[Tue Nov 24 21:07:22 2015] [debug] GET "/api/beacon"
+[Tue Nov 24 21:07:22 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 21:07:22 2015] [debug] Routing to controller "BFeed::Controller::Beacon" and action "list"
+[Tue Nov 24 21:07:22 2015] [debug] 200 OK (0.007964s, 125.565/s)
+[Tue Nov 24 21:07:22 2015] [debug] GET "/api/content"
+[Tue Nov 24 21:07:22 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 21:07:22 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "list"
+[Tue Nov 24 21:07:22 2015] [debug] 200 OK (0.005858s, 170.707/s)
+[Tue Nov 24 21:07:23 2015] [debug] GET "/api/beacon"
+[Tue Nov 24 21:07:23 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 21:07:23 2015] [debug] Routing to controller "BFeed::Controller::Beacon" and action "list"
+[Tue Nov 24 21:07:23 2015] [debug] 200 OK (0.005836s, 171.350/s)
+[Tue Nov 24 21:07:23 2015] [debug] GET "/api/content"
+[Tue Nov 24 21:07:23 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 21:07:23 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "list"
+[Tue Nov 24 21:07:23 2015] [debug] 200 OK (0.005354s, 186.776/s)
+[Tue Nov 24 21:07:24 2015] [debug] GET "/content"
+[Tue Nov 24 21:07:24 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 21:07:24 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 21:07:24 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Tue Nov 24 21:07:24 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Tue Nov 24 21:07:24 2015] [debug] 404 Not Found (0.014948s, 66.899/s)
+[Tue Nov 24 21:17:09 2015] [debug] GET "/content"
+[Tue Nov 24 21:17:09 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Nov 24 21:17:09 2015] [debug] Template "not_found.html.ep" not found
+[Tue Nov 24 21:17:09 2015] [debug] Rendering cached template "mojo/debug.html.ep"
+[Tue Nov 24 21:17:09 2015] [debug] Rendering cached template "mojo/menubar.html.ep"
+[Tue Nov 24 21:17:09 2015] [debug] 404 Not Found (0.019639s, 50.919/s)
+[Tue Nov 24 21:18:38 2015] [debug] GET "/api/beacon"
+[Tue Nov 24 21:18:38 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 21:18:38 2015] [debug] Routing to controller "BFeed::Controller::Beacon" and action "list"
+[Tue Nov 24 21:18:38 2015] [debug] 200 OK (0.006117s, 163.479/s)
+[Tue Nov 24 21:18:38 2015] [debug] GET "/api/content"
+[Tue Nov 24 21:18:38 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 21:18:38 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "list"
+[Tue Nov 24 21:18:38 2015] [debug] 200 OK (0.005642s, 177.242/s)
+[Tue Nov 24 21:18:40 2015] [debug] GET "/api/content"
+[Tue Nov 24 21:18:40 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 21:18:40 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "list"
+[Tue Nov 24 21:18:40 2015] [debug] 200 OK (0.006390s, 156.495/s)
+[Tue Nov 24 21:18:52 2015] [debug] OPTIONS "/api/content"
+[Tue Nov 24 21:18:52 2015] [debug] Routing to a callback
+[Tue Nov 24 21:18:52 2015] [debug] 200 OK (0.001209s, 827.130/s)
+[Tue Nov 24 21:18:52 2015] [debug] POST "/api/content"
+[Tue Nov 24 21:18:52 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 21:18:52 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "post"
+[Tue Nov 24 21:18:52 2015] [debug] 200 OK (0.013706s, 72.961/s)
+[Tue Nov 24 21:18:54 2015] [debug] GET "/api/content"
+[Tue Nov 24 21:18:54 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 21:18:54 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "list"
+[Tue Nov 24 21:18:54 2015] [debug] 200 OK (0.004807s, 208.030/s)
+[Tue Nov 24 21:19:03 2015] [debug] OPTIONS "/api/content"
+[Tue Nov 24 21:19:03 2015] [debug] Routing to a callback
+[Tue Nov 24 21:19:03 2015] [debug] 200 OK (0.000967s, 1034.126/s)
+[Tue Nov 24 21:19:03 2015] [debug] POST "/api/content"
+[Tue Nov 24 21:19:03 2015] [debug] Routing to controller "BFeed::Controller::Login" and action "logged_in"
+[Tue Nov 24 21:19:03 2015] [debug] Routing to controller "BFeed::Controller::Content" and action "post"
+[Tue Nov 24 21:19:03 2015] [debug] 200 OK (0.017046s, 58.665/s)

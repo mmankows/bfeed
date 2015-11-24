@@ -14,7 +14,8 @@ sub startup {
     $self->hook(
         before_dispatch => sub {
         my $c = shift;
-        $c->res->headers->header('Access-Control-Allow-Origin' => '*');
+        $c->res->headers->header('Access-Control-Allow-Origin' => 'http://localhost:8000');
+        $c->res->headers->header('Access-Control-Allow-Credentials' => 'true');
 #        $c->res->headers->header('Access-Control-Allow-Credentials' => 'true');
         $c->res->headers->header('Access-Control-Allow-Methods' => 'POST, PUT, DELETE, GET, OPTIONS');
 #        $c->res->headers->header('Access-Control-Request-Methods' => '*');
@@ -53,7 +54,8 @@ sub __register_services {
     $route->post('/user')->to('user#post')->name('add_user');
     $route->options('*'=> sub {
         my $c = shift;
-        $c->res->headers->header('Access-Control-Allow-Origin' => '*');
+        $c->res->headers->header('Access-Control-Allow-Origin' => 'http://localhost:8000');
+        $c->res->headers->header('Access-Control-Allow-Credentials' => 'true');
 #        $c->res->headers->header('Access-Control-Allow-Credentials' => 'true');
         $c->res->headers->header('Access-Control-Allow-Methods' => 'POST, PUT, DELETE, GET, OPTIONS');
 #        $c->res->headers->header('Access-Control-Request-Methods' => '*');
