@@ -1,4 +1,4 @@
 database:
     name : bfeed_data
     user : root
-    pass : root
+    pass : 

@@ -12,22 +12,26 @@ sub content_for_beacon {
 
     # There's beacon in the DB
     if ( $beacon ) {
-        $self->stash( beacon_id => $beacon->beacon_id );
+        $self->stash(beacon_id => $beacon->beacon_id);
         my @beacon_rules = $dbh->resultset('Rule')->search( 
             {
                 beacon_id => $beacon->beacon_id
             },
             {
-                join => 'content',
-                order_by => 'rule_id'
+                prefetch => 'content',
+                order_by => ['content.content_id']
             }
-        );
+        )->all();
+
           
-        my $rule = $self->_match_rules( \@beacon_rules );
-        print "BID: " . $self->stash('beacon_id');
-        $self->_log_event( $rule );
-	    return $self->stash(id => $rule->content_id)->get() if $rule;
+        my @rules = $self->_match_rules( \@beacon_rules );
+        $self->_log_event( $_ ) foreach @rules;
         
+        return $self->render(
+            status => 200,
+            json => [map {BFeed::Controller::_to_hashref($_->content,qw/url name description img_url/)} @rules]
+        );
+
     } else {
         $status = 404;
     }
@@ -53,15 +57,24 @@ sub _match_rules {
     my ($self, $rules) = @_;
 
     # get first matching rules
+    my @out = ();
     foreach my $rule ( @$rules ) {
-       return $rule if $self->_is_rule_matching($rule);
+          push @out, $rule if $self->_is_rule_matching($rule);
     }
-    return undef;
+    return @out;
 }
 
 sub _is_rule_matching {
     my ($self, $rule_obj) = @_;
-    my $rule = $rule_obj->rule;
+    
+    # Get parameters from client
+    my $distance = $self->req->param('dist');
+    my $datetime = $self->req->param('dt');
+
+    print "$distance $datetime\n";
+    
+    $rule = $rule_obj->rule();
+
     return 1;
 }
 
@@ -73,10 +86,9 @@ sub _log_event {
     my ($self, $rule) = @_;
     
     my $dbh = $self->dbh;
-    my $content_id = $rule ? $rule->content_id : 0;
     my $beacon = $dbh->resultset('Beaconlog')->create({ 
         beacon_id =>  $self->stash('beacon_id'),
-        content_id => $content_id,
+        content_id => $rule->content_id,
     });
 }
 

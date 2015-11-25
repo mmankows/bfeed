@@ -50,7 +50,7 @@ sub __register_services {
 
     # Content service 
     $route->post('/auth')->to('login#auth');
-    $route->get( '/api/beacon/:short_id/content')->to('login#mobile_app')->to('content#content_for_beacon');
+    $route->get( '/beacon/:short_id/content')->to('login#mobile_app')->to('content#content_for_beacon');
     $route->post('/user')->to('user#post')->name('add_user');
     $route->options('*'=> sub {
         my $c = shift;
