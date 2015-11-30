@@ -11,12 +11,13 @@ sub list {
     my $resp = undef;
     my $status = undef; 
     my $dbh = $self->dbh;
+    my %more_params = %{ $self->req->params->to_hash() || {} };
     
     my $user_id    = $self->session('user_id');
     my $controller = Mojo::Util::camelize( $self->stash('controller') );
 
     eval {
-        $resp = [ map {_to_hashref($_) }  $dbh->resultset( $controller )->search( { user_id => $user_id } )->all() ]
+        $resp = [ map {_to_hashref($_) }  $dbh->resultset( $controller )->search( { %more_params, user_id => $user_id} )->all() ]
     };
 
     if ( not $@ ) {
@@ -67,7 +68,9 @@ sub post {
     my $id         = $self->stash('id'); 
     my $controller = Mojo::Util::camelize( $self->stash('controller') );
 
+
     eval {
+        $self->req->json->{user_id} = $self->session('user_id');
         $dbh->resultset( $controller )->create( $self->req->json );
     };
 

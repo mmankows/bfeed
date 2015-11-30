@@ -42,6 +42,7 @@ sub startup {
 
     # Logged user
     my $auth = $req->under('/api')->to('login#logged_in');
+    
     __register_authorized_services( $auth );
 }
 
