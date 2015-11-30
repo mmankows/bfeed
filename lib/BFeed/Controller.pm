@@ -1,6 +1,7 @@
 package BFeed::Controller;
 use Mojo::Base 'Mojolicious::Controller';
 use Mojo::Util;
+use Mojo::JSON;
 use strict;
 use warnings;
 
@@ -130,12 +131,12 @@ sub delete {
 }
 
 sub _to_hashref {
-    my ($rs) = @_;
+    my ($rs,@cols) = @_;
     return undef if not $rs;
     return {
         map {
             $_ => $rs->get_column( $_ )
-        } $rs->result_source->columns()
+        } ( @cols? @cols : $rs->result_source->columns() )
     };
 }   
 
