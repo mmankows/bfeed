@@ -5,6 +5,11 @@ use Mojo::JSON;
 use strict;
 use warnings;
 
+
+sub get_prettify  { return $_[1] };
+sub post_prettify { return $_[1] };
+sub put_prettify  { return $_[1] };
+
 sub list {
     my ($self) = @_;
 
@@ -17,7 +22,7 @@ sub list {
     my $controller = Mojo::Util::camelize( $self->stash('controller') );
 
     eval {
-        $resp = [ map {_to_hashref($_) }  $dbh->resultset( $controller )->search( { %more_params, user_id => $user_id} )->all() ]
+        $resp = [ map {$self->get_prettify(_to_hashref($_)) }  $dbh->resultset( $controller )->search( { %more_params, user_id => $user_id} )->all() ]
     };
 
     if ( not $@ ) {
@@ -53,7 +58,7 @@ sub get {
 
     $self->render( 
         status => $status,
-        json   => _to_hashref($resp)
+        json   => $self->get_prettify(_to_hashref($resp))
     );
 
 }
@@ -71,7 +76,7 @@ sub post {
 
     eval {
         $self->req->json->{user_id} = $self->session('user_id');
-        $dbh->resultset( $controller )->create( $self->req->json );
+        $dbh->resultset( $controller )->create( $self->post_prettify($self->req->json) );
     };
 
     if ( not $@ ) {
@@ -95,11 +100,11 @@ sub put {
     my $dbh = $self->dbh;
     
     my $id         = $self->stash('id'); 
-    my $controller = Mojo::Util::camelize( $self->stash('controller') );
+    my $controller = Mojo::Util::camelize($self->stash('controller'));
     
     my $content = $dbh->resultset( $controller )->find( $id );
     if ( $content ) {
-        $content->update( $self->req->json );
+        $content->update( $self->put_prettify($self->req->json) );
         $status = 200;
     } else {
         $status = 404;

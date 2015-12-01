@@ -5,18 +5,25 @@ use JSON::XS;
 
 use base 'BFeed::Controller';
 
-#@@@ 
-sub post {
-    my($self) = @_;
-    $self->req->json->{rule} = JSON::XS::encode_json($self->req->json->{rule}) if $self->req->json;
-    return $self->SUPER::post();
+#@@@
+sub get_prettify {
+    my($self,$resp) = @_;
+    $resp->{rule} = JSON::XS::decode_json($resp->{rule});
+    return $resp;
 }
 
-#@@@ 
-sub put {
-    my($self) = @_;
-    $self->req->json->{rule} = JSON::XS::encode_json($self->req->json->{rule}) if $self->req->json; 
-    return $self->SUPER::put();
+#@@@
+sub post_prettify {
+    my($self,$req_json) = @_;
+    $req_json->{rule} = JSON::XS::encode_json($req_json->{rule});
+    return $req_json;
+}
+
+#@@@
+sub put_prettify {
+    my($self,$req_json) = @_;
+    $req_json->{rule} = JSON::XS::encode_json($req_json->{rule});
+    return $req_json;
 }
 
 1;

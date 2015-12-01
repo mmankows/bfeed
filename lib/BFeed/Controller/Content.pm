@@ -64,6 +64,10 @@ sub _match_rules {
     foreach my $rule ( @$rules ) {
           push @out, $rule if $self->_is_rule_matching($rule);
     }
+    # filter out unique contents
+    my %uniq = ();
+    @out = grep { exists $uniq{ $_->content->content_id } ? 0 : ($uniq{$_->content->content_id}=1) } @out;
+
     return @out;
 }
 
@@ -110,10 +114,6 @@ sub _is_rule_matching {
         return 0 if not $matched;
     } 
     return 1;
-}
-
-sub _get_beacon_by_shortid {
-    my ($self, $dbh, $short_id) = @_;
 }
 
 sub _log_event {
