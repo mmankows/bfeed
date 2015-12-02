@@ -1,0 +1,18 @@
+#!/usr/bin/perl
+
+qx|killall python 2>/dev/null|;
+qx|killall morbo 2>/dev/null|;
+
+if(fork()) {
+}else {
+    qx|cd Beacons-front/app && git pull origin master && python -mSimpleHTTPServer 8080|;
+    exit();
+}
+
+if(fork()) {
+}else {
+    qx|git pull|;
+    qx|morbo script/bfeed 2>/dev/null 1>&2|;
+    exit();
+}
+
