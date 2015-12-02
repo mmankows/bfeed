@@ -63,7 +63,10 @@ sub mobile_app {
 sub logout {
   my $self = shift;
   $self->session(expires => 1);
-  $self->redirect_to('/');
+  return $self->render( 
+      status => 200,
+      text => ''
+  );
 }
 
 1;
