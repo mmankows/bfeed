@@ -14,7 +14,7 @@ sub startup {
     $self->hook(
         before_dispatch => sub {
         my $c = shift;
-        $c->res->headers->header('Access-Control-Allow-Origin' => 'http://localhost:8000');
+        $c->res->headers->header('Access-Control-Allow-Origin' => 'http://localhost:8080');
         $c->res->headers->header('Access-Control-Allow-Credentials' => 'true');
 #        $c->res->headers->header('Access-Control-Allow-Credentials' => 'true');
         $c->res->headers->header('Access-Control-Allow-Methods' => 'POST, PUT, DELETE, GET, OPTIONS');
@@ -51,11 +51,13 @@ sub __register_services {
 
     # Content service 
     $route->post('/auth')->to('login#auth');
+    $route->delete('/auth')->to('login#logout');
+
     $route->get( '/beacon/:short_id/content')->to('login#mobile_app')->to('content#content_for_beacon');
     $route->post('/user')->to('user#post')->name('add_user');
     $route->options('*'=> sub {
         my $c = shift;
-        $c->res->headers->header('Access-Control-Allow-Origin' => 'http://localhost:8000');
+        $c->res->headers->header('Access-Control-Allow-Origin' => 'http://localhost:8080');
         $c->res->headers->header('Access-Control-Allow-Credentials' => 'true');
 #        $c->res->headers->header('Access-Control-Allow-Credentials' => 'true');
         $c->res->headers->header('Access-Control-Allow-Methods' => 'POST, PUT, DELETE, GET, OPTIONS');
