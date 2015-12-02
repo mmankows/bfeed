@@ -6,7 +6,7 @@ sub auth {
 
     my $json = $self->req->json() || {};
 
-    my $login = $json->{user} || '';
+    my $login = $json->{login} || '';
     my $pass =  $json->{pass} || '';
 
     my $dbh = $self->dbh;

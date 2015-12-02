@@ -1,0 +1,3 @@
+[submodule "Beacons-front"]
+	path = Beacons-front
+	url = https://github.com/mck159/Beacons-front.git
