@@ -44,7 +44,8 @@ sub db_data {
     return (
         "dbi:mysql:dbname=".$self->db_name, 
         $self->db_user, 
-        $self->db_pass
+        $self->db_pass,
+        { mysql_enable_utf8 => 1 }
     );
 }
 

@@ -108,7 +108,7 @@ __PACKAGE__->belongs_to(
   "beacon",
   "BFeed::Model::Result::Beacon",
   { beacon_id => "beacon_id" },
-  { is_deferrable => 1, on_delete => "CASCADE", on_update => "CASCADE" },
+  { is_deferrable => 1, on_delete => "CASCADE", on_update => "RESTRICT" },
 );
 
 =head2 content
@@ -123,7 +123,7 @@ __PACKAGE__->belongs_to(
   "content",
   "BFeed::Model::Result::Content",
   { content_id => "content_id" },
-  { is_deferrable => 1, on_delete => "CASCADE", on_update => "CASCADE" },
+  { is_deferrable => 1, on_delete => "CASCADE", on_update => "RESTRICT" },
 );
 
 =head2 user
@@ -138,12 +138,12 @@ __PACKAGE__->belongs_to(
   "user",
   "BFeed::Model::Result::User",
   { user_id => "user_id" },
-  { is_deferrable => 1, on_delete => "RESTRICT", on_update => "RESTRICT" },
+  { is_deferrable => 1, on_delete => "CASCADE", on_update => "RESTRICT" },
 );
 
 
-# Created by DBIx::Class::Schema::Loader v0.07043 @ 2015-11-24 19:48:07
-# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:EmU5kinw7XhPlZ1zn9hieA
+# Created by DBIx::Class::Schema::Loader v0.07043 @ 2015-12-03 20:27:38
+# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:qKO8hLwtkGfaU30u5LMvMg
 
 
 # You can replace this text with custom code or comments, and it will be preserved on regeneration
