@@ -1,5 +1,5 @@
 DROP DATABASE IF EXISTS `bfeed_data`;
-CREATE DATABASE `bfeed_data`;
+CREATE DATABASE `bfeed_data` DEFAULT CHARACTER SET utf8;
 USE `bfeed_data`;
 
 -- ----------------------------------------------------------------------------
@@ -27,6 +27,7 @@ CREATE TABLE beacon (
     `name`        char(255) NOT NULL,
     `description` text,
     FOREIGN KEY (`user_id`) REFERENCES user (`user_id`)
+    ON DELETE CASCADE
 );
 
 -- Table for storing content assigned to beacons
@@ -38,6 +39,7 @@ CREATE TABLE content (
     `url`        text NOT NULL DEFAULT '',
     `img_url`    text NOT NULL,
     FOREIGN KEY (`user_id`) REFERENCES user (`user_id`)
+    ON DELETE CASCADE
 );
 
 -- Rules matched to acquire specific content
@@ -49,9 +51,9 @@ CREATE TABLE rule (
     `name`       char(255) NOT NULL,
     `description`       text NOT NULL,
     `rule`       text NOT NULL,
-    FOREIGN KEY (`beacon_id`) REFERENCES beacon (`beacon_id`),
-    FOREIGN KEY (`content_id`) REFERENCES content (`content_id`),
-    FOREIGN KEY (`user_id`) REFERENCES user (`user_id`)
+    FOREIGN KEY (`beacon_id`) REFERENCES beacon (`beacon_id`) ON DELETE CASCADE,
+    FOREIGN KEY (`content_id`) REFERENCES content (`content_id`) ON DELETE CASCADE,
+    FOREIGN KEY (`user_id`) REFERENCES user (`user_id`) ON DELETE CASCADE
 );
 
 -- ----------------------------------------------------------------------------
